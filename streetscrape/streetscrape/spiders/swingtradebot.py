@@ -14,17 +14,6 @@ class SwingtradebotSpider(CrawlSpider):
     allowed_domains = ['swingtradebot.com']
     items = []
 
-
-    #start_urls = ['https://swingtradebot.com/equities?min_vol=250000&min_price=10.0&max_price=999999.0&adx_trend=&grade=&rsi_comparator=&rsi_value1=&include_etfs=2&html_button=as_html']
-    # database_params = {
-    #     user: os.getenv('DATABASE_USER'),
-    #     password: os.getenv('DATABASE_PASSWORD'),
-    #     host: os.getenv('DATABASE_HOST'),
-    #     database: os.getenv('DATABASE_NAME')
-    # }
-    # connect_params = dotenv_values(find_dotenv('db.env'))
-    # conn = psycopg2.connect(**connect_params)
-
     def start_requests(self):
         print(self.settings)
         with open('./stocks.csv', 'w') as ofh:
