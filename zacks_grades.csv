@@ -1,0 +1,1840 @@
+Symbol,Company,Grade,Current Price,Value,Growth,Momentum,VGM,Quant
+AAP,Advance Auto Parts Inc.,3-Hold,153.11,A,D,D,C,50.0
+AAPL,Apple Inc.,3-Hold,126.73,D,C,D,D,37.5
+AA,Alcoa,3-Hold,45.12,A,B,D,A,75.0
+AAN,The Aaron's Company Inc.,4-Sell,12.48,A,B,D,A,62.5
+AAL,American Airlines Group Inc.,2-Buy,13.54,A,B,D,A,87.5
+A,Agilent Technologies Inc.,2-Buy,152.21,D,B,F,C,62.5
+ABBV,AbbVie Inc.,3-Hold,163.61,B,A,B,A,75.0
+AAT,American Assets Trust Inc.,3-Hold,27.09,C,B,C,B,62.5
+ABCM,Abcam PLC Sponsored ADR,3-Hold,16.86,C,B,A,B,62.5
+ABM,ABM Industries Incorporated,4-Sell,45.12,A,B,C,A,62.5
+ABCB,Ameris Bancorp,3-Hold,46.69,B,D,C,C,50.0
+ABC,AmerisourceBergen Corporation,3-Hold,163.32,A,B,A,A,75.0
+ABT,Abbott Laboratories,3-Hold,111.21,C,B,C,B,62.5
+ABB,ABB Ltd,4-Sell,32.03,C,C,D,D,25.0
+ACGL,Arch Capital Group Ltd.,4-Sell,62.68,B,C,C,B,50.0
+ACHC,Acadia Healthcare Company Inc.,3-Hold,82,B,D,B,C,50.0
+ABNB,Airbnb Inc.,4-Sell,88.33,C,A,D,B,50.0
+AB,AllianceBernstein Holding L.P.,3-Hold,35.72,B,B,D,B,62.5
+ACI,Albertsons Companies Inc.,3-Hold,20.9,A,A,A,A,75.0
+ACAD,ACADIA Pharmaceuticals Inc.,3-Hold,16.71,D,A,C,C,50.0
+ACIW,ACI Worldwide Inc.,4-Sell,23.69,B,F,C,D,25.0
+ABR,Arbor Realty Trust,3-Hold,13.8,C,F,F,F,25.0
+ACDC,ProFrac Holding Corp.,2-Buy,21.13,A,A,B,A,87.5
+ACLS,Axcelis Technologies Inc.,3-Hold,79.45,C,A,A,A,75.0
+ACN,Accenture PLC,3-Hold,270.06,C,B,B,B,62.5
+ACM,AECOM,3-Hold,83.76,C,B,B,B,62.5
+ACLX,Arcellx Inc.,3-Hold,32.41,C,B,B,B,62.5
+ADM,Archer Daniels Midland Company,1-Strong Buy,86.55,A,A,D,A,100.0
+ADC,Agree Realty Corporation,3-Hold,71,F,B,C,D,37.5
+ADNT,Adient,3-Hold,36.72,A,A,B,A,75.0
+ADSK,Autodesk Inc.,3-Hold,187.42,D,A,D,C,50.0
+ADTN,ADTRAN Holdings Inc.,4-Sell,19.22,C,F,A,C,37.5
+AEHR,Aehr Test Systems,3-Hold,17.82,F,B,B,C,50.0
+ADP,Automatic Data Processing Inc.,3-Hold,240.06,D,C,B,C,50.0
+AEL,American Equity Investment Life Holding Company,3-Hold,46.43,A,F,C,C,50.0
+AEM,Agnico Eagle Mines Limited,1-Strong Buy,55.17,D,C,D,D,62.5
+AEO,American Eagle Outfitters Inc.,2-Buy,15.44,A,F,C,C,62.5
+ADI,Analog Devices Inc.,3-Hold,165.62,C,A,D,B,62.5
+AFG,American Financial Group Inc.,3-Hold,138.94,A,D,C,B,62.5
+AEE,Ameren Corporation,3-Hold,89.05,C,B,C,C,50.0
+AFYA,Afya Limited,2-Buy,15.59,B,A,B,A,87.5
+AES,The AES Corporation,3-Hold,27.5,C,B,F,C,50.0
+AEP,American Electric Power Company Inc.,3-Hold,95.63,C,B,C,B,62.5
+AGL,Agilon Health Inc.,4-Sell,16.24,D,A,C,B,50.0
+AGI,Alamos Gold Inc.,3-Hold,10.84,D,F,F,F,25.0
+AGNC,AGNC Investment Corp.,3-Hold,10.6,B,D,B,C,50.0
+AGIO,Agios Pharmaceuticals Inc.,3-Hold,28.38,F,C,B,D,37.5
+AGR,Avangrid Inc.,4-Sell,43.64,D,F,A,D,25.0
+AGTI,Agiliti Inc.,3-Hold,17.18,B,C,D,C,50.0
+AHH,Armada Hoffler Properties Inc.,3-Hold,11.88,D,C,D,D,37.5
+AHCO,AdaptHealth Corp.,3-Hold,19.66,A,D,C,B,62.5
+AI,C3.ai Inc.,4-Sell,11.28,F,F,C,F,12.5
+AIG,American International Group Inc.,3-Hold,64.2,A,C,D,B,62.5
+AFL,Aflac Incorporated,3-Hold,72.06,B,F,A,C,50.0
+AIZ,Assurant Inc.,5-Strong Sell,128.58,B,F,F,D,12.5
+AJG,Arthur J. Gallagher & Co.,3-Hold,189.58,D,B,C,C,50.0
+AGCO,AGCO Corporation,3-Hold,136.89,B,F,B,C,50.0
+AKAM,Akamai Technologies Inc.,3-Hold,86.1,B,C,B,B,62.5
+AKR,Acadia Realty Trust,3-Hold,14.81,C,D,F,D,37.5
+AKRO,Akero Therapeutics Inc.,3-Hold,45.62,C,C,A,B,62.5
+AIRC,Apartment Income REIT Corp.,3-Hold,34.95,D,C,B,C,50.0
+ALB,Albemarle Corporation,3-Hold,222.48,C,A,D,B,62.5
+ALE,Allete Inc.,2-Buy,65.62,C,D,D,C,62.5
+ALGM,Allegro MicroSystems Inc.,3-Hold,29.76,D,A,B,B,62.5
+ALGN,Align Technology Inc.,5-Strong Sell,223.5,D,B,A,C,25.0
+ALHC,Alignment Healthcare Inc.,4-Sell,11.49,D,A,A,A,62.5
+ALK,Alaska Air Group Inc.,3-Hold,44.46,A,A,F,A,75.0
+ALKS,Alkermes plc,4-Sell,25.27,D,B,A,B,50.0
+ALC,Alcon,3-Hold,70.34,C,C,A,B,62.5
+ALL,The Allstate Corporation,3-Hold,138.93,A,C,D,B,62.5
+ALLE,Allegion PLC,2-Buy,108.65,C,D,F,D,50.0
+ALLY,Ally Financial Inc.,5-Strong Sell,25.27,A,C,F,C,25.0
+ALNY,Alnylam Pharmaceuticals Inc.,4-Sell,233.97,F,C,C,D,25.0
+ACRE,Ares Commercial Real Estate Corporation,4-Sell,10.9,C,D,A,C,37.5
+ALSN,Allison Transmission Holdings Inc.,4-Sell,41.88,A,A,B,A,62.5
+ALT,Altimmune Inc.,3-Hold,15.1,F,C,B,D,37.5
+ALTR,Altair Engineering Inc.,1-Strong Buy,47.1,F,F,D,F,50.0
+ALV,Autoliv Inc.,3-Hold,77.97,A,B,D,A,75.0
+AMAT,Applied Materials Inc.,3-Hold,98.72,C,D,F,D,37.5
+AM,Antero Midstream Corporation,4-Sell,10.95,D,D,C,D,25.0
+AMCR,Amcor PLC,3-Hold,12.04,B,C,D,C,50.0
+AMCX,AMC Networks Inc.,4-Sell,16.82,A,F,B,C,37.5
+AMBA,Ambarella Inc.,3-Hold,79.61,F,D,F,F,25.0
+AMD,Advanced Micro Devices Inc.,3-Hold,64.77,C,C,F,D,37.5
+AMEH,Apollo Medical Holdings Inc.,3-Hold,28.64,B,D,A,B,62.5
+AME,AMETEK Inc.,3-Hold,140.55,D,C,F,D,37.5
+AMG,Affiliated Managers Group Inc.,3-Hold,163.33,A,C,F,B,62.5
+AMGN,Amgen Inc.,3-Hold,263.72,B,C,C,B,62.5
+AMH,American Homes 4 Rent,3-Hold,30.51,D,B,D,D,37.5
+AMED,Amedisys Inc.,4-Sell,85.69,B,D,D,C,37.5
+AMKR,Amkor Technology Inc.,3-Hold,26.03,A,C,D,B,62.5
+AMLX,Amylyx Pharmaceuticals Inc.,2-Buy,34.39,D,D,D,F,37.5
+AMP,Ameriprise Financial Inc.,3-Hold,314.53,B,F,B,C,50.0
+ALRM,Alarm.com Holdings Inc.,3-Hold,49.48,D,C,F,F,25.0
+AMR,Alpha Metallurgical Resources Inc.,3-Hold,138.4,A,A,C,A,75.0
+AMT,American Tower Corporation,4-Sell,220.27,F,C,F,D,25.0
+AMPL,Amplitude Inc.,2-Buy,12.37,F,B,F,D,50.0
+AMRC,Ameresco Inc.,4-Sell,58.27,D,D,D,D,25.0
+AMX,America Movil S.A.B. de C.V.,2-Buy,18.65,A,C,F,B,75.0
+AN,AutoNation Inc.,3-Hold,110.13,A,A,D,A,75.0
+ANF,Abercrombie & Fitch Company,3-Hold,25.05,B,F,F,F,25.0
+ANET,Arista Networks Inc.,1-Strong Buy,113.93,D,D,C,D,62.5
+AMZN,Amazon.com Inc.,5-Strong Sell,85.44,D,D,C,D,12.5
+AL,Air Lease Corporation,3-Hold,40.5,A,D,C,B,62.5
+ANSS,ANSYS Inc.,3-Hold,245.48,D,B,D,D,37.5
+AON,Aon plc,4-Sell,302.56,D,F,A,D,25.0
+AOS,A. O. Smith Corporation,2-Buy,60.39,B,D,F,D,50.0
+APA,APA Corporation,3-Hold,42.47,A,A,F,A,75.0
+APAM,Artisan Partners Asset Management Inc.,4-Sell,32.05,B,A,C,A,62.5
+APD,Air Products and Chemicals Inc.,3-Hold,306.7,D,C,D,D,37.5
+APG,APi Group Corporation,3-Hold,18.82,B,B,B,A,75.0
+APH,Amphenol Corporation,3-Hold,77.56,D,B,C,C,50.0
+APLE,Apple Hospitality REIT Inc.,3-Hold,15.98,B,A,D,A,75.0
+APLS,Apellis Pharmaceuticals Inc.,3-Hold,50.16,F,C,A,D,37.5
+APO,Apollo Global Management Inc.,4-Sell,64.09,D,A,F,C,37.5
+APP,AppLovin Corporation,3-Hold,11.08,B,A,F,B,62.5
+APPN,Appian Corporation,4-Sell,32.63,F,F,A,F,12.5
+APPS,Digital Turbine Inc.,3-Hold,15.83,B,A,F,A,75.0
+ANGO,AngioDynamics Inc.,3-Hold,13.88,C,C,D,C,50.0
+APTV,Aptiv PLC,3-Hold,95.59,B,D,B,C,50.0
+AQUA,Evoqua Water Technologies,3-Hold,39.49,C,A,A,A,75.0
+ADBE,Adobe Inc.,3-Hold,341,C,B,C,B,62.5
+ARCC,Ares Capital Corporation,3-Hold,18.82,F,F,A,F,25.0
+ARCE,Arco Platform Limited,5-Strong Sell,13.09,D,B,F,C,25.0
+ARCH,Arch Resources Inc.,5-Strong Sell,134.07,A,A,B,A,50.0
+ARE,Alexandria Real Estate Equities Inc.,3-Hold,147.76,D,C,C,D,37.5
+AR,Antero Resources Corporation,3-Hold,29.42,A,A,A,A,75.0
+ARES,Ares Management Corporation,3-Hold,69.32,D,F,F,F,25.0
+ARI,Apollo Commercial Real Estate Finance,3-Hold,11.15,C,D,B,C,50.0
+ARIS,Aris Water Solutions Inc.,3-Hold,14.15,B,A,B,A,75.0
+ARLP,Alliance Resource Partners L.P.,2-Buy,19.91,B,A,D,A,87.5
+ARMK,Aramark,3-Hold,42.22,A,A,D,A,75.0
+ARNC,Arconic Corporation,3-Hold,21.8,B,B,C,B,62.5
+ARQT,Arcutis Biotherapeutics Inc.,3-Hold,15.65,F,D,B,F,25.0
+ARRY,Array Technologies Inc.,2-Buy,19.39,C,A,F,A,87.5
+ARVN,Arvinas Inc.,3-Hold,35.51,D,A,C,B,62.5
+ARW,Arrow Electronics Inc.,5-Strong Sell,107.63,B,D,D,D,12.5
+AMN,AMN Healthcare Services Inc,2-Buy,105.45,A,A,D,A,87.5
+ASAN,Asana Inc.,3-Hold,13.7,F,D,F,F,25.0
+ASC,Ardmore Shipping Corporation,2-Buy,13.5,C,A,F,B,75.0
+ASGN,ASGN Incorporated,3-Hold,84.14,A,B,B,A,75.0
+ASB,Associated BancCorp,2-Buy,23.01,B,D,C,B,75.0
+ASH,Ashland Inc.,3-Hold,108.19,C,F,C,D,37.5
+ASML,ASML Holding N.V.,2-Buy,572.15,D,D,D,D,50.0
+ASND,Ascendis Pharma AS,4-Sell,121.54,F,F,C,F,12.5
+ASO,Academy Sports and Outdoors Inc.,3-Hold,51.62,A,C,A,A,75.0
+ASPN,Aspen Aerogels Inc.,3-Hold,10.75,F,F,D,F,25.0
+ASAI,Sendas Distribuidora S.A. Sponsored ADR,3-Hold,17.43,A,A,A,A,75.0
+AER,Aercap Holdings N.V.,3-Hold,59.28,B,D,C,C,50.0
+ATEC,Alphatec Holdings Inc.,4-Sell,11.99,D,B,B,C,37.5
+ATEN,A10 Networks Inc.,3-Hold,16.75,C,A,B,B,62.5
+ATGE,Adtalem Global Education Inc.,3-Hold,36.42,A,B,C,A,75.0
+ATI,ATI Inc.,3-Hold,30.83,D,F,D,F,25.0
+ATKR,Atkore Inc.,3-Hold,115.98,A,A,D,A,75.0
+ATAT,Atour Lifestyle Holdings Limited Sponsored ADR,3-Hold,19.47,D,B,F,D,37.5
+ATNM,Actinium Pharmaceuticals Inc.,3-Hold,10.12,D,B,D,C,50.0
+ATRC,AtriCure Inc.,3-Hold,45.47,D,B,F,D,37.5
+ATSG,Air Transport Services Group Inc,3-Hold,26.16,A,C,A,A,75.0
+AU,AngloGold Ashanti Limited,1-Strong Buy,21.24,C,B,F,C,75.0
+ATO,Atmos Energy Corporation,2-Buy,112.29,C,D,B,D,50.0
+ASLE,AerSale Corporation,2-Buy,16.21,B,D,C,C,62.5
+AVID,Avid Technology Inc.,3-Hold,26.29,C,A,F,B,62.5
+AVNT,Avient Corporation,4-Sell,35.85,B,C,C,B,50.0
+AVT,Avnet Inc.,4-Sell,41.91,A,D,C,C,37.5
+AVGO,Broadcom Inc.,3-Hold,561.48,C,A,C,B,62.5
+AVTR,Avantor Inc.,4-Sell,21.42,B,C,D,C,37.5
+AWI,Armstrong World Industries Inc.,4-Sell,70.51,C,C,D,C,37.5
+AWK,American Water Works Company Inc.,3-Hold,156.75,D,D,C,F,25.0
+AVY,Avery Dennison Corporation,4-Sell,186.1,C,B,B,B,50.0
+AX,AXOS FINANCIAL INC,2-Buy,38.08,B,D,C,C,62.5
+AXNX,Axonics Inc.,3-Hold,60.01,D,A,B,B,62.5
+AXON,Axon Enterprise Inc,1-Strong Buy,168.51,F,C,B,F,50.0
+AXSM,Axsome Therapeutics Inc.,3-Hold,73.09,F,C,A,D,37.5
+AXP,American Express Company,3-Hold,151.03,B,B,D,B,62.5
+AXS,Axis Capital Holdings Limited,3-Hold,54.97,A,B,B,A,75.0
+AY,Atlantica Sustainable Infrastructure PLC,3-Hold,26.04,B,B,A,A,75.0
+AYX,Alteryx Inc.,3-Hold,50.79,F,F,F,F,25.0
+AXTA,Axalta Coating Systems Ltd.,3-Hold,26.47,B,F,C,D,37.5
+AZEK,The AZEK Company Inc.,3-Hold,22.21,D,C,C,C,50.0
+AZTA,Azenta Inc.,3-Hold,60.16,D,F,D,F,25.0
+BA,The Boeing Company,3-Hold,202.46,D,B,D,C,50.0
+BABA,Alibaba Group Holding Limited,3-Hold,104.12,B,C,F,C,50.0
+BAC,Bank of America Corporation,3-Hold,34.19,F,F,F,F,25.0
+BAH,Booz Allen Hamilton Holding Corporation,2-Buy,104.36,B,A,F,A,87.5
+BALY,Bally's Corporation,5-Strong Sell,19.77,B,B,B,A,50.0
+AVB,AvalonBay Communities Inc.,3-Hold,165.33,D,C,F,D,37.5
+BALL,Ball Corporation,4-Sell,52.66,C,F,C,D,25.0
+BANC,Banc of California Inc.,4-Sell,16.26,C,D,D,D,25.0
+BAP,Credicorp Ltd.,3-Hold,140.12,A,A,C,A,75.0
+BAX,Baxter International Inc.,4-Sell,51.95,B,C,F,C,37.5
+BBW,BuildABear Workshop Inc.,1-Strong Buy,24.86,B,C,F,C,75.0
+BBWI,Bath & Body Works Inc.,2-Buy,47.08,B,F,C,C,62.5
+BC,Brunswick Corporation,4-Sell,74.61,A,D,B,B,50.0
+BBY,Best Buy Co. Inc.,3-Hold,81.98,A,F,B,C,50.0
+BCE,BCE Inc.,4-Sell,44.84,C,C,C,C,37.5
+BCOR,Blucora Inc.,3-Hold,25.76,B,C,B,B,62.5
+BCRX,BioCryst Pharmaceuticals Inc.,2-Buy,11.93,D,B,C,C,62.5
+BDC,Belden Inc,2-Buy,74.28,A,B,C,B,75.0
+BDX,Becton Dickinson and Company,3-Hold,257.68,C,C,C,C,50.0
+ATHM,Autohome Inc.,2-Buy,34.77,B,F,F,D,50.0
+BE,Bloom Energy Corporation,4-Sell,19.87,F,F,F,F,12.5
+BEN,Franklin Resources Inc.,4-Sell,27.7,C,B,D,B,50.0
+BEKE,KE Holdings Inc. Sponsored ADR,3-Hold,16.2,D,B,F,C,50.0
+BEP,Brookfield Renewable Partners L.P.,2-Buy,26.65,C,D,B,C,62.5
+ACRS,Aclaris Therapeutics Inc.,3-Hold,14.88,F,B,D,D,37.5
+BEPC,Brookfield Renewable Corporation,4-Sell,28.85,A,D,B,B,50.0
+BERY,Berry Global Group Inc.,3-Hold,61.43,A,A,C,A,75.0
+AZN,AstraZeneca PLC,3-Hold,69.36,B,A,B,A,75.0
+BF.B,BrownForman Corporation,4-Sell,65.43,F,D,F,F,12.5
+BFH,Bread Financial Holdings Inc.,3-Hold,40.28,A,C,A,A,75.0
+BG,Bunge Limited,3-Hold,95,B,D,B,B,62.5
+BFAM,Bright Horizons Family Solutions Inc.,3-Hold,67.13,C,D,F,F,25.0
+BGNE,BeiGene Ltd.,3-Hold,242.34,F,D,A,D,37.5
+BGS,B&G Foods Inc.,5-Strong Sell,11.93,B,F,C,D,12.5
+BHF,Brighthouse Financial Inc.,2-Buy,52.2,B,F,D,F,37.5
+BHLB,Berkshire Hills Bancorp Inc.,3-Hold,30.39,C,D,C,D,37.5
+BHP,BHP Group Limited Sponsored ADR,1-Strong Buy,62.53,B,C,C,B,87.5
+BIDU,Baidu Inc.,1-Strong Buy,132.11,B,D,F,D,62.5
+BIG,Big Lots Inc.,3-Hold,15.8,D,F,F,F,25.0
+BIIB,Biogen Inc.,3-Hold,272.91,B,F,C,D,37.5
+BIP,Brookfield Infrastructure Partners LP,3-Hold,32.13,A,B,B,A,75.0
+BILI,Bilibili Inc. Sponsored ADR,2-Buy,27.68,D,B,F,C,62.5
+BAND,Bandwidth Inc.,1-Strong Buy,23.02,C,A,A,A,100.0
+BJ,BJ's Wholesale Club Holdings Inc.,2-Buy,67.37,A,B,F,B,75.0
+BJRI,BJ's Restaurants Inc.,3-Hold,27.9,B,F,A,C,50.0
+BK,The Bank of New York Mellon Corporation,3-Hold,47.58,C,D,F,D,37.5
+BKI,Black Knight Financial Services Inc.,4-Sell,61.9,D,F,C,F,12.5
+BKH,Black Hills Corporation,3-Hold,71.3,C,D,D,D,37.5
+BKNG,Booking Holdings Inc.,3-Hold,2101.18,C,A,C,A,75.0
+BILL,Bill.com Holdings Inc.,3-Hold,109.72,F,D,D,F,25.0
+BKR,Baker Hughes Company,3-Hold,27.94,C,B,F,C,50.0
+BKU,BankUnited Inc.,3-Hold,34.1,B,B,C,B,62.5
+BL,BlackLine,3-Hold,68.72,D,C,F,F,25.0
+BLCO,Bausch  Lomb Corporation,4-Sell,16.28,B,D,F,C,37.5
+BLDR,Builders FirstSource Inc.,3-Hold,66.47,A,A,F,A,75.0
+BLFS,BioLife Solutions Inc.,4-Sell,18.65,D,B,D,D,25.0
+BLK,BlackRock Inc.,3-Hold,721.78,D,D,F,F,25.0
+BEAM,Beam Therapeutics Inc.,3-Hold,40.3,F,D,A,D,37.5
+BLMN,Bloomin' Brands Inc.,3-Hold,20.85,A,B,B,A,75.0
+BLNK,Blink Charging Co.,3-Hold,11.4,F,F,C,F,25.0
+BMBL,Bumble Inc.,3-Hold,20.83,C,C,C,C,50.0
+BMO,Bank Of Montreal,3-Hold,93.73,C,D,F,D,37.5
+BN,Brookfield Corporation,3-Hold,32.84,C,D,D,D,37.5
+BMY,Bristol Myers Squibb Company,3-Hold,72.65,A,B,A,A,75.0
+BMRN,BioMarin Pharmaceutical Inc.,3-Hold,106.39,C,A,A,A,75.0
+ARCT,Arcturus Therapeutics Holdings Inc.,3-Hold,17.08,D,D,A,D,37.5
+BNL,Broadstone Net Lease Inc.,2-Buy,16.8,C,C,A,C,62.5
+BNTX,BioNTech SE Sponsored ADR,2-Buy,146.65,A,A,F,A,87.5
+BNS,Bank of Nova Scotia The,4-Sell,49.21,D,F,A,F,12.5
+BOOT,Boot Barn Holdings Inc.,3-Hold,64.84,B,F,D,D,37.5
+BOWL,Bowlero Corp.,2-Buy,13.33,B,C,A,B,75.0
+BOX,Box Inc.,3-Hold,31.34,D,A,C,B,62.5
+BP,BP p.l.c.,3-Hold,33.79,A,A,F,A,75.0
+BLD,TopBuild Corp.,3-Hold,161.27,B,B,F,B,62.5
+BPMC,Blueprint Medicines Corporation,4-Sell,46.37,F,F,B,F,12.5
+BRK.B,Berkshire Hathaway Inc.,1-Strong Buy,315.51,C,C,F,D,62.5
+BRBR,BellRing Brands Inc.,3-Hold,25.47,B,A,B,A,75.0
+BPOP,Popular Inc.,3-Hold,67.14,C,C,D,C,50.0
+BRKR,Bruker Corporation,3-Hold,69.97,D,F,D,F,25.0
+BRKL,Brookline Bancorp Inc.,3-Hold,13.48,C,F,D,F,25.0
+BRO,Brown & Brown Inc.,3-Hold,57.66,D,F,A,D,37.5
+BROS,Dutch Bros Inc.,3-Hold,29.44,D,D,F,F,25.0
+BRZE,Braze Inc.,3-Hold,26.1,F,B,B,C,50.0
+BRX,Brixmor Property Group Inc.,4-Sell,23.17,D,C,B,C,37.5
+BRP,BRP Group Inc.,3-Hold,27.03,D,F,B,F,25.0
+BR,Broadridge Financial Solutions Inc.,3-Hold,136.93,C,D,B,D,37.5
+BSM,Black Stone Minerals L.P.,3-Hold,15.82,D,C,B,C,50.0
+BSY,Bentley Systems Incorporated,3-Hold,36.88,D,B,B,C,50.0
+BSX,Boston Scientific Corporation,2-Buy,46.48,C,D,D,D,50.0
+BTU,Peabody Energy Corporation,3-Hold,26.07,A,A,B,A,75.0
+BUD,AnheuserBusch InBev SANV,3-Hold,61.34,C,D,C,C,50.0
+BWA,BorgWarner Inc.,3-Hold,41.51,A,C,C,B,62.5
+BURL,Burlington Stores Inc.,3-Hold,214.11,C,D,D,D,37.5
+BWXT,BWX Technologies Inc.,5-Strong Sell,57.77,F,D,B,F,0.0
+BXMT,Blackstone Mortgage Trust Inc.,3-Hold,21.86,D,F,A,D,37.5
+BX,Blackstone Inc.,4-Sell,77.93,C,A,F,B,50.0
+BXP,Boston Properties Inc.,5-Strong Sell,67.11,D,D,C,D,12.5
+BXSL,Blackstone Secured Lending Fund,1-Strong Buy,22.44,F,D,B,D,62.5
+BYD,Boyd Gaming Corporation,3-Hold,56.18,A,A,B,A,75.0
+BYND,Beyond Meat Inc.,4-Sell,12.8,F,D,A,F,12.5
+BZH,Beazer Homes USA Inc.,5-Strong Sell,13.44,A,A,D,A,50.0
+C,Citigroup Inc.,3-Hold,46.96,B,C,C,B,62.5
+BZ,KANZHUN LIMITED Sponsored ADR,3-Hold,23.79,F,F,F,F,25.0
+CADE,Cadence Bank,3-Hold,24.68,A,D,D,C,50.0
+CAE,CAE Inc,3-Hold,19.9,C,D,C,C,50.0
+CAG,Conagra Brands,2-Buy,38.53,B,B,B,A,87.5
+CAH,Cardinal Health Inc.,2-Buy,76.6,A,B,A,A,87.5
+CAJ,Canon Inc.,3-Hold,21.45,A,D,B,C,50.0
+CAKE,The Cheesecake Factory Incorporated,3-Hold,33.57,B,C,D,C,50.0
+CAL,Caleres Inc.,3-Hold,22.32,A,C,B,A,75.0
+CALM,CalMaine Foods Inc.,1-Strong Buy,56.89,A,A,A,A,100.0
+CAR,Avis Budget Group Inc.,4-Sell,169.08,A,A,C,A,62.5
+CALX,Calix Inc,2-Buy,67.35,C,D,B,D,50.0
+CARA,Cara Therapeutics Inc.,3-Hold,11.42,D,D,B,F,25.0
+CARG,CarGurus Inc.,3-Hold,14.74,B,A,A,A,75.0
+CARR,Carrier Global Corporation,3-Hold,42.21,C,F,C,D,37.5
+CARS,Cars.com Inc.,3-Hold,14.23,A,B,D,B,62.5
+CAT,Caterpillar Inc.,2-Buy,241.3,B,B,C,A,87.5
+CATY,Cathay General Bancorp,3-Hold,40.74,B,C,D,C,50.0
+CB,Chubb Limited,4-Sell,224.05,B,B,D,B,50.0
+CBRL,Cracker Barrel Old Country Store Inc.,5-Strong Sell,97.41,D,C,D,C,25.0
+CBRE,CBRE Group Inc.,5-Strong Sell,79.94,C,B,F,C,25.0
+CBOE,Cboe Global Markets Inc.,2-Buy,125.15,D,A,B,B,75.0
+CBSH,Commerce Bancshares Inc.,3-Hold,68.19,D,D,C,D,37.5
+CBT,Cabot Corporation,4-Sell,67.76,B,A,A,A,62.5
+CC,The Chemours Company,4-Sell,31.69,A,B,B,A,62.5
+CCI,Crown Castle Inc.,3-Hold,143.01,F,D,D,F,25.0
+CCEP,CocaCola Europacific Partners,2-Buy,55.75,A,C,D,B,75.0
+CCJ,Cameco Corporation,4-Sell,22.6,D,A,A,B,50.0
+CCK,Crown Holdings Inc.,3-Hold,83.53,B,F,B,D,37.5
+CCOI,Cogent Communications Holdings Inc.,1-Strong Buy,58.44,D,C,F,F,50.0
+CCS,Century Communities Inc.,4-Sell,54,B,B,F,B,50.0
+CCRN,Cross Country Healthcare Inc.,2-Buy,28.85,A,A,D,A,87.5
+BTI,British American Tobacco p.l.c.,3-Hold,40.5,C,C,B,C,50.0
+CDMO,Avid Bioservices Inc.,4-Sell,13.96,D,F,B,F,12.5
+CDNA,CareDx Inc.,2-Buy,11.46,C,F,D,F,37.5
+CDW,CDW Corporation,4-Sell,181.18,B,A,B,A,62.5
+CE,Celanese Corporation,3-Hold,108.8,A,C,D,B,62.5
+CEG,Constellation Energy Corporation,3-Hold,83.16,A,A,B,A,75.0
+CEIX,Consol Energy Inc.,3-Hold,58.24,A,A,A,A,75.0
+CELH,Celsius Holdings Inc.,3-Hold,100.26,D,A,A,B,62.5
+CEQP,Crestwood Equity Partners LP,3-Hold,26.42,B,A,C,A,75.0
+CERE,Cerevel Therapeutics Holdings Inc.,3-Hold,31.05,C,F,C,D,37.5
+CF,CF Industries Holdings Inc.,3-Hold,81.93,A,A,D,A,75.0
+CDNS,Cadence Design Systems Inc.,3-Hold,159.96,D,A,B,B,62.5
+CERT,Certara Inc.,3-Hold,16.52,C,C,C,C,50.0
+CFG,Citizens Financial Group Inc.,2-Buy,40.6,A,B,F,B,75.0
+CGBD,Carlyle Secured Lending Inc.,1-Strong Buy,14.65,F,F,B,F,50.0
+CFR,CullenFrost Bankers Inc.,3-Hold,131.3,D,C,B,D,37.5
+BECN,Beacon Roofing Supply Inc.,3-Hold,53.33,A,B,F,A,75.0
+CFLT,Confluent Inc.,3-Hold,20.59,F,D,B,F,25.0
+CGNX,Cognex Corporation,3-Hold,49.24,F,D,D,F,25.0
+CHD,Church & Dwight Co. Inc.,3-Hold,82.53,D,D,C,D,37.5
+CHGG,Chegg Inc.,3-Hold,25.68,C,F,D,F,25.0
+CHEF,The Chefs' Warehouse Inc.,3-Hold,33.77,B,A,D,A,75.0
+CHKP,Check Point Software Technologies Ltd.,3-Hold,127.36,C,B,F,C,50.0
+CHH,Choice Hotels International Inc.,3-Hold,112.63,C,B,C,B,62.5
+CHRD,Chord Energy Corporation,3-Hold,128.7,B,A,F,B,62.5
+CHRW,C.H. Robinson Worldwide Inc.,5-Strong Sell,90.8,D,A,D,B,37.5
+CHTR,Charter Communications Inc.,5-Strong Sell,352.94,A,B,C,B,37.5
+CHK,Chesapeake Energy Corporation,3-Hold,89.43,A,A,A,A,75.0
+CHWY,Chewy,2-Buy,35.64,D,A,A,A,87.5
+CHX,ChampionX Corporation,1-Strong Buy,28.49,C,A,D,B,87.5
+CI,Cigna Corporation,3-Hold,310.12,A,B,B,A,75.0
+CINC,CinCor Pharma Inc.,3-Hold,12.06,B,F,C,C,50.0
+CIEN,Ciena Corporation,3-Hold,50.28,C,D,B,C,50.0
+CINF,Cincinnati Financial Corporation,5-Strong Sell,106.4,C,B,C,C,25.0
+CL,ColgatePalmolive Company,3-Hold,79.63,D,B,B,C,50.0
+CLB,Core Laboratories N.V.,3-Hold,19.65,C,C,C,C,50.0
+CLF,ClevelandCliffs Inc.,3-Hold,17.3,A,A,A,A,75.0
+CIVI,Civitas Resources Inc.,3-Hold,54.39,A,A,F,A,75.0
+CLDX,Celldex Therapeutics Inc.,3-Hold,44.1,F,F,B,F,25.0
+BSAC,Banco Santander Chile,3-Hold,15.48,D,F,A,D,37.5
+CLH,Clean Harbors Inc.,3-Hold,113.11,B,B,D,B,62.5
+CLFD,Clearfield Inc.,1-Strong Buy,96.56,D,B,C,C,75.0
+CDAY,Ceridian HCM,3-Hold,63.26,D,A,A,B,62.5
+CLX,The Clorox Company,3-Hold,143.49,D,C,B,C,50.0
+CM,Canadian Imperial Bank of Commerce,3-Hold,41.51,B,D,F,D,37.5
+CMCSA,Comcast Corporation,3-Hold,36.46,A,B,B,A,75.0
+CMA,Comerica Incorporated,3-Hold,67.29,B,D,F,D,37.5
+CME,CME Group Inc.,4-Sell,169.76,F,D,A,F,12.5
+CMG,Chipotle Mexican Grill Inc.,3-Hold,1375.86,D,A,B,B,62.5
+CIB,BanColombia S.A.,4-Sell,27.6,B,B,F,B,50.0
+CMP,Compass Minerals International Inc.,3-Hold,42.8,C,A,D,B,62.5
+CMTG,Claros Mortgage Trust Inc.,4-Sell,14.92,D,F,A,F,12.5
+CNC,Centene Corporation,3-Hold,79.49,A,A,A,A,75.0
+CNHI,CNH Industrial N.V.,2-Buy,16.23,A,F,D,C,62.5
+CNI,Canadian National Railway Company,3-Hold,120.89,D,B,F,D,37.5
+CNM,Core & Main Inc.,2-Buy,20.16,A,A,B,A,87.5
+CNMD,CONMED Corporation,3-Hold,93.92,B,D,F,D,37.5
+CNNE,Cannae Holdings Inc.,3-Hold,21.28,F,B,B,D,37.5
+CNO,CNO Financial Group Inc.,3-Hold,23.45,A,D,B,B,62.5
+CLS,Celestica Inc.,3-Hold,11.35,A,B,D,A,75.0
+CNP,CenterPoint Energy Inc.,3-Hold,29.73,C,F,A,D,37.5
+CNX,CNX Resources Corporation.,3-Hold,16.45,B,D,D,C,50.0
+CNQ,Canadian Natural Resources Limited,3-Hold,52.45,B,A,B,A,75.0
+COF,Capital One Financial Corporation,3-Hold,96.83,A,F,D,D,37.5
+COCO,Vita Coco Company Inc.,4-Sell,13.86,C,C,A,C,37.5
+COGT,Cogent Biosciences Inc.,3-Hold,11.38,F,F,A,F,25.0
+COIN,Coinbase Global Inc.,4-Sell,37.47,F,F,F,F,12.5
+COLB,Columbia Banking System Inc.,1-Strong Buy,29.24,B,D,A,C,75.0
+COLD,Americold Realty Trust Inc.,3-Hold,29.18,D,D,D,F,25.0
+COLM,Columbia Sportswear Company,3-Hold,91.19,C,D,C,D,37.5
+COOP,MR. COOPER GROUP INC,3-Hold,40.92,A,F,A,B,62.5
+COP,ConocoPhillips,3-Hold,113.71,B,A,F,A,75.0
+COO,The Cooper Companies Inc.,5-Strong Sell,339.81,D,C,C,D,12.5
+CORT,Corcept Therapeutics Incorporated,3-Hold,20.43,C,B,A,A,75.0
+COUR,Coursera Inc.,3-Hold,12.69,F,B,B,C,50.0
+COST,Costco Wholesale Corporation,3-Hold,456.36,C,B,D,C,50.0
+CP,Canadian Pacific Railway Limited,3-Hold,76.71,F,F,F,F,25.0
+CPA,Copa Holdings S.A.,3-Hold,84.15,A,A,B,A,75.0
+CPB,Campbell Soup Company,2-Buy,55.54,B,B,B,A,87.5
+CPE,Callon Petroleum Company,3-Hold,34.78,A,A,F,A,75.0
+CPNG,Coupang Inc.,2-Buy,15.69,C,A,B,A,87.5
+CPRI,Capri Holdings Limited,3-Hold,60.44,A,F,D,C,50.0
+CPRT,Copart Inc.,3-Hold,62.22,D,A,F,C,50.0
+CMI,Cummins Inc.,3-Hold,240.68,A,D,A,B,62.5
+CPT,Camden Property Trust,3-Hold,113.06,D,C,D,D,37.5
+CPRX,Catalyst Pharmaceuticals Inc.,3-Hold,18.7,C,A,A,A,75.0
+CR,Crane Holdings Co.,2-Buy,101.97,B,F,C,D,50.0
+CRDO,Credo Technology Group Holding Ltd.,4-Sell,12.82,F,D,C,F,12.5
+CG,Carlyle Group Inc.,3-Hold,31.09,B,F,F,F,25.0
+CRC,California Resources Corporation,3-Hold,41.27,A,C,C,B,62.5
+CRH,CRH PLC,1-Strong Buy,42.8,B,B,B,B,87.5
+CRI,Carter's Inc.,3-Hold,77.98,B,F,F,F,25.0
+CRK,Comstock Resources Inc.,3-Hold,13.25,A,A,B,A,75.0
+CRM,Salesforce Inc.,3-Hold,138.54,D,D,B,D,37.5
+CRNC,Cerence Inc.,3-Hold,20.68,C,F,F,F,25.0
+CRL,Charles River Laboratories International Inc.,3-Hold,220.88,B,D,D,C,50.0
+CROX,Crocs Inc.,3-Hold,109.82,B,C,F,C,50.0
+CRSP,CRISPR Therapeutics AG,4-Sell,44.6,D,F,A,D,25.0
+CRSR,Corsair Gaming Inc.,4-Sell,14.36,B,D,D,D,25.0
+CRUS,Cirrus Logic Inc.,3-Hold,75.09,B,A,D,A,75.0
+CRWD,CrowdStrike,3-Hold,104.92,D,A,A,B,62.5
+CRTO,Criteo S.A.,3-Hold,26.22,A,C,D,B,62.5
+CSAN,Cosan S.A. Sponsored ADR,3-Hold,11.58,B,B,A,A,75.0
+CSCO,Cisco Systems Inc.,3-Hold,47.6,C,A,C,B,62.5
+CSGP,CoStar Group Inc.,3-Hold,78.34,D,D,D,F,25.0
+CSII,Cardiovascular Systems Inc.,3-Hold,13.9,D,F,A,D,37.5
+CSIQ,Canadian Solar Inc.,3-Hold,31.97,A,B,B,A,75.0
+CSL,Carlisle Companies Incorporated,2-Buy,236.96,B,B,C,A,87.5
+CSTM,Constellium SE,3-Hold,12.73,A,C,D,B,62.5
+CSWC,Capital Southwest Corporation,3-Hold,17.59,F,F,B,F,25.0
+CSX,CSX Corporation,4-Sell,31.36,D,B,F,C,37.5
+CTAS,Cintas Corporation,3-Hold,446.52,D,B,B,B,62.5
+CTKB,Cytek Biosciences Inc.,2-Buy,10.65,C,D,B,D,50.0
+CTLT,Catalent Inc.,3-Hold,46.43,B,F,C,C,50.0
+CTRA,Coterra Energy Inc.,2-Buy,24.06,A,A,F,A,87.5
+CTRE,CareTrust REIT Inc.,3-Hold,19.33,D,C,F,D,37.5
+CTSH,Cognizant Technology Solutions Corporation,3-Hold,58.19,A,A,B,A,75.0
+CTVA,Corteva Inc.,3-Hold,59.64,B,F,A,C,50.0
+CUBE,CubeSmart,3-Hold,39.72,D,B,A,B,62.5
+CUBI,Customers Bancorp Inc,3-Hold,28.37,A,F,C,C,50.0
+CUTR,Cutera Inc.,3-Hold,42.78,F,F,D,F,25.0
+CUZ,Cousins Properties Incorporated,3-Hold,24.96,C,D,D,D,37.5
+CVBF,CVB Financial Corporation,3-Hold,25.22,D,C,B,C,50.0
+CVI,CVR Energy Inc.,5-Strong Sell,30.03,B,A,F,A,50.0
+CVE,Cenovus Energy Inc,3-Hold,18.07,A,A,F,A,75.0
+CVLT,CommVault Systems Inc.,3-Hold,64.73,C,A,C,B,62.5
+CVX,Chevron Corporation,3-Hold,172.35,B,A,F,A,75.0
+CMC,Commercial Metals Company,1-Strong Buy,49.14,B,B,C,A,100.0
+CVS,CVS Health Corporation,3-Hold,92.3,A,A,C,A,75.0
+CRNX,Crinetics Pharmaceuticals Inc.,3-Hold,17.14,F,F,B,F,25.0
+CWEN,Clearway Energy Inc.,2-Buy,31.93,B,B,A,B,75.0
+CWH,Camping World,3-Hold,23.44,A,B,D,A,75.0
+CWK,Cushman & Wakefield PLC,5-Strong Sell,13.25,B,C,F,C,25.0
+CRBG,Corebridge Financial Inc.,3-Hold,20.6,A,D,B,A,75.0
+CYRX,CryoPort Inc.,3-Hold,18.93,F,A,C,C,50.0
+CZR,Caesars Entertainment Inc.,2-Buy,44.98,A,A,F,A,87.5
+DAL,Delta Air Lines Inc.,2-Buy,34.35,A,A,C,A,87.5
+CYBR,CyberArk Software Ltd.,3-Hold,128.42,F,D,C,F,25.0
+DAN,Dana Incorporated,3-Hold,15.95,A,D,B,B,62.5
+D,Dominion Energy Inc.,4-Sell,63.23,D,D,D,D,25.0
+DAR,Darling Ingredients Inc.,3-Hold,62.28,A,B,D,B,62.5
+DAVA,Endava PLC Sponsored ADR,2-Buy,76.35,C,A,B,B,75.0
+DAWN,Day One Biopharmaceuticals Inc.,3-Hold,20.68,F,D,C,F,25.0
+DB,Deutsche Bank Aktiengesellschaft,1-Strong Buy,12.51,B,D,C,C,75.0
+DBRG,DigitalBridge Group Inc.,3-Hold,11.27,B,B,A,A,75.0
+DBX,Dropbox Inc.,3-Hold,22.8,B,A,C,A,75.0
+DCI,Donaldson Company Inc.,3-Hold,58.99,C,A,F,B,62.5
+DCP,DCP Midstream Partners LP,1-Strong Buy,38.68,B,A,C,A,100.0
+DCPH,Deciphera Pharmaceuticals Inc.,3-Hold,19.33,F,A,B,C,50.0
+DD,DuPont de Nemours Inc.,2-Buy,70.73,C,F,C,D,50.0
+DCT,Duck Creek Technologies Inc.,3-Hold,11.58,D,A,C,B,62.5
+DDOG,Datadog Inc.,3-Hold,70.04,D,B,A,C,50.0
+DE,Deere & Company,2-Buy,425.4,B,A,B,A,87.5
+DEA,Easterly Government Properties Inc.,4-Sell,14.82,D,D,F,F,12.5
+DECK,Deckers Outdoor Corporation,2-Buy,391.5,C,F,D,F,37.5
+DEI,Douglas Emmett Inc.,3-Hold,15.64,B,C,F,C,50.0
+DELL,Dell Technologies Inc.,3-Hold,41.06,A,D,C,B,62.5
+CRGY,Crescent Energy Company,3-Hold,11.31,A,B,F,A,75.0
+DEN,Denbury Inc.,3-Hold,81.52,C,A,D,B,62.5
+DEO,Diageo plc,3-Hold,179.72,D,A,B,B,62.5
+DASH,DoorDash Inc.,4-Sell,49.45,D,D,B,D,25.0
+DFS,Discover Financial Services,3-Hold,101.45,B,D,D,C,50.0
+DG,Dollar General Corporation,4-Sell,243.94,C,C,D,C,37.5
+CYTK,Cytokinetics Incorporated,3-Hold,43.81,F,F,C,F,25.0
+CMS,CMS Energy Corporation,2-Buy,64.68,C,F,B,D,50.0
+DGX,Quest Diagnostics Incorporated,2-Buy,154.51,A,B,C,A,87.5
+DHI,D.R. Horton Inc.,3-Hold,92.06,B,B,F,B,62.5
+DGII,Digi International Inc.,3-Hold,35,C,A,B,A,75.0
+DICE,DICE Therapeutics Inc.,2-Buy,32.02,D,C,A,D,50.0
+DINO,HF Sinclair Corporation,3-Hold,49.78,A,A,F,A,75.0
+DIS,The Walt Disney Company,5-Strong Sell,91.98,D,B,C,C,25.0
+DISH,DISH Network Corporation,3-Hold,14.55,A,D,F,C,50.0
+CWAN,Clearwater Analytics Holdings Inc.,3-Hold,18.26,D,B,A,B,62.5
+DK,Delek US Holdings Inc.,3-Hold,25.99,A,A,F,A,75.0
+DLB,Dolby Laboratories,5-Strong Sell,71.98,F,C,A,D,12.5
+DKS,DICK'S Sporting Goods Inc.,2-Buy,123.84,A,F,F,D,50.0
+DLR,Digital Realty Trust Inc.,3-Hold,104.42,D,D,F,F,25.0
+DHR,Danaher Corporation,3-Hold,266.11,D,C,B,D,37.5
+DLTR,Dollar Tree Inc.,3-Hold,141.41,B,C,C,C,50.0
+DNLI,Denali Therapeutics Inc.,3-Hold,28.96,F,D,D,F,25.0
+DNOW,NOW Inc.,3-Hold,11.89,C,A,A,A,75.0
+DNB,Dun & Bradstreet Holdings Inc.,3-Hold,12.84,B,B,D,B,62.5
+DNUT,Krispy Kreme Inc.,4-Sell,10.64,C,D,F,D,25.0
+DOC,Physicians Realty Trust,3-Hold,14.73,D,D,D,F,25.0
+DOCU,DocuSign,1-Strong Buy,57.38,F,A,D,C,75.0
+DOCS,Doximity Inc.,3-Hold,34.19,D,D,B,D,37.5
+DOCN,DigitalOcean Holdings Inc.,3-Hold,25.96,C,A,F,C,50.0
+DKNG,DraftKings Inc.,3-Hold,11.72,F,C,D,F,25.0
+DOX,Amdocs Limited,4-Sell,91.97,B,B,A,A,62.5
+DOW,Dow Inc.,4-Sell,52.12,A,B,C,A,62.5
+DOV,Dover Corporation,3-Hold,136.08,C,C,C,C,50.0
+DQ,DAQO New Energy Corp.,5-Strong Sell,38.48,B,A,B,A,50.0
+DRI,Darden Restaurants Inc.,3-Hold,143.16,B,A,B,A,75.0
+DRQ,DrilQuip Inc.,3-Hold,26.3,F,C,C,D,37.5
+DH,Definitive Healthcare Corp.,5-Strong Sell,11.69,F,F,A,D,12.5
+DRVN,Driven Brands Holdings Inc.,3-Hold,27.45,B,C,A,B,62.5
+DRS,Leonardo DRS Inc.,3-Hold,12.2,F,F,B,F,25.0
+DTM,DT Midstream Inc.,3-Hold,53.4,D,C,C,C,50.0
+DUOL,Duolingo Inc.,3-Hold,72.13,F,A,A,B,62.5
+DUK,Duke Energy Corporation,4-Sell,104.67,D,C,C,D,25.0
+DV,DoubleVerify Holdings Inc.,3-Hold,22.7,D,C,D,D,37.5
+DVA,DaVita Inc.,5-Strong Sell,76.8,A,B,A,A,50.0
+DVAX,Dynavax Technologies Corporation,3-Hold,10.64,C,C,F,C,50.0
+DVN,Devon Energy Corporation,3-Hold,58.93,B,A,D,A,75.0
+DX,Dynex Capital Inc.,3-Hold,13.14,B,F,F,F,25.0
+DT,Dynatrace Inc.,3-Hold,38.75,D,B,F,D,37.5
+DXCM,DexCom Inc.,3-Hold,114.23,D,A,D,B,62.5
+DXC,DXC Technology Company.,3-Hold,28.34,A,C,C,A,75.0
+DTE,DTE Energy Company,3-Hold,119.7,C,F,F,F,25.0
+DY,Dycom Industries Inc.,2-Buy,93.14,B,D,C,C,62.5
+EA,Electronic Arts Inc.,4-Sell,125.25,D,F,D,F,12.5
+E,Eni SpA,2-Buy,28.86,A,B,F,A,87.5
+DYN,Dyne Therapeutics Inc.,1-Strong Buy,11.89,F,D,C,D,62.5
+EAT,Brinker International Inc.,5-Strong Sell,33.98,B,B,A,A,50.0
+EBAY,eBay Inc.,3-Hold,43.12,B,C,F,C,50.0
+DLO,DLocal Limited,3-Hold,15.76,C,A,D,B,62.5
+EBS,Emergent Biosolutions Inc.,5-Strong Sell,12.49,B,F,F,F,0.0
+DPZ,Domino's Pizza Inc,3-Hold,343.65,D,B,D,C,50.0
+ECL,Ecolab Inc.,3-Hold,149.54,D,D,F,F,25.0
+ED,Consolidated Edison Inc,3-Hold,96.3,C,C,A,C,50.0
+EDR,Endeavor Group Holdings Inc.,3-Hold,21.98,B,A,B,A,75.0
+EE,Excelerate Energy Inc.,5-Strong Sell,24.18,D,B,C,C,25.0
+EEFT,Euronet Worldwide Inc.,3-Hold,98.54,C,A,F,B,62.5
+EBC,Eastern Bankshares Inc.,3-Hold,17.25,D,C,C,D,37.5
+EFC,Ellington Financial Inc.,2-Buy,12.87,C,F,C,D,50.0
+EFX,Equifax Inc.,3-Hold,205.43,D,C,D,D,37.5
+EGP,EastGroup Properties Inc.,3-Hold,152.42,F,B,F,D,37.5
+EHAB,Enhabit Inc.,4-Sell,12.97,A,F,D,C,37.5
+EHC,Encompass Health Corporation,4-Sell,59.29,B,B,B,A,62.5
+EL,The Estee Lauder Companies Inc.,3-Hold,261.44,F,F,F,F,25.0
+ELAN,Elanco Animal Health Incorporated,5-Strong Sell,12.72,C,B,B,B,37.5
+EIX,Edison International,2-Buy,66.07,B,B,D,B,75.0
+ELME,Elme Communities,4-Sell,18.22,F,F,B,F,12.5
+ELF,e.l.f. Beauty,1-Strong Buy,56.38,F,B,F,F,50.0
+ELV,Elevance Health Inc.,3-Hold,487.86,A,A,A,A,75.0
+EMBC,Embecta Corp.,5-Strong Sell,26.52,A,D,B,B,37.5
+EME,EMCOR Group Inc.,3-Hold,146.02,B,B,C,B,62.5
+EMN,Eastman Chemical Company,4-Sell,85.97,B,D,B,C,37.5
+EMR,Emerson Electric Co.,4-Sell,95.36,D,B,B,C,37.5
+ENB,Enbridge Inc,3-Hold,39.82,C,D,D,D,37.5
+ENFN,Enfusion Inc.,3-Hold,10.96,F,A,F,C,50.0
+ENOV,Enovis Corporation,4-Sell,56.47,A,F,F,D,25.0
+ENLC,EnLink Midstream LLC,2-Buy,11.97,A,A,D,A,87.5
+ENPH,Enphase Energy Inc.,2-Buy,252.25,D,A,D,B,75.0
+ENR,Energizer Holdings Inc.,3-Hold,35.58,A,A,F,A,75.0
+ENTG,Entegris Inc.,4-Sell,67.05,D,B,C,C,37.5
+ENV,Envestnet Inc,3-Hold,63.38,C,D,B,D,37.5
+ENVX,Enovix Corporation,3-Hold,6.8,F,F,C,F,25.0
+EOG,EOG Resources Inc.,3-Hold,124.75,B,A,F,B,62.5
+EDU,New Oriental Education & Technology Group Inc.,2-Buy,35.18,F,D,A,D,50.0
+EPAM,EPAM Systems Inc.,2-Buy,338.32,C,A,F,B,75.0
+EPD,Enterprise Products Partners L.P.,3-Hold,24.38,A,B,D,B,62.5
+EPC,Edgewell Personal Care Company,4-Sell,39.67,B,C,A,A,62.5
+EPRT,Essential Properties Realty Trust Inc.,3-Hold,23.37,D,C,A,C,50.0
+EPR,EPR Properties,3-Hold,37.3,B,B,B,A,75.0
+EQC,Equity Commonwealth,1-Strong Buy,25.52,F,C,B,F,50.0
+EQH,Equitable Holdings Inc.,3-Hold,29.64,A,F,D,C,50.0
+EQIX,Equinix Inc.,3-Hold,680.27,F,B,C,D,37.5
+EQR,Equity Residential,3-Hold,60.05,D,C,D,D,37.5
+EQNR,Equinor ASA,3-Hold,31.85,A,A,C,A,75.0
+EQT,EQT Corporation,3-Hold,33.44,B,B,A,A,75.0
+ERF,Enerplus Corporation,3-Hold,16.06,B,A,D,A,75.0
+ERII,Energy Recovery Inc.,4-Sell,20.61,F,F,F,F,12.5
+COHU,Cohu Inc.,3-Hold,32.22,B,A,D,A,75.0
+ESAB,ESAB Corporation,2-Buy,49.96,B,F,F,D,50.0
+ES,Eversource Energy,3-Hold,85.1,C,C,C,C,50.0
+DOMO,Domo Inc.,2-Buy,14.38,D,A,C,B,75.0
+ESI,Element Solutions Inc.,3-Hold,18.36,B,B,B,B,62.5
+ESMT,EngageSmart Inc.,3-Hold,17.59,D,B,C,C,50.0
+ESNT,Essent Group Ltd.,2-Buy,39.61,A,F,F,D,50.0
+ESS,Essex Property Trust Inc.,3-Hold,215.99,D,B,F,D,37.5
+ESTC,Elastic N.V.,3-Hold,50.72,F,F,D,F,25.0
+ESTE,Earthstone Energy Inc.,4-Sell,13.09,A,A,B,A,62.5
+ET,Energy Transfer LP,3-Hold,11.72,A,A,C,A,75.0
+ETD,Ethan Allen Interiors Inc.,3-Hold,26.76,A,A,C,A,75.0
+ETN,Eaton Corporation PLC,2-Buy,159.32,C,D,F,F,37.5
+ETSY,Etsy Inc.,3-Hold,118.48,D,B,C,C,50.0
+ETR,Entergy Corporation,3-Hold,109.79,B,B,B,B,62.5
+ETNB,89BIO,3-Hold,12,D,A,A,B,62.5
+EVBG,Everbridge Inc.,2-Buy,28.55,C,A,F,B,75.0
+EVA,Enviva Inc.,3-Hold,49.49,F,B,C,C,50.0
+EVER,EverQuote Inc.,1-Strong Buy,14.27,F,C,D,F,50.0
+EVH,Evolent Health Inc,3-Hold,26.53,C,B,A,A,75.0
+EVR,Evercore Inc,3-Hold,114.28,B,F,D,D,37.5
+EVRG,Evergy Inc.,3-Hold,63.85,C,B,F,C,50.0
+EVRI,Everi Holdings Inc.,5-Strong Sell,14.48,B,C,C,C,25.0
+EVTC,Evertec Inc.,2-Buy,33.21,B,F,D,D,50.0
+EW,Edwards Lifesciences Corporation,3-Hold,76.15,C,C,F,C,50.0
+EWBC,East West Bancorp Inc.,3-Hold,66.66,B,B,F,B,62.5
+EWCZ,European Wax Center Inc.,2-Buy,13.55,D,D,F,F,37.5
+ELS,Equity Lifestyle Properties Inc.,3-Hold,65.97,F,C,B,D,37.5
+EURN,Euronav NV,2-Buy,15.08,C,B,A,B,75.0
+ERJ,EmbraerEmpresa Brasileira de Aeronautica,3-Hold,10.8,A,B,F,A,75.0
+EXC,Exelon Corporation,4-Sell,43.49,C,C,D,C,37.5
+EXAS,Exact Sciences Corporation,2-Buy,49.54,D,F,A,D,50.0
+EXEL,Exelixis Inc.,4-Sell,17.03,B,B,A,A,62.5
+EXPI,Exp World Holdings Inc.,3-Hold,11.48,B,B,C,A,75.0
+EXPE,Expedia Group Inc.,2-Buy,91.06,A,B,F,A,87.5
+EXR,Extra Space Storage Inc,3-Hold,145.9,D,B,F,D,37.5
+EXTR,Extreme Networks Inc.,3-Hold,18.87,C,A,B,A,75.0
+EYE,National Vision Holdings Inc.,3-Hold,40.96,B,D,A,B,62.5
+F,Ford Motor Company,5-Strong Sell,11.99,A,C,C,B,37.5
+FA,First Advantage Corporation,3-Hold,13.14,B,C,F,C,50.0
+FAF,First American Financial Corporation,2-Buy,56.01,A,C,F,B,75.0
+FANG,Diamondback Energy Inc.,3-Hold,130.89,B,A,D,A,75.0
+FATE,Fate Therapeutics Inc.,2-Buy,11,F,F,A,F,37.5
+FBIN,Fortune Brands Innovations Inc.,5-Strong Sell,60.43,C,D,F,D,12.5
+FBP,First BanCorp.,3-Hold,12.88,A,D,C,B,62.5
+FBRT,Franklin BSP Realty Trust Inc.,3-Hold,13.41,C,D,A,C,50.0
+FCF,First Commonwealth Financial Corporation,3-Hold,14.07,B,D,F,D,37.5
+FAST,Fastenal Company,3-Hold,48.07,D,B,A,B,62.5
+FCN,FTI Consulting Inc.,3-Hold,161.09,B,C,B,C,50.0
+FCPT,Four Corners Property Trust Inc.,3-Hold,26.78,F,C,C,D,37.5
+FDMT,4D Molecular Therapeutics Inc.,4-Sell,21.58,F,D,C,F,12.5
+FCX,FreeportMcMoRan Inc.,3-Hold,38.88,B,D,B,B,62.5
+FDX,FedEx Corporation,3-Hold,182.78,A,C,D,B,62.5
+FE,FirstEnergy Corporation,3-Hold,42.12,C,D,D,C,50.0
+FERG,Ferguson plc,3-Hold,132.13,B,A,C,A,75.0
+FFIN,First Financial Bankshares Inc.,3-Hold,33.92,D,C,F,F,25.0
+FFIV,F5 Inc.,3-Hold,145.32,B,C,B,B,62.5
+FGEN,FibroGen Inc,4-Sell,16.07,F,C,B,D,25.0
+FFWM,First Foundation Inc.,5-Strong Sell,14.85,D,D,F,D,12.5
+FHB,First Hawaiian Inc.,4-Sell,26.02,C,D,D,D,25.0
+FIBK,First Interstate BancSystem Inc.,3-Hold,38.84,C,B,F,C,50.0
+FIS,Fidelity National Information Services Inc.,4-Sell,69.49,B,C,F,B,50.0
+FHI,Federated Hermes Inc.,5-Strong Sell,37.58,D,C,D,D,12.5
+FITB,Fifth Third Bancorp,3-Hold,33.4,B,C,F,C,50.0
+FIVE,Five Below Inc.,2-Buy,173.39,C,F,F,F,37.5
+FIVN,Five9 Inc.,3-Hold,70.15,D,C,F,D,37.5
+FISV,Fiserv Inc.,4-Sell,102.34,C,D,D,D,25.0
+FLEX,Flex Ltd.,3-Hold,21.61,A,C,D,B,62.5
+FL,Foot Locker Inc.,3-Hold,38.64,A,F,B,B,62.5
+FLGT,Fulgent Genetics Inc.,4-Sell,31.06,A,B,C,A,62.5
+FLNG,Flex LNG Ltd.,4-Sell,29.98,D,B,B,C,37.5
+FLNC,Fluence Energy Inc.,3-Hold,16.54,D,F,F,F,25.0
+FLO,Flowers Foods Inc.,3-Hold,28.62,B,B,A,A,75.0
+FLS,Flowserve Corporation,3-Hold,30.56,C,F,F,F,25.0
+FLR,Fluor Corporation,2-Buy,33.22,C,F,F,F,37.5
+FLYW,Flywire Corporation,3-Hold,24.58,F,C,C,D,37.5
+FMC,FMC Corporation,4-Sell,123.79,D,F,F,F,12.5
+FMS,Fresenius Medical Care AG & Co. KGaA,5-Strong Sell,16.88,A,D,A,B,37.5
+FMX,Fomento Economico Mexicano S.A.B. de C.V.,3-Hold,77.99,B,D,C,C,50.0
+FND,Floor & Decor Holdings Inc.,4-Sell,75.59,C,C,A,C,37.5
+FNB,F.N.B. Corporation,3-Hold,13.07,B,B,F,B,62.5
+FLT,FleetCor Technologies Inc.,3-Hold,185.62,B,F,B,C,50.0
+FOCS,Focus Financial Partners Inc.,5-Strong Sell,38.79,C,B,D,B,37.5
+FOLD,Amicus Therapeutics Inc.,3-Hold,11.93,D,A,D,C,50.0
+FNKO,Funko Inc.,4-Sell,11.33,C,F,D,D,25.0
+FORM,FormFactor Inc.,4-Sell,22.51,C,C,A,B,50.0
+FOUR,Shift4 Payments Inc.,3-Hold,54.55,D,A,F,C,50.0
+EXPD,Expeditors International of Washington Inc.,3-Hold,105.86,B,A,F,A,75.0
+FNF,Fidelity National Financial Inc.,4-Sell,38.55,A,C,F,B,50.0
+FPI,Farmland Partners Inc.,3-Hold,12.68,F,F,F,F,25.0
+FRG,Franchise Group Inc.,5-Strong Sell,27.43,B,F,D,D,12.5
+FRC,First Republic Bank,3-Hold,123.35,D,F,F,F,25.0
+FRPT,Freshpet Inc.,4-Sell,53.92,D,F,F,F,12.5
+FRSH,Freshworks Inc.,3-Hold,14.95,F,C,F,F,25.0
+FRO,Frontline PLC,3-Hold,10.72,C,D,A,C,50.0
+FSK,FS KKR Capital Corp.,1-Strong Buy,18.12,D,F,D,F,50.0
+FTAI,FTAI Aviation Ltd.,3-Hold,18.71,A,A,C,A,75.0
+FRT,Federal Realty Investment Trust,3-Hold,104.89,D,C,D,D,37.5
+FROG,JFrog Ltd.,3-Hold,22.46,F,F,F,F,25.0
+FR,First Industrial Realty Trust Inc.,3-Hold,49.54,F,C,B,D,37.5
+FTI,TechnipFMC plc,3-Hold,11.56,C,D,B,C,50.0
+FSS,Federal Signal Corporation,4-Sell,47.5,D,F,C,F,12.5
+FSLR,First Solar Inc.,3-Hold,145.83,C,B,A,B,62.5
+FTS,Fortis,4-Sell,40.77,C,D,C,D,25.0
+FTNT,Fortinet Inc.,3-Hold,48.4,D,A,D,B,62.5
+FTV,Fortive Corporation,4-Sell,65.03,D,C,C,D,25.0
+FULT,Fulton Financial Corporation,3-Hold,16.68,B,B,C,B,62.5
+FUTU,Futu Holdings Limited Sponsored ADR,3-Hold,40.47,D,F,A,D,37.5
+FUN,Cedar Fair L.P.,3-Hold,42.16,A,A,F,A,75.0
+FWONK,Liberty Media Corporation,1-Strong Buy,61.59,D,C,A,C,75.0
+FVRR,Fiverr International,3-Hold,30.15,D,B,A,B,62.5
+FYBR,Frontier Communications Parent Inc.,2-Buy,25.9,A,B,F,A,87.5
+FTDR,Frontdoor Inc.,3-Hold,21.54,B,D,B,C,50.0
+G,Genpact Limited,4-Sell,46.8,B,B,A,A,62.5
+GBCI,Glacier Bancorp Inc.,3-Hold,48.93,D,D,F,F,25.0
+GBDC,Golub Capital BDC Inc.,1-Strong Buy,13.3,F,F,C,F,50.0
+GBX,Greenbrier Companies Inc. The,3-Hold,34.87,B,C,C,B,62.5
+GD,General Dynamics Corporation,3-Hold,244.87,B,A,F,B,62.5
+GDDY,GoDaddy Inc.,3-Hold,74.54,B,A,B,A,75.0
+GDOT,Green Dot Corporation,5-Strong Sell,16.69,A,B,A,A,50.0
+GDS,GDS Holdings,3-Hold,26.84,C,B,B,B,62.5
+FFBC,First Financial Bancorp.,3-Hold,24.67,C,D,C,D,37.5
+FUL,H. B. Fuller Company,3-Hold,73.84,B,B,B,B,62.5
+GDYN,Grid Dynamics Holdings Inc.,3-Hold,11.52,C,A,F,B,62.5
+GEN,Gen Digital Inc.,3-Hold,21.76,C,F,C,D,37.5
+GES,Guess Inc.,3-Hold,22.05,B,F,F,D,37.5
+GEO,Geo Group Inc The,2-Buy,10.7,A,B,D,A,87.5
+GFF,Griffon Corporation,3-Hold,36.57,B,A,B,A,75.0
+GFL,GFL Environmental Inc.,3-Hold,30.34,B,D,B,B,62.5
+GFI,Gold Fields Limited,2-Buy,11.48,B,A,F,A,87.5
+GFS,GlobalFoundries Inc.,3-Hold,52.79,C,C,C,B,62.5
+GIII,GIII Apparel Group LTD.,5-Strong Sell,14.47,C,F,F,F,0.0
+GH,Guardant Health Inc.,3-Hold,26.44,F,D,A,D,37.5
+GILD,Gilead Sciences Inc.,3-Hold,85.4,A,C,B,B,62.5
+GIL,Gildan Activewear Inc.,3-Hold,27.98,A,C,C,B,62.5
+GIS,General Mills Inc.,2-Buy,83.78,B,B,C,A,87.5
+GGG,Graco Inc.,4-Sell,68,D,B,D,D,25.0
+GL,Globe Life Inc.,2-Buy,119.83,B,C,B,B,75.0
+GE,General Electric Company,3-Hold,69.1,D,B,F,C,50.0
+GLNG,Golar LNG Limited,2-Buy,22,D,D,C,F,37.5
+GLOB,Globant S.A.,4-Sell,170.95,D,B,C,C,37.5
+GLPI,Gaming and Leisure Properties Inc.,3-Hold,51.14,D,C,D,D,37.5
+GMAB,Genmab AS Sponsored ADR,3-Hold,42.58,C,C,A,B,62.5
+GM,General Motors Company,4-Sell,34.6,A,D,C,B,50.0
+GLW,Corning Incorporated,4-Sell,33.99,B,C,D,B,50.0
+GLBE,Globale Online Ltd.,3-Hold,22.08,F,F,F,F,25.0
+GNK,Genco Shipping & Trading Limited,5-Strong Sell,14.87,B,C,A,B,37.5
+GNL,Global Net Lease Inc.,4-Sell,13.09,B,B,B,A,62.5
+GNRC,Generac Holdings Inc.,5-Strong Sell,100.87,D,F,F,F,0.0
+GNTX,Gentex Corporation,4-Sell,28.01,B,D,C,C,37.5
+GO,Grocery Outlet Holding Corp.,3-Hold,28.85,C,B,B,A,75.0
+GME,GameStop Corp.,2-Buy,17.45,C,D,A,C,62.5
+GOLD,Barrick Gold Corporation,3-Hold,18.93,C,F,C,D,37.5
+GOGO,Gogo Inc.,3-Hold,14.89,F,D,F,F,25.0
+GOOG,Alphabet Inc.,3-Hold,88.55,B,B,C,B,62.5
+GOOGL,Alphabet Inc.,3-Hold,88.06,B,B,C,B,62.5
+GOOS,Canada Goose Holdings Inc.,3-Hold,18.59,C,F,D,F,25.0
+GPC,Genuine Parts Company,2-Buy,171.48,A,B,B,A,87.5
+GPK,Graphic Packaging Holding Company,3-Hold,22.05,A,A,B,A,75.0
+GPN,Global Payments Inc.,4-Sell,103.12,B,C,F,B,50.0
+GPRE,Green Plains Inc.,3-Hold,30.11,C,B,C,B,62.5
+GPS,The Gap Inc.,3-Hold,11.75,C,D,C,C,50.0
+GRBK,Green Brick Partners Inc.,4-Sell,25.75,B,B,F,B,50.0
+GRMN,Garmin Ltd.,3-Hold,95.34,C,D,F,F,25.0
+GS,The Goldman Sachs Group Inc.,3-Hold,348.83,F,F,B,F,25.0
+GSBD,Goldman Sachs BDC Inc.,3-Hold,14.21,D,F,A,D,37.5
+GSHD,Goosehead Insurance,3-Hold,35.01,F,B,D,D,37.5
+GSK,GSK PLC Sponsored ADR,3-Hold,35.05,A,F,C,C,50.0
+GSL,Global Ship Lease Inc.,4-Sell,16.42,A,B,B,A,62.5
+GT,The Goodyear Tire & Rubber Company,5-Strong Sell,10.58,B,F,A,C,25.0
+GTES,Gates Industrial Corporation PLC,3-Hold,11.8,B,F,B,D,37.5
+GTLS,Chart Industries Inc.,3-Hold,118.7,D,B,F,D,37.5
+GTN,Gray Television Inc.,5-Strong Sell,11.61,A,A,F,A,50.0
+GTLB,GitLab Inc.,3-Hold,43.41,F,B,B,C,50.0
+GTY,Getty Realty Corporation,4-Sell,34.17,D,D,A,D,25.0
+GVA,Granite Construction Incorporated,3-Hold,34.78,B,A,C,A,75.0
+FWRG,First Watch Restaurant Group Inc.,3-Hold,13.89,B,D,B,C,50.0
+FNV,FrancoNevada Corporation,3-Hold,141.14,F,D,F,F,25.0
+GOLF,Acushnet,3-Hold,43.75,C,D,A,C,50.0
+H,Hyatt Hotels Corporation,3-Hold,91.6,B,B,A,A,75.0
+GXO,GXO Logistics Inc.,3-Hold,42.83,B,B,F,B,62.5
+GWRE,Guidewire Software Inc.,3-Hold,63.21,F,F,D,F,25.0
+HAE,Haemonetics Corporation,3-Hold,76.37,C,A,B,A,75.0
+HAIN,The Hain Celestial Group Inc.,3-Hold,17.06,B,F,D,D,37.5
+HALO,Halozyme Therapeutics Inc.,3-Hold,53.58,C,A,B,A,75.0
+HAL,Halliburton Company,2-Buy,38.27,B,B,C,B,75.0
+HAS,Hasbro Inc.,4-Sell,62.3,C,F,F,D,25.0
+HASI,Hannon Armstrong Sustainable Infrastructure Capital Inc.,3-Hold,29.8,D,B,A,C,50.0
+HBAN,Huntington Bancshares Incorporated,3-Hold,14.34,B,D,C,C,50.0
+HCAT,Health Catalyst Inc.,3-Hold,10.77,D,B,B,B,62.5
+HCA,HCA Healthcare Inc.,3-Hold,247.06,A,B,D,B,62.5
+HCC,Warrior Met Coal,3-Hold,32.84,A,A,B,A,75.0
+HCM,HUTCHMED China Limited Sponsored ADR,3-Hold,17.77,F,D,F,F,25.0
+HD,The Home Depot Inc.,3-Hold,319.76,B,C,C,C,50.0
+HCSG,Healthcare Services Group Inc.,3-Hold,12.66,B,F,B,C,50.0
+HCP,HashiCorp Inc.,2-Buy,26.08,F,D,A,D,50.0
+HE,Hawaiian Electric Industries Inc.,3-Hold,42.56,C,D,C,D,37.5
+HDB,HDFC Bank Limited,3-Hold,67.8,D,C,F,D,37.5
+HELE,Helen of Troy Limited,3-Hold,112.95,C,F,A,D,37.5
+HES,Hess Corporation,3-Hold,136.22,D,A,D,C,50.0
+HESM,Hess Midstream Partners LP,3-Hold,30.23,B,C,F,C,50.0
+HGV,Hilton Grand Vacations Inc.,3-Hold,40.13,A,A,C,A,75.0
+HHC,Howard Hughes Corporation The,3-Hold,78.05,D,A,F,C,50.0
+HI,Hillenbrand Inc,1-Strong Buy,42.3,B,D,D,C,75.0
+GKOS,Glaukos Corporation,4-Sell,45.1,D,D,F,F,12.5
+HIBB,Hibbett Inc.,3-Hold,70.84,A,C,C,B,62.5
+HEI,Heico Corporation,3-Hold,151.61,D,B,D,D,37.5
+HIG,The Hartford Financial Services Group Inc.,4-Sell,76.63,A,B,C,A,62.5
+HII,Huntington Ingalls Industries Inc.,4-Sell,227.29,B,D,B,B,50.0
+HLI,Houlihan Lokey Inc.,2-Buy,88.41,D,F,D,F,37.5
+HLF,Herbalife LTD.,3-Hold,15.48,A,D,F,B,62.5
+HLT,Hilton Worldwide Holdings Inc.,3-Hold,127.82,C,A,A,A,75.0
+HIW,Highwoods Properties Inc.,3-Hold,28.47,B,C,B,B,62.5
+HLIT,Harmonic Inc.,3-Hold,13.14,C,D,D,D,37.5
+HMC,Honda Motor Co. Ltd.,3-Hold,23.5,A,A,B,A,75.0
+HOLX,Hologic Inc.,3-Hold,77.67,B,C,D,B,62.5
+HOG,HarleyDavidson Inc.,3-Hold,41.92,A,C,A,A,75.0
+HON,Honeywell International Inc.,4-Sell,209.15,F,D,D,F,12.5
+HOPE,Hope Bancorp Inc.,3-Hold,12.85,B,D,D,C,50.0
+HOMB,Home BancShares Inc.,3-Hold,22.52,C,C,C,C,50.0
+HP,Helmerich & Payne Inc.,1-Strong Buy,46.47,C,B,B,B,87.5
+HQY,HealthEquity Inc.,3-Hold,60.54,D,D,A,C,50.0
+HPQ,HP Inc.,4-Sell,27.3,A,A,C,A,62.5
+HPE,Hewlett Packard Enterprise Company,3-Hold,16.41,A,B,F,A,75.0
+HRB,H&R Block Inc.,2-Buy,35.39,A,A,A,A,87.5
+HRMY,Harmony Biosciences Holdings Inc.,3-Hold,53.27,C,A,C,B,62.5
+HRL,Hormel Foods Corporation,4-Sell,45.7,C,A,C,B,50.0
+HSBC,HSBC Holdings plc,2-Buy,32.67,D,F,C,F,37.5
+HSIC,Henry Schein Inc.,3-Hold,81.71,A,C,D,B,62.5
+HST,Host Hotels & Resorts Inc.,3-Hold,16.25,C,A,D,B,62.5
+HSY,Hershey Company The,3-Hold,222.36,C,B,A,B,62.5
+HTGC,Hercules Capital Inc.,3-Hold,13.52,F,F,C,F,25.0
+HTHT,H World Group Ltd,3-Hold,45.55,F,F,F,F,25.0
+HTH,Hilltop Holdings Inc.,2-Buy,30.86,B,B,D,B,75.0
+HTLD,Heartland Express Inc.,3-Hold,15.81,B,C,F,C,50.0
+HTZ,Hertz Global Holdings Inc.,5-Strong Sell,15.29,A,A,F,A,50.0
+HUBB,Hubbell Inc,3-Hold,228.13,C,C,D,C,50.0
+HUBS,HubSpot Inc.,2-Buy,293.91,D,B,F,D,50.0
+HUM,Humana Inc.,3-Hold,491.84,A,A,A,A,75.0
+HUN,Huntsman Corporation,5-Strong Sell,28.95,B,C,B,B,37.5
+HR,Healthcare Realty Trust Incorporated,4-Sell,20.15,D,F,F,F,12.5
+HWM,Howmet Aerospace Inc.,4-Sell,39.51,D,C,B,C,37.5
+IAC,IAC Inc.,3-Hold,47.94,C,F,F,F,25.0
+IAA,IAA Inc.,4-Sell,40.18,C,C,A,B,50.0
+HZO,MarineMax Inc.,3-Hold,32.05,A,D,C,B,62.5
+GMED,Globus Medical Inc.,3-Hold,73.67,C,D,C,D,37.5
+IART,Integra LifeSciences Holdings Corporation,3-Hold,57.15,B,C,B,B,62.5
+IBN,ICICI Bank Limited,2-Buy,21.88,C,B,F,C,62.5
+IBM,International Business Machines Corporation,2-Buy,142.11,B,D,F,D,50.0
+IBKR,Interactive Brokers Group Inc.,2-Buy,72.04,C,B,C,B,75.0
+ICE,Intercontinental Exchange Inc.,3-Hold,103.98,D,F,D,F,25.0
+ICLR,ICON PLC,3-Hold,199.05,B,B,D,B,62.5
+ICPT,Intercept Pharmaceuticals Inc.,3-Hold,12.79,C,F,B,D,37.5
+GWW,W.W. Grainger Inc.,3-Hold,555.1,C,B,B,B,62.5
+HWC,Hancock Whitney Corporation,2-Buy,47.95,B,C,F,C,62.5
+IEP,Icahn Enterprises L.P.,5-Strong Sell,52.62,D,A,A,A,50.0
+IEX,IDEX Corporation,2-Buy,228.93,D,B,C,C,62.5
+IFF,International Flavors & Fragrances Inc.,3-Hold,108.29,D,C,D,D,37.5
+IGT,International Game Technology,2-Buy,23.46,A,C,B,A,87.5
+HXL,Hexcel Corporation,3-Hold,60.18,D,D,D,F,25.0
+IIPR,Innovative Industrial Properties Inc.,3-Hold,98.5,D,B,C,C,50.0
+ILMN,Illumina Inc.,5-Strong Sell,202.82,F,D,A,F,0.0
+IMCR,Immunocore Holdings PLC Sponsored ADR,1-Strong Buy,55.45,F,C,F,F,50.0
+IMAX,IMAX Corporation,5-Strong Sell,15.18,F,C,F,F,0.0
+IMO,Imperial Oil Limited,3-Hold,46.05,A,A,F,A,75.0
+IMVT,Immunovant Inc.,3-Hold,18.4,C,C,B,C,50.0
+IMXI,INTERNATIONAL MONEY EXPRESS INC.,1-Strong Buy,23.04,C,F,C,D,62.5
+INBX,Inhibrx Inc.,2-Buy,23.82,F,F,C,F,37.5
+INCY,Incyte Corporation,3-Hold,79.17,B,B,C,B,62.5
+INFA,Informatica Inc.,3-Hold,15.93,C,F,D,F,25.0
+INGR,Ingredion Incorporated,2-Buy,98.27,A,D,C,B,75.0
+ING,ING Group N.V.,1-Strong Buy,12.92,D,F,B,F,50.0
+INMD,InMode Ltd.,3-Hold,36.04,C,B,B,B,62.5
+INSP,Inspire Medical Systems Inc.,3-Hold,249.71,D,A,F,C,50.0
+INSM,Insmed Inc.,3-Hold,19.7,F,D,C,F,25.0
+INTC,Intel Corporation,4-Sell,27.59,A,F,D,D,25.0
+INTU,Intuit Inc.,3-Hold,391.37,D,B,B,B,62.5
+INT,World Fuel Services Corporation,3-Hold,26.71,A,A,C,A,75.0
+INVH,Invitation Home,4-Sell,29.81,D,B,D,D,25.0
+INVA,Innoviva Inc.,5-Strong Sell,13.23,A,F,A,B,37.5
+IONS,Ionis Pharmaceuticals Inc.,3-Hold,39,D,F,B,F,25.0
+IOT,Samsara Inc.,3-Hold,12.04,F,C,B,D,37.5
+IP,International Paper Company,5-Strong Sell,36.47,B,C,D,C,25.0
+IPG,Interpublic Group of Companies Inc. The,2-Buy,34.6,B,F,D,D,50.0
+IPI,Intrepid Potash Inc,5-Strong Sell,28.08,A,C,C,B,37.5
+IPGP,IPG Photonics Corporation,3-Hold,100.12,C,D,A,C,50.0
+IQV,IQVIA Holdings Inc.,4-Sell,206.72,C,A,C,A,62.5
+IRDM,Iridium Communications Inc,3-Hold,53.22,F,A,D,C,50.0
+INSW,International Seaways Inc.,3-Hold,33.68,C,B,D,C,50.0
+IR,Ingersoll Rand Inc.,4-Sell,53.62,D,C,D,D,25.0
+IRM,Iron Mountain Incorporated,3-Hold,50.56,D,D,D,F,25.0
+IRTC,iRhythm Technologies,3-Hold,93.66,D,A,F,C,50.0
+IRWD,Ironwood Pharmaceuticals Inc.,3-Hold,12.33,B,B,D,B,62.5
+ISEE,IVERIC bio Inc.,3-Hold,20.14,F,F,C,F,25.0
+IDXX,IDEXX Laboratories Inc.,3-Hold,422.31,C,C,A,C,50.0
+IDYA,IDEAYA Biosciences Inc.,2-Buy,17.47,F,F,A,F,37.5
+IT,Gartner Inc.,2-Buy,335.43,C,B,F,B,75.0
+ISRG,Intuitive Surgical Inc.,2-Buy,269.22,C,D,C,D,50.0
+IRT,Independence Realty Trust Inc.,3-Hold,17.2,D,B,F,D,37.5
+ITRI,Itron Inc.,4-Sell,52.42,D,C,A,C,37.5
+ITW,Illinois Tool Works Inc.,2-Buy,219.83,D,C,F,D,50.0
+ITT,ITT Inc.,3-Hold,82.7,C,B,C,B,62.5
+INFY,Infosys Limited,3-Hold,18.08,C,C,B,B,62.5
+ITCI,IntraCellular Therapies Inc.,3-Hold,52.16,F,D,A,F,25.0
+IVR,INVESCO MORTGAGE CAPITAL INC,5-Strong Sell,13.48,D,B,D,C,25.0
+IVZ,Invesco Ltd.,3-Hold,18.84,B,D,F,D,37.5
+J,Jacobs Solutions Inc.,4-Sell,125.31,B,C,A,B,50.0
+JACK,Janus Henderson Sustainable & Impact Core Bond ETF,3-Hold,68.75,A,D,F,C,50.0
+JAZZ,Jazz Pharmaceuticals PLC,3-Hold,159.95,A,A,A,A,75.0
+JAMF,Jamf Holding Corp.,2-Buy,19.87,D,A,D,B,75.0
+JBHT,J.B. Hunt Transport Services Inc.,3-Hold,176.01,B,A,F,B,62.5
+JBL,Jabil Inc.,1-Strong Buy,66.72,A,B,B,A,100.0
+JCI,Johnson Controls International plc,3-Hold,65.66,C,B,D,B,62.5
+JD,JD.com Inc.,2-Buy,66.02,A,A,C,A,87.5
+JEF,Jefferies Financial Group Inc.,3-Hold,38.65,B,C,D,B,62.5
+JELD,JELDWEN Holding Inc.,4-Sell,10.92,A,A,F,A,62.5
+JKHY,Jack Henry & Associates Inc.,3-Hold,177.42,D,A,B,B,62.5
+JKS,JinkoSolar Holding Company Limited,3-Hold,41.72,A,B,D,A,75.0
+JHG,Janus Henderson Group plc,3-Hold,24.73,B,D,F,C,50.0
+JNJ,Johnson & Johnson,3-Hold,179.09,C,B,A,B,62.5
+ITOS,iTeos Therapeutics Inc.,3-Hold,18.11,D,A,C,B,62.5
+JLL,Jones Lang LaSalle Incorporated,5-Strong Sell,165.68,C,F,F,D,12.5
+JPM,JPMorgan Chase & Co.,3-Hold,136.18,D,F,C,F,25.0
+JWN,Nordstrom Inc.,3-Hold,16.6,A,D,C,B,62.5
+K,Kellogg Company,3-Hold,70.79,B,D,C,C,50.0
+JXN,Jackson Financial Inc.,1-Strong Buy,35.2,A,F,D,C,75.0
+KALA,Kala Pharmaceuticals Inc.,2-Buy,46.5,F,D,A,D,50.0
+KAMN,Kaman Corporation,5-Strong Sell,21.67,C,D,B,C,25.0
+KAR,KAR Auction Services Inc,2-Buy,13.53,B,F,C,D,50.0
+KBR,KBR Inc.,3-Hold,51.47,C,A,C,B,62.5
+KBH,KB Home,5-Strong Sell,33.37,C,D,C,C,25.0
+KD,Kyndryl Holdings Inc.,2-Buy,12.02,B,C,C,B,75.0
+KEX,Kirby Corporation,3-Hold,63.31,C,B,B,B,62.5
+KDP,Keurig Dr Pepper Inc,4-Sell,35.65,C,C,F,D,25.0
+KDNY,Chinook Therapeutics Inc.,4-Sell,26.03,F,F,A,F,12.5
+KEYS,Keysight Technologies Inc.,3-Hold,171.26,D,B,C,C,50.0
+KHC,The Kraft Heinz Company,3-Hold,41.14,B,F,F,F,25.0
+KEY,KeyCorp,3-Hold,18,B,C,F,C,50.0
+KKR,KKR & Co. Inc.,4-Sell,47.95,F,F,C,F,12.5
+KLAC,KLA Corporation,3-Hold,379.11,C,A,D,B,62.5
+KIM,Kimco Realty Corporation,3-Hold,21.64,D,C,D,D,37.5
+KFY,KornFerry International,4-Sell,50.8,A,A,B,A,62.5
+KMI,Kinder Morgan Inc.,3-Hold,18.22,C,D,F,D,37.5
+KLXE,KLX Energy Services Holdings Inc.,3-Hold,14.47,B,A,B,A,75.0
+KLIC,Kulicke and Soffa Industries Inc.,5-Strong Sell,45.22,C,B,B,B,37.5
+KMPR,Kemper Corporation,3-Hold,50.24,C,F,A,D,37.5
+KMX,CarMax Inc.,5-Strong Sell,64.52,C,A,F,B,37.5
+KN,Knowles Corporation,3-Hold,17.03,B,C,F,C,50.0
+KNSA,Kiniksa Pharmaceuticals Ltd.,3-Hold,15.01,D,A,A,B,62.5
+KO,CocaCola Company The,3-Hold,62.72,D,C,B,C,50.0
+KMB,KimberlyClark Corporation,2-Buy,136.79,C,C,C,C,62.5
+KNX,KnightSwift Transportation Holdings Inc.,3-Hold,54.71,B,A,F,B,62.5
+KR,The Kroger Co.,2-Buy,45.01,A,A,C,A,87.5
+KRC,Kilroy Realty Corporation,3-Hold,39.05,B,B,B,A,75.0
+KREF,KKR Real Estate Finance Trust,3-Hold,14.45,C,D,B,D,37.5
+KRNT,Kornit Digital Ltd.,4-Sell,24.54,F,F,F,F,12.5
+KRP,Kimbell Royalty,3-Hold,15.86,D,A,D,B,62.5
+KRTX,Karuna Therapeutics Inc.,3-Hold,197.39,F,F,F,F,25.0
+KSS,Kohl's Corporation,3-Hold,26.1,A,F,A,C,50.0
+KT,KT Corporation,3-Hold,13.3,A,C,B,A,75.0
+KTOS,Kratos Defense & Security Solutions Inc.,4-Sell,10.22,C,D,A,C,37.5
+KTB,Kontoor Brands Inc.,3-Hold,41.49,B,F,A,B,62.5
+KURA,Kura Oncology Inc.,3-Hold,12.23,D,C,B,C,50.0
+KRG,Kite Realty Group Trust,3-Hold,21.78,D,A,C,B,62.5
+KW,KennedyWilson Holdings Inc.,2-Buy,15.99,C,F,C,F,37.5
+LAC,Lithium Americas Corp.,5-Strong Sell,18.28,F,D,A,F,0.0
+LAD,Lithia Motors Inc.,3-Hold,208.35,A,F,F,C,50.0
+LADR,Ladder Capital Corp,3-Hold,10.41,D,C,D,D,37.5
+LAMR,Lamar Advertising Company,3-Hold,93.98,D,C,C,C,50.0
+LASR,nLight,3-Hold,10.68,F,C,D,D,37.5
+LAZ,Lazard Ltd,3-Hold,35.91,A,A,D,A,75.0
+LBRDK,Liberty Broadband Corporation,3-Hold,80,D,C,C,D,37.5
+LBRDA,Liberty Broadband Corporation,3-Hold,80.07,D,C,B,C,50.0
+LBRT,Liberty Energy Inc.,3-Hold,15.02,A,A,A,A,75.0
+LBTYA,Liberty Global PLC,1-Strong Buy,20.33,B,F,F,D,62.5
+LDOS,Leidos Holdings Inc.,3-Hold,104.54,B,A,C,A,75.0
+LEA,Lear Corporation,3-Hold,128.66,A,B,D,A,75.0
+LECO,Lincoln Electric Holdings Inc.,3-Hold,148.33,C,B,B,B,62.5
+LEG,Leggett & Platt Incorporated,5-Strong Sell,33.55,C,D,C,D,12.5
+LEGN,Legend Biotech Corporation Sponsored ADR,3-Hold,49.57,F,B,D,D,37.5
+LESL,Leslie's Inc.,5-Strong Sell,12.57,D,B,B,B,37.5
+LEN,Lennar Corporation,5-Strong Sell,93.79,D,D,F,F,0.0
+LEVI,Levi Strauss & Co.,4-Sell,16.34,B,C,B,B,50.0
+LH,Laboratory Corporation of America Holdings,4-Sell,238.5,A,C,B,A,62.5
+LHX,L3Harris Technologies Inc,5-Strong Sell,206.4,D,B,C,C,25.0
+LI,Li Auto Inc. Sponsored ADR,3-Hold,22.83,C,F,F,F,25.0
+LIN,Linde plc,3-Hold,316.71,D,B,B,C,50.0
+LITE,Lumentum Holdings Inc.,5-Strong Sell,53.4,C,D,F,D,12.5
+LKQ,LKQ Corporation,3-Hold,54.44,A,B,D,A,75.0
+LLY,Eli Lilly and Company,5-Strong Sell,361.4,F,B,C,C,25.0
+LIVN,LivaNova PLC,2-Buy,56.2,B,B,D,B,75.0
+LMND,Lemonade Inc.,3-Hold,14.38,F,F,B,F,25.0
+LMT,Lockheed Martin Corporation,4-Sell,474.04,C,B,C,B,50.0
+LNC,Lincoln National Corporation,5-Strong Sell,31.6,A,C,C,B,37.5
+LNG,Cheniere Energy Inc.,3-Hold,142.3,B,A,A,A,75.0
+LNTH,Lantheus Holdings Inc.,2-Buy,51.22,B,A,B,A,87.5
+LNT,Alliant Energy Corporation,3-Hold,55.56,D,C,C,D,37.5
+LNW,Light & Wonder Inc.,4-Sell,58.97,D,F,B,F,12.5
+LOGI,Logitech International S.A.,5-Strong Sell,63.72,F,F,C,F,0.0
+LOW,Lowe's Companies Inc.,3-Hold,200.92,B,A,D,A,75.0
+LOVE,The Lovesac Company,5-Strong Sell,23.61,C,F,D,F,0.0
+LOB,Live Oak Bancshares Inc.,3-Hold,31.19,C,B,D,C,50.0
+LPI,Laredo Petroleum Inc.,3-Hold,48.01,A,A,D,A,75.0
+LPLA,LPL Financial Holdings Inc.,3-Hold,213.9,B,A,C,A,75.0
+LPSN,LivePerson Inc.,2-Buy,10.84,C,C,F,D,50.0
+LPX,LouisianaPacific Corporation,3-Hold,61.12,A,A,C,A,75.0
+LPG,Dorian LPG Ltd.,1-Strong Buy,17.65,B,C,A,B,87.5
+LRN,Stride Inc.,3-Hold,32.66,B,F,F,D,37.5
+KMT,Kennametal Inc.,4-Sell,25.05,B,D,B,C,37.5
+LSI,Life Storage Inc.,3-Hold,97.53,D,B,A,C,50.0
+LSPD,Lightspeed Commerce Inc.,3-Hold,14.86,F,B,F,D,37.5
+LSTR,Landstar System Inc.,2-Buy,166.13,B,A,F,B,75.0
+LSCC,Lattice Semiconductor Corporation,3-Hold,65.14,F,A,C,C,50.0
+LTH,Life Time Group Holdings Inc.,3-Hold,11.9,B,B,C,B,62.5
+LTHM,Livent Corporation,3-Hold,19.52,C,A,B,A,75.0
+LSXMK,Liberty Media Corporation,2-Buy,39.86,B,D,F,D,50.0
+LRCX,Lam Research Corporation,3-Hold,421.6,C,B,F,C,50.0
+LULU,lululemon athletica inc.,2-Buy,319.81,D,D,C,F,37.5
+LUV,Southwest Airlines Co.,3-Hold,33.72,A,A,A,A,75.0
+LVS,Las Vegas Sands Corp.,2-Buy,51.78,D,F,C,F,37.5
+LXU,Lsb Industries Inc.,3-Hold,13.15,A,A,C,A,75.0
+LW,Lamb Weston,3-Hold,86.98,B,A,C,A,75.0
+LYFT,Lyft Inc.,3-Hold,11.32,C,A,C,B,62.5
+LXP,LXP Industrial Trust,3-Hold,10.62,D,F,C,F,25.0
+LYB,LyondellBasell Industries N.V.,5-Strong Sell,85.85,A,B,B,A,50.0
+LYV,Live Nation Entertainment Inc.,3-Hold,70.84,B,A,C,B,62.5
+M,Macy's Inc.,3-Hold,21.53,A,D,A,A,75.0
+LZB,LaZBoy Incorporated,3-Hold,23.73,A,D,C,B,62.5
+MA,Mastercard Incorporated,4-Sell,353.33,D,B,B,C,37.5
+MAA,MidAmerica Apartment Communities Inc.,3-Hold,158.11,D,B,F,D,37.5
+MAC,Macerich Company The,3-Hold,11.77,B,B,F,B,62.5
+MANH,Manhattan Associates Inc.,3-Hold,120.45,D,A,A,B,62.5
+MAG,MAG Silver Corporation,5-Strong Sell,16.31,F,C,C,F,0.0
+MAN,ManpowerGroup Inc.,3-Hold,85.34,A,B,D,A,75.0
+MAIN,Main Street Capital Corporation,1-Strong Buy,37.48,F,F,F,F,50.0
+LII,Lennox International Inc.,3-Hold,242.51,C,B,F,C,50.0
+MANU,Manchester United Ltd.,2-Buy,23.4,D,A,D,B,75.0
+MAS,Masco Corporation,4-Sell,48.56,B,B,D,B,50.0
+MASI,Masimo Corporation,4-Sell,150.04,C,F,D,F,12.5
+MAT,Mattel Inc.,3-Hold,18.31,B,D,F,D,37.5
+MATX,Matson Inc.,4-Sell,62.39,A,A,D,A,62.5
+MAX,MediaAlpha Inc.,2-Buy,10.48,B,A,F,B,75.0
+MAXN,Maxeon Solar Technologies Ltd.,3-Hold,17.5,D,B,A,B,62.5
+MC,Moelis & Company,3-Hold,39.67,C,F,D,D,37.5
+MAR,Marriott International Inc.,3-Hold,150.22,B,A,B,A,75.0
+MBLY,Mobileye Global Inc.,3-Hold,31.31,B,C,A,B,62.5
+MCHP,Microchip Technology Incorporated,2-Buy,70.79,B,A,D,A,87.5
+MCO,Moody's Corporation,3-Hold,282.94,F,F,B,F,25.0
+MCK,McKesson Corporation,3-Hold,372.1,A,A,B,A,75.0
+MCY,Mercury General Corporation,3-Hold,34.9,A,D,B,B,62.5
+MD,Pediatrix Medical Group Inc.,4-Sell,15.34,A,B,D,B,50.0
+MDB,MongoDB Inc.,2-Buy,187.74,F,C,B,D,50.0
+MDC,M.D.C. Holdings Inc.,5-Strong Sell,33.26,B,A,D,A,50.0
+MDGL,Madrigal Pharmaceuticals Inc.,3-Hold,282.52,F,C,D,F,25.0
+MDLZ,Mondelez International Inc.,2-Buy,66.8,B,D,B,C,62.5
+MDRX,Veradigm Inc.,3-Hold,17.45,A,A,B,A,75.0
+MDT,Medtronic PLC,5-Strong Sell,80.56,C,D,B,C,25.0
+MDU,MDU Resources Group Inc.,3-Hold,30.62,B,B,C,B,62.5
+MEDP,Medpace Holdings Inc.,3-Hold,210.02,C,A,C,B,62.5
+MEOH,Methanex Corporation,3-Hold,37.22,A,B,F,A,75.0
+MELI,MercadoLibre Inc.,3-Hold,838.89,D,A,A,A,75.0
+MERC,Mercer International Inc.,3-Hold,11.83,A,A,D,A,75.0
+MET,MetLife Inc.,3-Hold,73.28,A,D,F,C,50.0
+LTC,LTC Properties Inc.,3-Hold,36.27,F,D,F,F,25.0
+MFA,MFA Financial Inc.,5-Strong Sell,10.41,D,C,A,B,37.5
+MFC,Manulife Financial Corp,3-Hold,18.25,A,F,D,C,50.0
+META,Meta Platforms Inc.,3-Hold,127.34,A,C,F,B,62.5
+MGA,Magna International Inc.,5-Strong Sell,59.02,A,B,B,B,37.5
+MGM,MGM Resorts International,5-Strong Sell,35.28,C,D,A,B,37.5
+MGY,Magnolia Oil & Gas Corp,3-Hold,22.4,B,A,F,B,62.5
+MIDD,The Middleby Corporation,4-Sell,137.71,C,C,C,C,37.5
+MKC,McCormick & Company Incorporated,3-Hold,84.58,C,F,F,F,25.0
+MIRM,Mirum Pharmaceuticals Inc.,3-Hold,19.87,F,F,D,F,25.0
+MKSI,MKS Instruments Inc.,3-Hold,89.97,B,D,F,D,37.5
+MKTX,MarketAxess Holdings Inc.,3-Hold,284.48,F,F,F,F,25.0
+MLCO,Melco Resorts & Entertainment Limited,3-Hold,13.07,D,F,B,F,25.0
+MLM,Martin Marietta Materials Inc.,3-Hold,345.87,D,C,F,F,25.0
+MMC,Marsh & McLennan Companies Inc.,3-Hold,168.91,D,C,C,D,37.5
+MMM,3M Company,4-Sell,124.66,C,D,C,C,37.5
+MMP,Magellan Midstream Partners L.P.,2-Buy,50.55,B,D,F,D,50.0
+MMS,Maximus Inc.,4-Sell,73.76,A,A,A,A,62.5
+MMSI,Merit Medical Systems Inc.,2-Buy,70.22,B,C,D,C,62.5
+MHK,Mohawk Industries Inc.,3-Hold,113.04,A,B,D,B,62.5
+MNDY,monday.com Ltd.,2-Buy,115.46,D,A,F,C,62.5
+MMYT,MakeMyTrip Limited,2-Buy,27.15,D,A,A,B,75.0
+MNSO,MINISO Group Holding Limited Unsponsored ADR,3-Hold,11.86,B,C,A,B,62.5
+MNST,Monster Beverage Corporation,2-Buy,102.18,D,D,D,D,50.0
+MNTK,Montauk Renewables Inc.,4-Sell,10.65,D,A,A,B,50.0
+MO,Altria Group Inc.,3-Hold,45.28,C,A,D,B,62.5
+MOD,Modine Manufacturing Company,3-Hold,20.15,A,B,A,A,75.0
+MODN,Model N Inc.,2-Buy,41.41,D,A,B,B,75.0
+MODG,Topgolf Callaway Brands Corp.,3-Hold,20.24,B,C,B,B,62.5
+MOH,Molina Healthcare Inc,3-Hold,315.8,A,A,A,A,75.0
+MNRO,Monro Muffler Brake Inc.,3-Hold,45.86,B,B,F,B,62.5
+MP,MP Materials Corp.,1-Strong Buy,24.96,F,B,D,C,75.0
+MPLX,MPLX LP,2-Buy,32.74,B,C,F,C,62.5
+MOS,The Mosaic Company,3-Hold,43.15,A,B,C,A,75.0
+MPW,Medical Properties Trust Inc.,4-Sell,12.04,C,D,F,D,25.0
+MPWR,Monolithic Power Systems Inc.,3-Hold,358.96,D,B,D,D,37.5
+MRC,MRC Global Inc.,1-Strong Buy,11.27,C,D,A,C,75.0
+MRK,Merck & Co. Inc.,3-Hold,111.94,B,A,B,A,75.0
+MRNA,Moderna Inc.,3-Hold,178.01,B,D,F,D,37.5
+MRCY,Mercury Systems Inc,2-Buy,45.41,D,F,A,F,37.5
+MRO,Marathon Oil Corporation,3-Hold,25.35,A,A,C,A,75.0
+MRTN,Marten Transport Ltd.,3-Hold,19.79,B,A,D,A,75.0
+MRTX,Mirati Therapeutics Inc.,3-Hold,46.88,F,F,F,F,25.0
+MRVI,Maravai LifeSciences Holdings Inc.,3-Hold,14.21,B,B,F,B,62.5
+MRVL,Marvell Technology Inc.,5-Strong Sell,36.37,F,A,C,C,25.0
+MRUS,Merus N.V.,3-Hold,15.77,F,F,D,F,25.0
+MS,Morgan Stanley,3-Hold,86.73,B,F,C,D,37.5
+MSCI,MSCI Inc,4-Sell,471.33,D,B,A,B,50.0
+MSI,Motorola Solutions Inc.,3-Hold,257.43,C,D,C,D,37.5
+MSFT,Microsoft Corporation,3-Hold,227.15,C,A,B,B,62.5
+MSM,MSC Industrial Direct Company Inc.,3-Hold,82.08,B,B,B,A,75.0
+MSTR,MicroStrategy Incorporated,3-Hold,161.58,D,C,A,C,50.0
+MT,ArcelorMittal,3-Hold,27.42,A,D,F,C,50.0
+MTB,M&T Bank Corporation,3-Hold,146.31,A,C,F,C,50.0
+MTCH,Match Group Inc.,3-Hold,42.19,C,A,D,B,62.5
+MTDR,Matador Resources Company,3-Hold,53.95,B,A,C,A,75.0
+MTG,MGIC Investment Corporation,2-Buy,13.21,A,D,F,C,62.5
+MTH,Meritage Homes Corporation,5-Strong Sell,97.39,C,D,D,D,12.5
+MTN,Vail Resorts Inc.,3-Hold,247.8,B,A,F,B,62.5
+MTSI,MACOM Technology Solutions Holdings Inc.,2-Buy,63.04,C,C,F,D,50.0
+MU,Micron Technology Inc.,3-Hold,54.08,B,C,F,C,50.0
+MTZ,MasTec Inc.,5-Strong Sell,87.17,C,D,F,D,12.5
+MPC,Marathon Petroleum Corporation,3-Hold,110.35,A,A,F,A,75.0
+MUSA,Murphy USA Inc.,1-Strong Buy,270.24,B,A,D,A,100.0
+MWA,MUELLER WATER PRODUCTS,4-Sell,10.94,C,F,C,D,25.0
+MXL,MaxLinear Inc,3-Hold,33.3,B,A,C,A,75.0
+MUR,Murphy Oil Corporation,3-Hold,40.8,B,A,D,A,75.0
+MYGN,Myriad Genetics Inc.,4-Sell,15.91,C,F,A,D,25.0
+NABL,Nable Inc.,4-Sell,10.38,D,F,B,F,12.5
+NAPA,The Duckhorn Portfolio Inc.,3-Hold,16.36,D,C,D,D,37.5
+NARI,Inari Medical Inc.,3-Hold,62.45,D,F,C,F,25.0
+NATI,National Instruments Corporation,3-Hold,37.4,D,F,D,F,25.0
+NAVI,Navient Corporation,2-Buy,16.93,B,F,F,F,37.5
+NBHC,National Bank Holdings Corporation,3-Hold,42.93,C,D,D,D,37.5
+NBIX,Neurocrine Biosciences Inc.,3-Hold,120.72,D,A,C,B,62.5
+NCLH,Norwegian Cruise Line Holdings Ltd.,3-Hold,12.37,C,A,A,A,75.0
+NCR,NCR Corporation,4-Sell,24.13,A,A,D,A,62.5
+NCNO,nCino Inc.,3-Hold,25.71,F,D,F,F,25.0
+NDAQ,Nasdaq Inc.,3-Hold,61.79,F,C,D,F,25.0
+NEE,NextEra Energy Inc.,2-Buy,84.45,D,C,D,D,50.0
+KYMR,Kymera Therapeutics Inc.,3-Hold,25.34,F,F,A,F,25.0
+NEM,Newmont Corporation,3-Hold,51.21,C,F,F,F,25.0
+NEOG,Neogen Corporation,2-Buy,15.58,B,D,D,C,62.5
+NET,Cloudflare Inc.,3-Hold,43.56,F,C,C,D,37.5
+MCD,McDonald's Corporation,4-Sell,264.62,F,B,B,D,25.0
+NFG,National Fuel Gas Company,5-Strong Sell,61.18,B,C,A,B,37.5
+NFE,New Fortress Energy LLC,5-Strong Sell,36.43,F,C,A,C,25.0
+NFLX,Netflix Inc.,3-Hold,307.21,C,C,C,D,37.5
+NEWR,New Relic Inc.,3-Hold,57.23,D,C,D,D,37.5
+NGG,National Grid Transco PLC,2-Buy,62.03,B,D,D,C,62.5
+NI,NiSource Inc,3-Hold,27.76,C,D,B,C,50.0
+NINE,Nine Energy Service Inc.,1-Strong Buy,12.06,C,A,C,A,100.0
+NLY,Annaly Capital Management Inc,3-Hold,21.52,C,B,C,B,62.5
+NKE,NIKE Inc.,2-Buy,121.22,D,C,C,D,50.0
+NJR,NewJersey Resources Corporation,3-Hold,49.39,C,A,B,A,75.0
+NMFC,New Mountain Finance Corporation,1-Strong Buy,12.62,F,C,F,D,62.5
+NMIH,NMI Holdings Inc,3-Hold,21.02,A,B,D,A,75.0
+NOC,Northrop Grumman Corporation,3-Hold,526.32,C,D,C,D,37.5
+NOG,Northern Oil and Gas Inc.,3-Hold,28.85,A,B,A,A,75.0
+NEP,NextEra Energy Partners LP,4-Sell,71.55,C,C,D,C,37.5
+NOV,NOV Inc.,2-Buy,20.13,B,D,C,C,62.5
+NOW,ServiceNow Inc.,4-Sell,392.34,D,A,C,C,37.5
+NOVA,Sunnova Energy International Inc.,3-Hold,18.07,F,F,C,F,25.0
+NRIX,Nurix Therapeutics Inc.,2-Buy,10.85,F,F,B,F,37.5
+NNN,National Retail Properties,2-Buy,46.46,D,C,C,C,62.5
+NRG,NRG Energy Inc.,1-Strong Buy,31.87,A,C,F,B,87.5
+NSC,Norfolk Southern Corporation,3-Hold,250.61,D,B,F,D,37.5
+NSA,National Storage Affiliates Trust,4-Sell,36.31,C,B,C,B,50.0
+NTCT,NetScout Systems Inc.,3-Hold,32.4,C,C,C,D,37.5
+NTAP,NetApp Inc.,3-Hold,62.14,B,C,F,C,50.0
+NTLA,Intellia Therapeutics Inc.,2-Buy,38.13,F,F,F,F,37.5
+NTES,NetEase Inc.,3-Hold,82.24,B,B,D,B,62.5
+LSXMA,Liberty Media Corporation,3-Hold,40.04,B,D,C,C,50.0
+NTNX,Nutanix,2-Buy,26.79,D,A,C,B,75.0
+NTR,Nutrien Ltd.,5-Strong Sell,71.5,B,C,D,C,25.0
+NTRA,Natera Inc.,3-Hold,39.62,F,C,A,C,50.0
+NTRS,Northern Trust Corporation,3-Hold,91.45,F,F,F,F,25.0
+NTST,NETSTREIT Corp.,3-Hold,19,D,D,D,F,25.0
+NUE,Nucor Corporation,1-Strong Buy,137.5,B,B,F,B,87.5
+NOMD,Nomad Foods Limited,2-Buy,17.82,A,F,C,C,62.5
+NUVA,NuVasive Inc.,4-Sell,41.46,B,A,F,A,62.5
+NUWE,Nuwellis Inc.,2-Buy,10.71,C,B,A,B,75.0
+NUVL,Nuvalent Inc.,2-Buy,27.97,C,D,D,D,50.0
+NVEI,Nuvei Corporation,3-Hold,26.58,B,D,C,C,50.0
+NVCR,NovoCure Limited,3-Hold,69.93,F,C,B,D,37.5
+NVO,Novo Nordisk AS,2-Buy,136.86,C,A,A,A,87.5
+NVRO,Nevro Corp.,2-Buy,41.03,C,A,C,B,75.0
+NVS,Novartis AG,3-Hold,91.73,B,D,A,B,62.5
+NVT,nVent Electric PLC,3-Hold,38.57,C,B,A,B,62.5
+NVST,Envista Holdings Corporation,3-Hold,33.61,B,F,F,D,37.5
+NVDA,NVIDIA Corporation,4-Sell,146.3,F,F,B,F,12.5
+NWE,NorthWestern Corporation,3-Hold,59.64,C,C,B,C,50.0
+NWL,Newell Brands Inc.,4-Sell,14.23,B,F,B,D,25.0
+NWBI,Northwest Bancshares Inc.,3-Hold,14.04,C,D,D,F,25.0
+NXGN,NEXTGEN HEALTHCARE INC,2-Buy,18.56,B,B,C,A,87.5
+NXPI,NXP Semiconductors N.V.,4-Sell,158.23,B,A,D,A,62.5
+NS,NuStar Energy L.P.,3-Hold,16.05,B,A,F,B,62.5
+NXST,Nexstar Media Group Inc,3-Hold,178.25,A,A,F,A,75.0
+NYT,The New York Times Company,3-Hold,33.49,D,C,F,D,37.5
+O,Realty Income Corporation,3-Hold,64.72,F,B,C,D,37.5
+ODFL,Old Dominion Freight Line Inc.,3-Hold,289.5,D,A,F,C,50.0
+OC,Owens Corning Inc,4-Sell,89.04,A,A,D,A,62.5
+OFIX,ORTHOFIX MEDICAL INC.,3-Hold,22.55,B,C,B,A,75.0
+OFC,Corporate Office Properties Trust,3-Hold,26.17,D,D,C,D,37.5
+OGN,Organon & Co.,3-Hold,28.81,A,F,A,B,62.5
+OGE,OGE Energy Corporation,3-Hold,39.43,C,B,C,B,62.5
+OGS,ONE Gas Inc.,5-Strong Sell,76.84,C,A,C,A,50.0
+OI,OI Glass Inc.,2-Buy,17.52,A,F,B,B,75.0
+OHI,Omega Healthcare Investors Inc.,3-Hold,28.18,C,D,F,F,25.0
+OII,Oceaneering International Inc.,1-Strong Buy,16.83,C,D,F,D,62.5
+JNPR,Juniper Networks Inc.,4-Sell,31.66,C,F,C,D,25.0
+OKTA,Okta Inc.,2-Buy,70.08,F,B,C,D,50.0
+OKE,ONEOK Inc.,3-Hold,64.4,B,B,D,B,62.5
+OLED,Universal Display Corporation,4-Sell,107.96,D,B,D,D,25.0
+OLLI,Ollie's Bargain Outlet Holdings Inc.,4-Sell,48.54,D,F,F,F,12.5
+OLN,Olin Corporation,4-Sell,53,A,A,A,A,62.5
+OM,Outset Medical Inc.,3-Hold,25.42,F,D,B,F,25.0
+OMCL,Omnicell Inc.,5-Strong Sell,52.18,D,F,D,F,0.0
+OMF,OneMain Holdings Inc.,3-Hold,34.62,A,D,B,B,62.5
+OMI,Owens & Minor Inc.,3-Hold,20.25,A,B,A,A,75.0
+ON,ON Semiconductor Corporation,4-Sell,62.25,B,A,F,A,62.5
+OPCH,Option Care Health Inc.,3-Hold,29.05,B,A,C,A,75.0
+ONON,On Holding AG,3-Hold,17.3,F,F,B,F,25.0
+OR,Osisko Gold Royalties Ltd,3-Hold,12.57,F,A,F,D,37.5
+OPI,Office Properties Income Trust,3-Hold,14.94,A,D,D,C,50.0
+ORA,Ormat Technologies Inc.,2-Buy,84.62,C,D,C,D,50.0
+ORAN,Orange,1-Strong Buy,10.38,A,C,D,B,87.5
+ORC,Orchid Island Capital Inc.,3-Hold,10.91,C,B,D,C,50.0
+ORLY,O'Reilly Automotive Inc.,3-Hold,842.31,C,A,B,A,75.0
+ORCL,Oracle Corporation,3-Hold,84.4,C,F,F,F,25.0
+ORCC,Owl Rock Capital Corporation,2-Buy,12.07,D,C,B,C,62.5
+OSH,Oak Street Health Inc.,3-Hold,21.33,D,C,B,C,50.0
+OSK,Oshkosh Corporation,3-Hold,89.68,A,B,B,A,75.0
+NUS,Nu Skin Enterprises Inc.,5-Strong Sell,42.55,C,D,B,C,25.0
+OSPN,ONESPAN INC,3-Hold,11.9,D,F,C,F,25.0
+OSTK,Overstock.com Inc.,3-Hold,18.55,B,F,C,D,37.5
+OTIS,Otis Worldwide Corporation,3-Hold,80.2,D,B,C,C,50.0
+OTEX,Open Text Corporation,3-Hold,30.9,A,B,C,A,75.0
+OVV,Ovintiv Inc.,3-Hold,46.87,A,A,D,A,75.0
+OXY,Occidental Petroleum Corporation,3-Hold,61.05,A,A,F,A,75.0
+OWL,Blue Owl Capital Inc.,3-Hold,10.36,D,B,F,D,37.5
+OZK,Bank OZK,4-Sell,40.13,C,C,B,C,37.5
+PAA,Plains All American Pipeline L.P.,3-Hold,11.56,A,A,D,A,75.0
+PAAS,Pan American Silver Corp.,4-Sell,17.78,C,C,D,D,25.0
+OUT,OUTFRONT Media Inc.,4-Sell,17.14,B,C,D,C,37.5
+PACW,PacWest Bancorp,4-Sell,23.33,A,D,F,C,37.5
+PAG,Penske Automotive Group Inc.,2-Buy,115.21,A,A,C,A,87.5
+OEC,Orion Engineered Carbons S.A,3-Hold,18.13,A,F,A,B,62.5
+PAGP,Plains Group Holdings L.P.,3-Hold,12.25,A,A,C,A,75.0
+PAR,PAR Technology Corporation,2-Buy,27.21,F,B,D,C,62.5
+PARA,Paramount Global,4-Sell,18.28,A,D,C,C,37.5
+ORI,Old Republic International Corporation,3-Hold,24.14,A,C,F,B,62.5
+PATH,UiPath Inc.,2-Buy,12.5,F,C,D,D,50.0
+PAYX,Paychex Inc.,2-Buy,117.05,C,D,A,D,50.0
+PAYC,Paycom Software Inc.,2-Buy,303.9,C,B,B,B,75.0
+PB,Prosperity Bancshares Inc.,3-Hold,72.87,C,D,F,D,37.5
+PANW,Palo Alto Networks Inc.,3-Hold,137.7,D,A,B,A,75.0
+PBF,PBF Energy Inc.,3-Hold,37.24,A,A,F,A,75.0
+PBA,Pembina Pipeline Corp.,3-Hold,33.32,C,B,D,C,50.0
+OMC,Omnicom Group Inc.,2-Buy,84.01,B,D,D,C,62.5
+PCAR,PACCAR Inc.,2-Buy,98.57,A,C,B,A,87.5
+PCG,Pacific Gas & Electric Co.,3-Hold,15.87,C,B,B,B,62.5
+PCH,Potlatch Corporation,4-Sell,44.46,C,B,B,C,37.5
+PCRX,Pacira BioSciences Inc.,1-Strong Buy,38.81,B,B,A,A,100.0
+PCOR,Procore Technologies Inc.,3-Hold,47.4,F,B,C,C,50.0
+PD,PagerDuty,2-Buy,25.32,D,B,D,C,62.5
+PDD,Pinduoduo Inc. Sponsored ADR,1-Strong Buy,91.54,F,B,F,D,62.5
+PDCO,Patterson Companies Inc.,3-Hold,28.11,B,C,A,B,62.5
+PDCE,PDC Energy Inc.,3-Hold,59.06,A,A,D,A,75.0
+PDSB,PDS Biotechnology Corporation,3-Hold,12.24,C,D,D,F,25.0
+PEAK,Healthpeak Properties Inc.,4-Sell,26.29,D,C,D,F,12.5
+PEB,Pebblebrook Hotel Trust,4-Sell,13.46,B,A,A,A,62.5
+PECO,Phillips Edison & Company Inc.,4-Sell,31.86,D,C,C,D,25.0
+PEGA,Pegasystems Inc.,3-Hold,35.31,D,B,C,C,50.0
+PEG,Public Service Enterprise Group Incorporated,3-Hold,62.38,D,F,F,F,25.0
+PENN,PENN Entertainment Inc.,3-Hold,30.74,A,A,C,A,75.0
+PEN,Penumbra Inc.,3-Hold,224.06,D,D,C,F,25.0
+PEP,PepsiCo Inc.,2-Buy,178.26,C,B,D,C,62.5
+PERI,Perion Network Ltd,1-Strong Buy,27.04,B,A,F,B,87.5
+PFE,Pfizer Inc.,3-Hold,50.02,A,B,C,A,75.0
+PETS,PetMed Express Inc.,4-Sell,18.25,B,F,A,C,37.5
+PFGC,Performance Food Group Company,2-Buy,57.3,A,A,B,A,87.5
+PFG,Principal Financial Group Inc.,3-Hold,84.65,B,F,D,D,37.5
+PFS,Provident Financial Services Inc,3-Hold,21.45,C,C,C,C,50.0
+PFSI,PennyMac Financial Services Inc.,3-Hold,58.96,A,C,C,A,75.0
+PARR,Par Pacific Holdings Inc.,2-Buy,21.84,A,A,B,A,87.5
+PG,Procter & Gamble Company The,2-Buy,152,D,B,D,C,62.5
+PGR,The Progressive Corporation,3-Hold,130.76,B,A,B,A,75.0
+PGTI,PGT Inc.,3-Hold,18.15,A,A,C,A,75.0
+PGNY,Progyny Inc.,3-Hold,31.05,D,A,B,B,62.5
+PHG,Koninklijke Philips N.V.,2-Buy,16.18,A,C,F,A,87.5
+PHR,Phreesia Inc.,3-Hold,31.82,F,C,A,D,37.5
+PHVS,Pharvaris N.V.,3-Hold,12.23,D,D,F,F,25.0
+PHM,PulteGroup Inc.,3-Hold,47.29,B,F,F,D,37.5
+PI,Impinj Inc.,3-Hold,109.51,F,A,C,B,62.5
+PCVX,Vaxcyte Inc.,3-Hold,46.96,D,D,B,D,37.5
+PINC,Premier Inc.,4-Sell,35.02,B,C,A,B,50.0
+PII,Polaris Inc.,3-Hold,101.81,A,D,D,C,50.0
+PINS,Pinterest Inc.,3-Hold,23.53,D,B,D,C,50.0
+PK,Park Hotels & Resorts Inc.,4-Sell,11.76,B,A,C,A,62.5
+PKG,Packaging Corporation of America,4-Sell,130.4,B,A,C,A,62.5
+PKI,PerkinElmer Inc.,3-Hold,142.53,C,D,F,F,25.0
+PLAB,Photronics Inc.,3-Hold,16.86,A,A,D,A,75.0
+PLAY,Dave & Buster's Entertainment Inc.,3-Hold,36.78,A,C,C,B,62.5
+PLCE,The Children's Place Inc.,5-Strong Sell,37.01,A,A,B,A,50.0
+PLL,Piedmont Lithium Inc.,3-Hold,48.39,F,B,F,F,25.0
+PLD,Prologis Inc.,3-Hold,116.89,F,C,F,F,25.0
+PLNT,Planet Fitness Inc.,3-Hold,77.99,D,A,F,C,50.0
+PLUG,Plug Power Inc.,3-Hold,12.81,F,F,B,F,25.0
+PLRX,Pliant Therapeutics Inc.,3-Hold,19.15,F,F,A,F,25.0
+PNC,The PNC Financial Services Group Inc,3-Hold,163.38,C,D,F,D,37.5
+PMT,PennyMac Mortgage Investment Trust,4-Sell,13.21,A,A,A,A,62.5
+PM,Philip Morris International Inc.,2-Buy,101.03,C,A,C,B,75.0
+PNR,Pentair plc,2-Buy,46.9,B,D,D,D,50.0
+PNFP,Pinnacle Financial Partners Inc.,4-Sell,72.81,C,C,B,C,37.5
+PODD,Insulet Corporation,4-Sell,280.44,D,A,F,C,37.5
+POOL,Pool Corporation,3-Hold,302.75,C,B,C,B,62.5
+POR,Portland General Electric Company,4-Sell,49.19,C,A,C,B,50.0
+POST,Post Holdings Inc.,3-Hold,91.53,A,C,B,A,75.0
+POWI,Power Integrations Inc.,2-Buy,72.95,C,A,F,C,62.5
+PPBI,Pacific Premier Bancorp Inc,3-Hold,31.22,C,D,C,C,50.0
+PPG,PPG Industries Inc.,3-Hold,129.59,D,D,C,D,37.5
+PPL,PPL Corporation,2-Buy,29.88,C,D,A,C,62.5
+PRA,ProAssurance Corporation,5-Strong Sell,17.78,C,D,A,C,25.0
+PRCT,PROCEPT BioRobotics Corporation,4-Sell,39.1,F,C,C,D,25.0
+PRDO,Perdoceo Education Corporation,2-Buy,14.36,A,B,B,A,87.5
+PRGO,Perrigo Company plc,5-Strong Sell,35.42,A,A,A,A,50.0
+PRIM,Primoris Services Corporation,5-Strong Sell,22.48,C,D,B,C,25.0
+PRLB,Proto Labs Inc.,4-Sell,26.32,B,D,F,D,25.0
+PRME,Prime Medicine Inc.,3-Hold,17.24,D,C,A,D,37.5
+PRO,PROS Holdings Inc.,3-Hold,25.85,F,B,C,C,50.0
+PRMW,Primo Water Corporation,3-Hold,15.72,B,A,F,B,62.5
+PRTA,Prothena Corporation plc,3-Hold,53.32,D,B,A,C,50.0
+PRU,Prudential Financial Inc.,3-Hold,100.97,A,F,B,B,62.5
+PH,ParkerHannifin Corporation,2-Buy,295.1,B,B,C,B,75.0
+PSFE,Paysafe Limited,4-Sell,15.18,A,A,D,A,62.5
+PSN,Parsons Corporation,2-Buy,45.16,B,B,D,B,75.0
+PNW,Pinnacle West Capital Corporation,2-Buy,75.23,B,C,B,B,75.0
+PSO,Pearson PLC,4-Sell,11.48,B,B,B,A,62.5
+ONB,Old National Bancorp,3-Hold,17.92,C,B,C,B,62.5
+PSA,Public Storage,3-Hold,277.88,D,D,F,F,25.0
+PSX,Phillips 66,2-Buy,100.27,A,A,F,A,87.5
+PSTG,Pure Storage Inc.,3-Hold,26.79,D,A,D,B,62.5
+PTC,PTC Inc.,4-Sell,121.31,D,D,A,C,37.5
+PTCT,PTC Therapeutics Inc.,3-Hold,39.77,D,B,A,C,50.0
+PTLO,Portillo's Inc.,4-Sell,17.09,C,C,F,C,37.5
+PUBM,PubMatic Inc.,3-Hold,13.11,B,B,F,B,62.5
+PWR,Quanta Services Inc.,3-Hold,140.05,C,C,D,D,37.5
+PVH,PVH Corp.,2-Buy,74.93,A,F,B,C,62.5
+PWSC,PowerSchool Holdings Inc.,3-Hold,22.94,F,A,C,C,50.0
+PRG,Aaron's Holdings Company Inc.,4-Sell,17.69,A,A,F,A,62.5
+PXD,Pioneer Natural Resources Company,3-Hold,222.81,B,A,F,B,62.5
+PUK,Prudential Public Limited Company,4-Sell,29.82,B,B,F,B,50.0
+PZZA,Papa John's International Inc.,4-Sell,82.35,C,A,A,A,62.5
+QCOM,QUALCOMM Incorporated,4-Sell,110.97,B,C,C,B,50.0
+PYPL,PayPal Holdings Inc.,3-Hold,77.62,B,C,D,C,50.0
+QGEN,QIAGEN N.V.,3-Hold,50.18,B,B,B,A,75.0
+QFIN,360 DigiTech Inc. Sponsored ADR,4-Sell,23.07,A,F,B,C,37.5
+QLYS,Qualys Inc.,3-Hold,112.81,D,B,A,B,62.5
+QRVO,Qorvo Inc.,5-Strong Sell,90.71,C,B,C,B,37.5
+QSR,Restaurant Brands International Inc.,3-Hold,64.84,C,B,F,D,37.5
+QTRX,Quanterix Corporation,4-Sell,12.84,F,D,A,D,25.0
+QURE,uniQure N.V.,3-Hold,21.94,C,F,A,D,37.5
+QTWO,Q2 Holdings Inc.,3-Hold,28.39,D,F,F,F,25.0
+R,Ryder System Inc.,3-Hold,83.37,A,A,F,A,75.0
+RADI,Radius Global Infrastructure Inc.,2-Buy,11.98,F,D,F,F,37.5
+RAMP,LiveRamp Holdings Inc.,2-Buy,24.28,C,B,D,C,62.5
+RAPT,Rapt Therapeutics,2-Buy,21.11,F,D,C,F,37.5
+RARE,Ultragenyx Pharmaceutical Inc.,4-Sell,48.28,F,F,F,F,12.5
+RBA,Ritchie Bros. Auctioneers Incorporated,1-Strong Buy,58.07,D,C,B,C,75.0
+RBLX,Roblox Corporation,3-Hold,28.22,F,F,F,F,25.0
+RC,Ready Capital Corp,4-Sell,11.51,C,F,C,F,12.5
+RCI,Rogers Communication Inc.,3-Hold,47.8,B,C,F,C,50.0
+RCKT,Rocket Pharmaceuticals Inc.,3-Hold,19.74,F,D,B,D,37.5
+RCL,Royal Caribbean Cruises Ltd.,1-Strong Buy,52.55,D,A,B,B,87.5
+RCM,R1 RCM Inc.,4-Sell,10.92,C,F,B,D,25.0
+RDN,Radian Group Inc.,3-Hold,19.32,A,F,D,C,50.0
+RACE,Ferrari N.V.,2-Buy,218.24,C,B,C,B,75.0
+QDEL,QuidelOrtho Corporation,3-Hold,87.68,A,D,D,C,50.0
+RDNT,RadNet Inc.,4-Sell,18.81,A,D,C,B,50.0
+RE,Everest Re Group Ltd.,3-Hold,337.32,A,C,D,A,75.0
+REG,Regency Centers Corporation,3-Hold,63.66,D,C,A,D,37.5
+REGN,Regeneron Pharmaceuticals Inc.,4-Sell,723.69,B,B,A,A,62.5
+RELX,RELX PLC,3-Hold,28.43,C,A,A,A,75.0
+REPL,Replimune Group Inc.,3-Hold,26.25,D,D,A,D,37.5
+RELY,Remitly Global Inc.,3-Hold,11.37,D,B,B,C,50.0
+RCUS,Arcus Biosciences Inc.,3-Hold,20.52,B,A,B,A,75.0
+REYN,Reynolds Consumer Products Inc.,4-Sell,30.05,C,D,F,D,25.0
+RETA,Reata Pharmaceuticals Inc.,3-Hold,35.94,F,B,B,D,37.5
+REXR,Rexford Industrial Realty Inc.,4-Sell,56.26,F,B,F,D,25.0
+PTGX,Protagonist Therapeutics Inc.,2-Buy,10.95,F,D,B,D,50.0
+RGA,Reinsurance Group of America Incorporated,3-Hold,141.54,A,B,D,A,75.0
+REZI,Resideo Technologies Inc.,3-Hold,16.89,A,D,C,B,62.5
+RGEN,Repligen Corporation,4-Sell,171.05,D,D,B,D,25.0
+RF,Regions Financial Corporation,2-Buy,21.87,A,F,C,C,62.5
+RGNX,REGENXBIO Inc.,3-Hold,22.89,C,F,B,D,37.5
+RHI,Robert Half International Inc.,3-Hold,75.03,B,B,C,A,75.0
+RHP,Ryman Hospitality Properties Inc.,4-Sell,81.23,D,A,D,B,50.0
+RH,RH,3-Hold,274.98,B,C,A,A,75.0
+RIO,Rio Tinto PLC,2-Buy,71.3,A,A,F,A,87.5
+RJF,Raymond James Financial Inc.,3-Hold,106.31,A,B,C,A,75.0
+RL,Ralph Lauren Corporation,3-Hold,112.87,C,D,F,D,37.5
+RLAY,Relay Therapeutics Inc.,3-Hold,15.73,F,F,B,F,25.0
+RLJ,RLJ Lodging Trust,3-Hold,10.79,B,A,D,A,75.0
+RMBS,Rambus Inc.,3-Hold,35.74,D,A,C,B,62.5
+RMD,ResMed Inc.,3-Hold,212.24,C,F,B,D,37.5
+RNA,Avidity Biosciences Inc.,3-Hold,19.92,F,F,B,F,25.0
+RNG,Ringcentral Inc.,2-Buy,35.27,C,A,F,B,75.0
+ROCC,Ranger Oil Corporation,3-Hold,39.36,A,A,C,A,75.0
+ROIC,Retail Opportunity Investments Corp.,4-Sell,15.27,D,B,B,C,37.5
+RNR,RenaissanceRe Holdings Ltd.,3-Hold,187.74,B,C,C,B,62.5
+ROKU,Roku Inc.,3-Hold,42.04,C,B,D,C,50.0
+ROL,Rollins Inc.,3-Hold,37.04,D,B,C,C,50.0
+ROP,Roper Technologies Inc.,2-Buy,441.46,C,F,C,F,37.5
+ROST,Ross Stores Inc.,1-Strong Buy,118.04,D,F,D,F,50.0
+RIVN,Rivian Automotive Inc.,3-Hold,17.63,F,C,A,D,37.5
+RPD,Rapid7 Inc.,3-Hold,35.27,D,A,D,B,62.5
+RPT,RPT Realty,3-Hold,10.16,B,B,D,B,62.5
+RPRX,Royalty Pharma PLC,3-Hold,39.44,D,C,D,D,37.5
+RRC,Range Resources Corporation,3-Hold,24.31,A,A,A,A,75.0
+PRVA,Privia Health Group Inc.,3-Hold,21.62,C,A,C,A,75.0
+RRR,Red Rock Resorts Inc.,3-Hold,42.85,B,B,D,B,62.5
+RGLD,Royal Gold Inc.,2-Buy,119.73,F,F,F,F,37.5
+RS,Reliance Steel & Aluminum Co.,2-Buy,205.4,A,B,F,B,75.0
+RSG,Republic Services Inc.,3-Hold,128.25,C,B,A,B,62.5
+RTX,Raytheon Technologies Corporation,4-Sell,101.11,C,F,C,D,25.0
+RUTH,Ruth's Hospitality Group Inc.,5-Strong Sell,16.38,C,C,D,C,25.0
+PCTY,Paylocity Holding Corporation,3-Hold,198.99,D,B,B,C,50.0
+RVLV,Revolve Group Inc.,3-Hold,23.33,C,F,C,D,37.5
+RVMD,Revolution Medicines Inc.,3-Hold,23.28,F,F,B,F,25.0
+RVNC,Revance Therapeutics Inc.,4-Sell,18.96,F,D,B,F,12.5
+RXDX,Prometheus Biosciences Inc.,3-Hold,104.93,F,F,A,F,25.0
+RY,Royal Bank Of Canada,3-Hold,95.76,D,F,C,F,25.0
+RXO,RXO INC,3-Hold,17.24,B,F,F,D,37.5
+RYAAY,Ryanair Holdings PLC,3-Hold,81.03,B,A,C,A,75.0
+RYAN,Ryan Specialty Holdings Inc.,5-Strong Sell,42.1,F,C,D,F,0.0
+RYTM,Rhythm Pharmaceuticals Inc.,3-Hold,28.65,F,F,A,F,25.0
+S,SentinelOne Inc.,4-Sell,14.76,F,F,F,F,12.5
+RYN,Rayonier Inc.,3-Hold,33.78,D,C,C,D,37.5
+SA,Seabridge Gold Inc.,3-Hold,13.63,D,A,A,B,62.5
+SAFE,Safehold Inc.,3-Hold,30.54,F,D,D,F,25.0
+SAGE,Sage Therapeutics Inc.,3-Hold,39.21,F,D,D,F,25.0
+SAH,Sonic Automotive Inc.,4-Sell,48.47,A,A,C,A,62.5
+SAIA,Saia Inc.,3-Hold,212.6,C,A,F,B,62.5
+SANM,Sanmina Corporation,1-Strong Buy,56.63,A,B,A,A,100.0
+SAIC,Science Applications International Corporation,3-Hold,109.63,A,B,A,A,75.0
+SAP,SAP SE,2-Buy,106.6,C,F,D,D,50.0
+SATS,EchoStar Corporation,3-Hold,16.49,A,D,F,C,50.0
+SAVA,Cassava Sciences Inc.,3-Hold,29.62,D,F,A,F,25.0
+SAVE,Spirit Airlines Inc.,3-Hold,19.67,D,D,F,F,25.0
+SBAC,SBA Communications Corporation,4-Sell,291.03,F,B,C,D,25.0
+SBCF,Seacoast Banking Corporation of Florida,5-Strong Sell,31.57,F,D,F,F,0.0
+SBGI,Sinclair Broadcast Group Inc.,3-Hold,16.38,A,F,F,C,50.0
+SBLK,Star Bulk Carriers Corp.,3-Hold,18.36,A,B,F,B,62.5
+SBH,Sally Beauty Holdings Inc.,3-Hold,14.2,A,A,D,A,75.0
+SBNY,Signature Bank,5-Strong Sell,117.34,F,F,F,F,0.0
+SBOW,SilverBow Resources,4-Sell,25.67,A,B,A,A,62.5
+SBRA,Sabra Healthcare REIT Inc.,4-Sell,13.02,C,C,F,D,25.0
+SBSW,Sibanye Gold Limited,3-Hold,11.24,A,A,F,A,75.0
+SCCO,Southern Copper Corporation,3-Hold,63.01,D,D,C,D,37.5
+RPM,RPM International Inc.,3-Hold,98.35,D,D,C,D,37.5
+SBUX,Starbucks Corporation,3-Hold,104.21,D,B,D,C,50.0
+RTO,Rentokil Initial PLC,1-Strong Buy,31.83,D,A,A,B,87.5
+SCHW,The Charles Schwab Corporation,3-Hold,83.35,C,B,C,B,62.5
+SCI,Service Corporation International,3-Hold,67.95,B,D,A,C,50.0
+RUN,Sunrun Inc.,3-Hold,23.98,D,D,C,F,25.0
+SDGR,Schrodinger Inc.,2-Buy,18.14,D,D,C,D,50.0
+ROK,Rockwell Automation Inc.,3-Hold,260.29,D,B,D,D,37.5
+SEAS,SeaWorld Entertainment Inc.,3-Hold,56.64,A,A,F,A,75.0
+RRX,Regal Rexnord Corporation,4-Sell,123.31,B,C,C,C,37.5
+SEDG,SolarEdge Technologies Inc.,5-Strong Sell,289.72,F,F,C,F,0.0
+SEIC,SEI Investments Company,2-Buy,59.91,C,C,D,C,62.5
+SEE,Sealed Air Corporation,3-Hold,51.09,B,C,D,C,50.0
+SEM,Select Medical Holdings Corporation,5-Strong Sell,25.67,A,C,A,A,50.0
+SE,Sea Limited Sponsored ADR,2-Buy,55.24,D,C,B,C,62.5
+SFNC,Simmons First National Corporation,3-Hold,21.64,C,F,D,F,25.0
+SFM,Sprouts Farmers Market Inc.,2-Buy,30.81,A,A,B,A,87.5
+SGH,SMART Global Holdings Inc.,3-Hold,15.89,A,B,B,A,75.0
+SGML,Sigma Lithium Corporation,1-Strong Buy,25.49,D,D,A,D,62.5
+SGEN,Seagen Inc.,3-Hold,132.87,D,B,B,C,50.0
+SCVL,Shoe Carnival Inc.,2-Buy,23.26,A,B,B,A,87.5
+SHAK,Shake Shack Inc.,4-Sell,44.14,D,C,A,C,37.5
+SHLS,Shoals Technologies Group Inc.,3-Hold,24.51,F,A,D,C,50.0
+SHEL,Shell PLC Unsponsored ADR,3-Hold,55.39,A,A,F,A,75.0
+SHOO,Steven Madden Ltd.,3-Hold,31.89,B,C,B,B,62.5
+SHW,The SherwinWilliams Company,2-Buy,243.44,C,B,D,C,62.5
+SHOP,Shopify Inc.,3-Hold,37.21,D,F,C,F,25.0
+PTEN,PattersonUTI Energy Inc.,1-Strong Buy,16.35,C,A,C,A,100.0
+SI,Silvergate Capital Corporation,5-Strong Sell,21.59,B,C,F,C,25.0
+SIG,Signet Jewelers Limited,1-Strong Buy,68.45,B,F,C,D,62.5
+SIGI,Selective Insurance Group Inc.,5-Strong Sell,90.26,C,B,D,C,25.0
+SILK,Silk Road Medical Inc.,2-Buy,49.94,D,A,B,B,75.0
+SITE,SiteOne Landscape Supply Inc.,3-Hold,120.83,C,C,B,B,62.5
+SITC,SITE CENTERS CORP.,3-Hold,13.78,D,D,D,D,37.5
+SIX,Six Flags Entertainment Corporation New,5-Strong Sell,25.4,B,A,F,B,37.5
+SJM,The J. M. Smucker Company,3-Hold,158.01,B,F,D,D,37.5
+SJW,SJW Group,3-Hold,82.94,D,B,D,C,50.0
+SKM,SK Telecom Co. Ltd.,3-Hold,20.79,A,C,A,A,75.0
+SIVB,SVB Financial Group,3-Hold,238.01,B,F,F,D,37.5
+SKX,Skechers U.S.A. Inc.,2-Buy,43.75,B,F,B,D,50.0
+SKYW,SkyWest Inc.,3-Hold,17.22,A,F,C,B,62.5
+SGRY,Surgery Partners Inc.,3-Hold,27.67,B,B,D,B,62.5
+SKY,Skyline Corporation,3-Hold,54.33,B,A,C,A,75.0
+SLB,Schlumberger Limited,2-Buy,51.8,B,C,F,C,62.5
+SLCA,U.S. Silica Holdings Inc.,3-Hold,11.84,A,A,A,A,75.0
+SLF,Sun Life Financial Inc.,3-Hold,47.52,A,D,D,C,50.0
+SLG,SL Green Realty Corporation,3-Hold,35.39,B,D,F,D,37.5
+SLGN,Silgan Holdings Inc.,3-Hold,51.83,B,F,B,C,50.0
+SLM,SLM Corporation,3-Hold,16.67,C,B,B,B,62.5
+SMAR,Smartsheet,2-Buy,39.02,D,B,F,D,50.0
+SM,SM Energy Company,3-Hold,30,A,A,C,A,75.0
+SLVM,Sylvamo Corporation,1-Strong Buy,48.52,A,A,A,A,100.0
+SKT,Tanger Factory Outlet Centers Inc.,3-Hold,18.4,C,D,C,D,37.5
+SMG,The Scotts MiracleGro Company,3-Hold,53.66,A,A,C,A,75.0
+SMPL,The Simply Good Foods Company,3-Hold,37.9,C,A,A,A,75.0
+SMR,NuScale Power Corporation,3-Hold,10.55,F,F,B,F,25.0
+SNA,SnapOn Incorporated,3-Hold,230.66,C,D,C,D,37.5
+SNBR,Sleep Number Corporation,3-Hold,27.39,A,A,C,A,75.0
+SNCY,Sun Country Airlines Holdings Inc.,4-Sell,16.73,B,D,F,D,25.0
+SNDR,Schneider National Inc.,4-Sell,24.31,B,A,F,A,62.5
+SNDX,Syndax Pharmaceuticals Inc.,1-Strong Buy,25.13,F,F,A,F,50.0
+SNN,Smith & Nephew SNATS Inc.,3-Hold,27.97,B,A,B,A,75.0
+SNOW,Snowflake Inc.,3-Hold,132.05,F,C,C,D,37.5
+SNPS,Synopsys Inc.,2-Buy,322.37,C,B,D,B,75.0
+SMTC,Semtech Corporation,3-Hold,29.16,B,B,D,B,62.5
+SNV,Synovus Financial Corp.,2-Buy,37.9,B,B,D,B,75.0
+SNY,Sanofi,2-Buy,48.67,B,F,B,C,62.5
+SO,Southern Company The,4-Sell,72.42,D,C,D,D,25.0
+SONY,Sony Corporation,3-Hold,77.92,B,F,D,D,37.5
+SON,Sonoco Products Company,3-Hold,60.77,B,A,D,A,75.0
+SONO,Sonos Inc.,3-Hold,17.11,D,F,F,F,25.0
+SPB,Spectrum Brands Holdings Inc.,3-Hold,63.62,B,A,F,B,62.5
+SPGI,S&P Global Inc.,3-Hold,341.4,D,F,D,F,25.0
+SPG,Simon Property Group Inc.,3-Hold,121.05,D,C,D,D,37.5
+SOVO,Sovos Brands Inc.,4-Sell,13.49,D,B,D,C,37.5
+SPLK,Splunk Inc.,2-Buy,90.16,D,A,F,C,62.5
+SPOT,Spotify Technology,2-Buy,81.45,C,C,C,C,62.5
+SPR,Spirit Aerosystems Holdings Inc.,3-Hold,33.15,C,A,C,B,62.5
+SPT,Sprout Social Inc.,3-Hold,57.05,F,B,F,D,37.5
+SMCI,Super Micro Computer Inc.,3-Hold,85.18,B,A,C,A,75.0
+SLAB,Silicon Laboratories Inc.,3-Hold,135.85,D,A,F,C,50.0
+SPTN,SpartanNash Company,3-Hold,30.91,A,C,A,A,75.0
+SQ,Block Inc.,3-Hold,67.02,D,D,A,D,37.5
+SQSP,Squarespace Inc.,3-Hold,21.22,D,A,F,C,50.0
+SR,Spire Inc.,4-Sell,70.7,C,D,C,D,25.0
+SRC,Spirit Realty Capital Inc.,3-Hold,40.69,D,D,C,F,25.0
+SRE,Sempra Energy,3-Hold,154.89,D,F,B,D,37.5
+SRCL,Stericycle Inc.,3-Hold,51.13,C,D,D,D,37.5
+SRPT,Sarepta Therapeutics Inc.,3-Hold,124,D,F,A,F,25.0
+SSNC,SS&C Technologies Holdings Inc.,3-Hold,53.31,B,D,B,B,62.5
+SSB,SouthState Corp.,3-Hold,77.23,B,C,D,C,50.0
+SSP,E.W. Scripps Company The,5-Strong Sell,13.69,A,A,D,A,50.0
+SSRM,Silver Standard Resources Inc.,1-Strong Buy,16.87,C,F,D,F,50.0
+SSTK,Shutterstock Inc.,3-Hold,54.6,B,A,D,B,62.5
+ST,Sensata Technologies Holding N.V.,4-Sell,41.76,B,F,B,C,37.5
+SSYS,Stratasys Ltd.,3-Hold,13.2,F,F,F,F,25.0
+STAA,STAAR Surgical Company,1-Strong Buy,56.08,D,A,F,C,75.0
+SQM,Sociedad Quimica y Minera S.A.,1-Strong Buy,77.47,B,A,B,A,100.0
+STAG,Stag Industrial Inc.,3-Hold,33.69,D,C,A,C,50.0
+STE,STERIS plc,4-Sell,190.05,C,C,A,B,50.0
+STLA,Stellantis N.V.,1-Strong Buy,15.02,A,B,B,A,100.0
+STLD,Steel Dynamics Inc.,1-Strong Buy,98.66,B,B,A,A,100.0
+STM,STMicroelectronics N.V.,1-Strong Buy,36.35,B,A,F,B,87.5
+STNG,Scorpio Tankers Inc.,1-Strong Buy,48.09,C,B,C,B,87.5
+STR,Sitio Royalties Corp.,3-Hold,26.73,D,A,B,B,62.5
+STVN,Stevanato Group S.p.A.,3-Hold,18.41,C,D,B,D,37.5
+STT,State Street Corporation,3-Hold,79.78,C,D,F,D,37.5
+STX,Seagate Technology Holdings PLC,4-Sell,52.94,B,B,A,A,62.5
+STZ,Constellation Brands Inc,4-Sell,231.34,D,B,D,C,37.5
+SITM,SiTime Corporation,3-Hold,98.9,F,C,F,F,25.0
+SU,Suncor Energy  Inc.,3-Hold,29.83,A,A,F,A,75.0
+SUI,Sun Communities Inc.,3-Hold,144.44,D,B,B,C,50.0
+SUN,Sunoco LP,5-Strong Sell,43.15,B,A,A,A,50.0
+SUPN,Supernus Pharmaceuticals Inc.,3-Hold,38.13,B,F,F,F,25.0
+SUM,Summit Materials Inc.,5-Strong Sell,29.76,C,C,D,D,12.5
+STWD,STARWOOD PROPERTY TRUST INC.,4-Sell,18.72,D,F,A,F,12.5
+SWAV,ShockWave Medical Inc.,3-Hold,203.12,D,A,A,B,62.5
+SWK,Stanley Black & Decker Inc.,5-Strong Sell,78.32,D,F,F,F,0.0
+SWKS,Skyworks Solutions Inc.,4-Sell,92.59,B,C,D,C,37.5
+SWTX,SpringWorks Therapeutics,3-Hold,27.61,F,D,D,F,25.0
+SYNA,Synaptics Incorporated,4-Sell,97.74,B,A,D,A,62.5
+SYF,Synchrony Financial,4-Sell,33.17,A,D,C,B,50.0
+SYK,Stryker Corporation,3-Hold,251.07,C,D,D,D,37.5
+SYNH,Syneos Health Inc.,5-Strong Sell,36.93,A,C,C,C,25.0
+T,AT&T Inc.,3-Hold,19.16,A,D,D,C,50.0
+TALO,Talos Energy Inc.,2-Buy,18.19,A,A,F,A,87.5
+TAP,Molson Coors Beverage Company,2-Buy,51.28,A,D,D,B,75.0
+TASK,TaskUs Inc.,2-Buy,17.8,B,F,F,F,37.5
+TBBK,The Bancorp Inc.,3-Hold,29.6,D,F,B,F,25.0
+TBPH,Theravance Biopharma Inc.,3-Hold,10.89,F,C,C,D,37.5
+TCBI,Texas Capital Bancshares Inc.,3-Hold,60.07,B,F,D,D,37.5
+TCOM,Trip.com Group Limited Sponsored ADR,3-Hold,37.96,D,B,C,D,37.5
+SYY,Sysco Corporation,3-Hold,76.1,B,A,A,A,75.0
+TD,Toronto Dominion Bank The,3-Hold,65.86,C,F,C,F,25.0
+TDC,Teradata Corporation,4-Sell,34.03,C,B,B,B,50.0
+TDS,Telephone and Data Systems Inc.,4-Sell,11.5,A,D,C,B,50.0
+TDOC,Teladoc Health Inc.,3-Hold,23.41,C,A,D,B,62.5
+TDG,Transdigm Group Incorporated,3-Hold,630.5,D,C,B,C,50.0
+TEAM,Atlassian Corporation PLC,2-Buy,126.38,D,B,F,D,50.0
+TECH,BioTechne Corp,3-Hold,84.05,C,D,A,C,50.0
+TECK,Teck Resources Ltd,3-Hold,35.98,A,B,B,A,75.0
+TENB,Tenable Holdings Inc.,3-Hold,37.89,D,A,F,C,50.0
+TER,Teradyne Inc.,5-Strong Sell,87.02,F,A,D,C,25.0
+TEL,TE Connectivity Ltd.,3-Hold,117.18,C,B,D,B,62.5
+TEX,Terex Corporation,4-Sell,42.86,A,A,C,A,62.5
+TFC,Truist Financial Corporation,3-Hold,44.7,B,F,F,F,25.0
+TFII,TFI International Inc.,3-Hold,102.17,B,A,F,A,75.0
+TFSL,TFS Financial Corporation,3-Hold,14.39,F,F,D,F,25.0
+TFX,Teleflex Incorporated,3-Hold,255.03,C,D,D,D,37.5
+TGH,Textainer Group Holdings Limited,3-Hold,31.38,A,C,F,C,50.0
+TGI,Triumph Group Inc.,2-Buy,10.61,C,B,C,B,75.0
+TGT,Target Corporation,5-Strong Sell,153.14,C,D,D,D,12.5
+TH,Target Hospitality Corp.,3-Hold,15.06,A,A,B,A,75.0
+THO,Thor Industries Inc.,5-Strong Sell,78.09,A,B,D,B,37.5
+THRY,Thryv Holdings Inc.,3-Hold,19.64,A,C,D,B,62.5
+THC,Tenet Healthcare Corporation,3-Hold,50.35,A,D,B,B,62.5
+THS,TreeHouse Foods Inc.,3-Hold,50.06,B,F,B,C,50.0
+TIMB,TIM S.A. Sponsored ADR,3-Hold,10.85,A,B,A,A,75.0
+TJX,The TJX Companies Inc.,3-Hold,80.14,C,D,C,D,37.5
+TLK,PT Telekomunikasi Indonesia Tbk,3-Hold,24.22,B,B,C,B,62.5
+TMCI,Treace Medical Concepts Inc.,3-Hold,23.53,D,D,F,F,25.0
+TGTX,TG Therapeutics Inc.,3-Hold,10.63,F,B,A,C,50.0
+TMHC,Taylor Morrison Home Corporation,4-Sell,32.4,A,D,F,C,37.5
+TMO,Thermo Fisher Scientific Inc.,3-Hold,558.55,C,C,D,C,50.0
+SPWR,SunPower Corporation,3-Hold,17.48,D,C,F,D,37.5
+TMST,Timken Steel Corporation,1-Strong Buy,18.21,A,D,A,B,87.5
+TNDM,Tandem Diabetes Care Inc.,3-Hold,46.61,C,B,F,C,50.0
+TNET,TriNet Group Inc.,3-Hold,70.16,B,B,F,B,62.5
+TNK,Teekay Tankers Ltd.,1-Strong Buy,27.44,C,B,B,B,87.5
+TNL,Travel  Leisure Co.,4-Sell,36.68,A,C,C,B,50.0
+TOL,Toll Brothers Inc.,3-Hold,51.71,A,A,B,A,75.0
+TNP,Tsakos Energy Navigation Ltd,2-Buy,15.71,A,C,C,A,87.5
+SWX,Southwest Gas Corporation,5-Strong Sell,63.48,D,D,D,F,0.0
+TOST,Toast Inc.,3-Hold,18.22,D,D,C,D,37.5
+TPG,TPG Inc.,3-Hold,29.68,C,A,F,B,62.5
+TPH,Tri Pointe Homes Inc.,3-Hold,19.62,B,F,D,D,37.5
+TPR,Tapestry Inc.,4-Sell,39.68,B,D,C,C,37.5
+TPVG,TriplePoint Venture Growth BDC Corp.,3-Hold,11.25,D,F,B,F,25.0
+TPX,Tempur Sealy International Inc.,3-Hold,34.83,A,B,A,A,75.0
+TAK,Takeda Pharmaceutical Co.,3-Hold,15.62,A,C,B,A,75.0
+TREE,LendingTree Inc.,2-Buy,22.82,B,D,C,C,62.5
+TREX,Trex Company Inc.,3-Hold,45.51,D,A,C,B,62.5
+TRI,Thomson Reuters Corp,2-Buy,117.7,C,B,C,C,62.5
+TRGP,Targa Resources Inc.,3-Hold,71.3,B,A,D,A,75.0
+TRIP,TripAdvisor Inc.,3-Hold,19.02,B,A,D,A,75.0
+TRMB,Trimble Inc.,3-Hold,50.78,C,F,B,D,37.5
+TRIN,Trinity Capital Inc.,3-Hold,11.44,C,C,A,B,62.5
+TRN,Trinity Industries Inc.,3-Hold,30.11,C,F,D,F,25.0
+TROW,T. Rowe Price Group Inc.,4-Sell,111.91,C,A,C,B,50.0
+TRNO,Terreno Realty Corporation,3-Hold,58.74,F,C,F,F,25.0
+TRP,TC Energy Corporation,3-Hold,39.38,B,D,A,C,50.0
+TROX,Tronox Holdings PLC,4-Sell,14.79,A,B,F,B,50.0
+TRU,TransUnion,2-Buy,61.97,B,F,F,D,50.0
+TRTN,Triton International Limited,3-Hold,69.34,A,B,D,B,62.5
+TRUP,Trupanion Inc.,2-Buy,48.06,D,B,B,C,62.5
+TS,Tenaris S.A.,2-Buy,32.04,A,C,C,B,75.0
+TRMK,Trustmark Corporation,3-Hold,34.61,C,C,C,C,50.0
+TMUS,TMobile US Inc.,5-Strong Sell,138.79,D,B,A,B,37.5
+TSE,Trinseo PLC,3-Hold,24.57,A,B,D,A,75.0
+TSLA,Tesla Inc.,5-Strong Sell,112.71,D,A,A,A,50.0
+TSLX,Sixth Street Specialty Lending Inc.,2-Buy,18.19,D,F,D,F,37.5
+TSN,Tyson Foods Inc.,4-Sell,64.51,A,D,F,C,37.5
+TSM,Taiwan Semiconductor Manufacturing Company Ltd.,2-Buy,75.99,B,A,F,A,87.5
+TSCO,Tractor Supply Company,3-Hold,221.61,C,D,D,D,37.5
+TT,Trane Technologies plc,3-Hold,173.79,C,C,D,C,50.0
+TTE,TotalEnergies SE Sponsored ADR,3-Hold,60.96,A,A,D,A,75.0
+TTC,Toro Company The,3-Hold,113.41,D,A,C,B,62.5
+TMDX,TransMedics Group Inc.,3-Hold,54.87,F,F,C,F,25.0
+TTM,Tata Motors Ltd,4-Sell,23.28,A,B,C,B,50.0
+TTWO,TakeTwo Interactive Software Inc.,3-Hold,106.7,D,D,F,F,25.0
+TTMI,TTM Technologies Inc.,3-Hold,15.13,A,B,D,A,75.0
+TU,TELUS Corporation,3-Hold,19.66,B,B,D,B,62.5
+TWI,Titan International Inc.,2-Buy,15.38,A,A,A,A,87.5
+TWKS,Thoughtworks Holding Inc.,3-Hold,10.11,C,A,B,A,75.0
+TW,Tradeweb Markets Inc.,2-Buy,63.8,D,B,B,C,62.5
+TTD,The Trade Desk,3-Hold,44.18,D,B,F,D,37.5
+TWNK,Hostess Brands,3-Hold,22.59,B,B,A,A,75.0
+TWO,Two Harbors Investments Corp,3-Hold,15.71,B,F,F,D,37.5
+TWST,Twist Bioscience Corporation,2-Buy,25.32,D,B,D,D,50.0
+TXG,10x Genomics,2-Buy,36.48,D,D,D,F,37.5
+TXN,Texas Instruments Incorporated,3-Hold,168,C,B,F,C,50.0
+TXRH,Texas Roadhouse Inc.,4-Sell,94.21,C,A,A,A,62.5
+TYL,Tyler Technologies Inc.,3-Hold,321.87,D,B,B,B,62.5
+TXT,Textron Inc.,4-Sell,71.03,B,A,F,A,62.5
+TTGT,TechTarget Inc.,5-Strong Sell,45.26,F,A,F,C,25.0
+UAA,Under Armour Inc.,3-Hold,10.62,B,A,C,A,75.0
+UAL,United Airlines Holdings Inc,1-Strong Buy,39.53,A,A,D,A,100.0
+UBER,Uber Technologies Inc.,3-Hold,25.73,C,A,B,A,75.0
+U,Unity Software Inc.,2-Buy,28.42,D,C,C,C,62.5
+TVTX,Travere Therapeutics Inc.,3-Hold,20.94,F,D,D,F,25.0
+UBSI,United Bankshares Inc.,3-Hold,40.17,C,C,D,D,37.5
+UDMY,Udemy Inc.,3-Hold,11.04,D,D,B,F,25.0
+UDR,United Dominion Realty Trust Inc.,4-Sell,39.37,D,C,F,D,25.0
+UGI,UGI Corporation,4-Sell,38.44,A,A,C,A,62.5
+UBS,UBS Group AG,2-Buy,19.67,B,C,C,C,62.5
+ULCC,Frontier Group Holdings Inc.,1-Strong Buy,10.75,D,D,F,F,50.0
+UL,Unilever PLC,2-Buy,50.78,C,A,C,A,87.5
+TKR,Timken Company The,4-Sell,71,B,C,B,B,50.0
+TWLO,Twilio Inc.,3-Hold,52.07,D,F,C,F,25.0
+UMPQ,Umpqua Holdings Corporation,4-Sell,17.27,A,B,B,A,62.5
+UE,Urban Edge Properties,4-Sell,14.76,D,C,F,D,25.0
+UMH,UMH Properties Inc.,4-Sell,16.42,D,F,C,F,12.5
+UNM,Unum Group,3-Hold,40.62,A,D,B,B,62.5
+UNH,UnitedHealth Group Incorporated,3-Hold,503.25,B,A,A,A,75.0
+UNVR,Univar Solutions Inc.,4-Sell,31.61,A,A,A,A,62.5
+UNP,Union Pacific Corporation,3-Hold,209.44,D,B,F,D,37.5
+UPS,United Parcel Service Inc.,3-Hold,176.58,B,B,F,B,62.5
+UPWK,Upwork Inc.,3-Hold,11.32,D,B,C,C,50.0
+URBN,Urban Outfitters Inc.,2-Buy,25.3,A,F,D,C,62.5
+URI,United Rentals Inc.,2-Buy,365.47,A,A,D,A,87.5
+UPST,Upstart Holdings Inc.,5-Strong Sell,14.05,F,F,B,F,0.0
+USB,U.S. Bancorp,3-Hold,45.68,B,D,C,C,50.0
+USFD,US Foods Holding Corp.,3-Hold,34.66,A,A,F,A,75.0
+USM,United States Cellular Corporation,3-Hold,22.39,A,D,C,B,62.5
+UTZ,Utz Brands Inc.,3-Hold,16.53,C,D,C,C,50.0
+UTHR,United Therapeutics Corporation,1-Strong Buy,271.74,C,C,A,B,87.5
+V,Visa Inc.,4-Sell,211.46,D,B,C,C,37.5
+VAC,Marriot Vacations Worldwide Corporation,3-Hold,135.68,B,A,F,A,75.0
+VALE,VALE S.A.,3-Hold,16.34,A,B,F,B,62.5
+TRV,The Travelers Companies Inc.,3-Hold,187.47,A,C,C,B,62.5
+UHS,Universal Health Services Inc.,3-Hold,144.24,A,B,D,B,62.5
+VCEL,Vericel Corporation,3-Hold,25.51,D,C,C,D,37.5
+VBTX,Veritex Holdings Inc.,4-Sell,28.21,C,C,A,C,37.5
+VCYT,Veracyte Inc.,2-Buy,23.86,D,D,A,C,62.5
+VCTR,Victory Capital Holdings Inc.,3-Hold,27.42,B,C,C,B,62.5
+VECO,Veeco Instruments Inc.,4-Sell,18.76,B,A,C,A,62.5
+VEEV,Veeva Systems Inc.,3-Hold,165.34,D,A,D,C,50.0
+VERV,Verve Therapeutics Inc.,3-Hold,20.09,F,F,C,F,25.0
+VET,Vermilion Energy Inc.,5-Strong Sell,15.16,A,A,B,A,50.0
+VFC,V.F. Corporation,4-Sell,29.26,C,F,F,F,12.5
+UCBI,United Community Banks Inc.,4-Sell,33.85,C,C,F,C,37.5
+VGR,Vector Group Ltd.,3-Hold,12.34,A,A,C,A,75.0
+VIAV,Viavi Solutions Inc.,4-Sell,10.69,C,A,D,B,50.0
+VICI,VICI Properties Inc.,2-Buy,31.92,D,C,B,C,62.5
+VIPS,Vipshop Holdings Limited,3-Hold,15.08,A,A,F,A,75.0
+VIR,Vir Biotechnology Inc.,2-Buy,25.33,A,A,A,A,87.5
+VC,Visteon Corporation,3-Hold,136.03,B,B,C,B,62.5
+VIRT,Virtu Financial Inc.,3-Hold,20.95,B,F,B,D,37.5
+VLO,Valero Energy Corporation,3-Hold,119.23,A,A,F,A,75.0
+VLY,Valley National Bancorp,3-Hold,11.29,B,B,A,A,75.0
+VMC,Vulcan Materials Company,3-Hold,178.8,D,B,F,D,37.5
+VNOM,Viper Energy Partners LP,3-Hold,29.09,D,A,A,A,75.0
+VNO,Vornado Realty Trust,3-Hold,21.62,B,D,F,D,37.5
+VOD,Vodafone Group PLC,3-Hold,10.58,A,C,C,B,62.5
+VNT,Vontier Corporation,4-Sell,20.29,A,B,C,A,62.5
+VOYA,Voya Financial Inc.,3-Hold,62.64,B,D,B,B,62.5
+ULTA,Ulta Beauty Inc.,2-Buy,480.86,B,C,F,C,62.5
+VRDN,Viridian Therapeutics Inc.,3-Hold,28.63,F,D,C,F,25.0
+VIST,Vista Oil & Gas S.A.B. de C.V. Sponsored ADR,3-Hold,14.11,A,A,A,A,75.0
+VREX,VAREX IMAGING,3-Hold,19.87,A,A,B,A,75.0
+VRNT,Verint Systems Inc.,3-Hold,36.96,C,C,A,B,62.5
+VRE,Veris Residential Inc.,3-Hold,16.76,F,D,F,F,25.0
+VRRM,VERRA MOBILITY CORP,4-Sell,14,C,A,B,A,62.5
+VRSN,VeriSign Inc.,3-Hold,205.51,D,A,B,B,62.5
+VRT,Vertiv Holdings Co.,3-Hold,13.37,B,D,D,D,37.5
+VRTX,Vertex Pharmaceuticals Incorporated,3-Hold,285.8,C,A,B,A,75.0
+VSAT,Viasat Inc.,5-Strong Sell,33.59,B,C,B,B,37.5
+VRSK,Verisk Analytics Inc.,4-Sell,180.01,D,C,B,C,37.5
+VSCO,Victoria's Secret & Co.,3-Hold,33.81,A,D,A,B,62.5
+VST,Vistra Corp.,3-Hold,22.64,B,B,A,A,75.0
+VSTO,Vista Outdoor Inc.,3-Hold,25.48,A,C,C,A,75.0
+VSH,Vishay Intertechnology Inc.,2-Buy,21.75,A,A,F,A,87.5
+VTR,Ventas Inc.,4-Sell,46.92,D,D,D,F,12.5
+VTRS,Viatris Inc.,3-Hold,11.72,A,B,C,A,75.0
+VTYX,Ventyx Biosciences Inc.,2-Buy,31.5,C,F,B,D,50.0
+VVV,Valvoline,5-Strong Sell,33.39,F,B,B,C,25.0
+VRNS,Varonis Systems Inc.,3-Hold,24.35,F,A,F,D,37.5
+W,Wayfair Inc.,3-Hold,35.26,F,D,D,F,25.0
+WAB,Westinghouse Air Brake Technologies Corporation,3-Hold,101.46,D,C,F,D,37.5
+VRNA,Verona Pharma PLC American Depositary Share,2-Buy,25,D,B,B,C,62.5
+WAFD,Washington Federal Inc.,3-Hold,33.2,B,B,B,B,62.5
+WAT,Waters Corporation,3-Hold,348.44,D,D,F,F,25.0
+WBA,Walgreens Boots Alliance Inc.,2-Buy,37.36,A,D,B,B,75.0
+WB,Weibo Corporation,3-Hold,20.04,B,D,D,C,50.0
+WCC,WESCO International Inc.,3-Hold,127.5,B,B,F,B,62.5
+WCN,Waste Connections Inc.,3-Hold,132.67,C,B,A,B,62.5
+WDAY,Workday Inc.,2-Buy,170.61,D,A,D,B,75.0
+WDC,Western Digital Corporation,3-Hold,33,B,D,F,C,50.0
+UNFI,United Natural Foods Inc.,3-Hold,38.49,A,D,D,B,62.5
+WEC,WEC Energy Group Inc.,3-Hold,94.53,D,C,A,C,50.0
+WELL,Welltower Inc.,3-Hold,68.79,D,C,F,F,25.0
+WES,Western Midstream Partners LP,5-Strong Sell,25.62,D,C,F,D,12.5
+WERN,Werner Enterprises Inc.,3-Hold,42.08,B,B,F,B,62.5
+WFC,Wells Fargo & Company,3-Hold,42.52,B,C,D,B,62.5
+WFRD,Weatherford International PLC,3-Hold,47.77,B,A,C,A,75.0
+WGO,Winnebago Industries Inc.,3-Hold,53.18,A,A,F,A,75.0
+WH,Wyndham Hotels & Resorts,3-Hold,71.32,C,B,A,A,75.0
+WHD,Cactus Inc.,3-Hold,51.1,D,C,B,D,37.5
+WHR,Whirlpool Corporation,4-Sell,149.05,A,B,F,B,50.0
+WING,Wingstop Inc.,1-Strong Buy,136.47,F,A,A,C,75.0
+WIX,Wix.com Ltd.,3-Hold,77.8,D,F,C,F,25.0
+WK,Workiva Inc.,3-Hold,82.2,F,C,B,C,50.0
+WLK,Westlake Corp.,5-Strong Sell,98.84,B,A,A,A,50.0
+WM,Waste Management Inc.,3-Hold,156.64,C,A,D,B,62.5
+WMB,Williams Companies Inc. The,3-Hold,32.22,D,B,C,C,50.0
+WMG,Warner Music Group Corp.,2-Buy,36.25,C,A,B,A,87.5
+WMT,Walmart Inc.,3-Hold,143.11,C,B,D,C,50.0
+WMS,Advanced Drainage Systems Inc.,4-Sell,82.91,C,A,B,B,50.0
+WNC,Wabash National Corporation,3-Hold,23.25,A,D,C,B,62.5
+WPM,Wheaton Precious Metals Corp.,3-Hold,42.16,F,F,F,F,25.0
+WPC,W.P. Carey Inc.,4-Sell,79.2,F,D,C,F,12.5
+WOLF,Wolfspeed,2-Buy,70,F,B,B,D,50.0
+WEX,WEX Inc.,3-Hold,165.11,B,B,B,A,75.0
+WRBY,Warby Parker Inc.,3-Hold,15.47,C,A,C,B,62.5
+WRK,WestRock Company,4-Sell,36.31,A,A,D,A,62.5
+WSFS,WSFS Financial Corporation,4-Sell,45.02,B,B,C,B,50.0
+WBS,Webster Financial Corporation,4-Sell,46.93,C,B,B,B,50.0
+WSO,Watsco Inc.,4-Sell,259.14,C,A,B,A,62.5
+WST,West Pharmaceutical Services Inc.,4-Sell,240.95,C,B,A,A,62.5
+WTRG,Essential Utilities Inc.,3-Hold,48.65,D,C,B,D,37.5
+WTFC,Wintrust Financial Corporation,3-Hold,84.2,A,D,D,C,50.0
+WTW,Willis Towers Watson Public Limited Company,3-Hold,246.45,B,C,F,C,50.0
+WU,The Western Union Company,4-Sell,14.1,A,D,B,B,50.0
+WWD,Woodward Inc.,4-Sell,100.9,D,B,B,B,50.0
+WWE,World Wrestling Entertainment Inc.,1-Strong Buy,69.99,D,B,C,C,75.0
+WWW,Wolverine World Wide Inc.,5-Strong Sell,11.48,C,F,A,D,12.5
+WY,Weyerhaeuser Company,3-Hold,31.2,C,B,D,C,50.0
+WYNN,Wynn Resorts Limited,4-Sell,90.92,D,B,A,C,37.5
+X,United States Steel Corporation,3-Hold,25.27,A,B,D,A,75.0
+XEL,Xcel Energy Inc.,3-Hold,70.47,C,B,C,C,50.0
+WRB,W.R. Berkley Corporation,3-Hold,72.49,B,B,A,A,75.0
+XHR,Xenia Hotels & Resorts Inc.,4-Sell,12.93,B,A,A,A,62.5
+XENE,Xenon Pharmaceuticals Inc.,3-Hold,37.89,F,F,B,F,25.0
+WSM,WilliamsSonoma Inc.,3-Hold,118.47,A,C,D,B,62.5
+XM,Qualtrics International Inc.,3-Hold,10.7,F,D,C,F,25.0
+WEN,The Wendy's Company,3-Hold,22.78,C,B,D,C,50.0
+XMTR,Xometry Inc.,3-Hold,30.54,F,C,C,D,37.5
+XOM,Exxon Mobil Corporation,3-Hold,106.49,B,A,F,A,75.0
+XNCR,Xencor Inc.,3-Hold,26.13,D,C,A,C,50.0
+XP,XP Inc.,3-Hold,14.07,C,F,A,D,37.5
+XPEV,XPeng Inc. Sponsored ADR,3-Hold,11.76,C,B,F,C,50.0
+XPO,XPO Inc.,5-Strong Sell,33.39,B,B,D,C,25.0
+XRAY,DENTSPLY SIRONA Inc.,5-Strong Sell,33.61,C,C,B,B,37.5
+XPRO,Expro Group Holdings N.V.,1-Strong Buy,17.08,D,D,D,F,50.0
+XRX,Xerox Holdings Corporation,3-Hold,15.46,B,F,F,D,37.5
+XYL,Xylem Inc.,2-Buy,110.32,D,D,F,F,37.5
+YELP,Yelp Inc.,3-Hold,28.35,B,A,D,A,75.0
+YETI,YETI Holdings Inc.,3-Hold,42.28,C,F,F,F,25.0
+YOU,CLEAR Secure Inc.,5-Strong Sell,28.21,F,C,D,F,0.0
+YUMC,Yum China,2-Buy,58.09,C,A,D,A,87.5
+YY,JOYY Inc. Sponsored ADR,3-Hold,36.82,C,D,F,D,37.5
+YUM,Yum Brands Inc.,3-Hold,128.51,D,B,C,C,50.0
+ZBRA,Zebra Technologies Corporation,4-Sell,263.55,C,D,F,F,12.5
+ZD,Ziff Davis Inc.,3-Hold,80.76,A,D,C,B,62.5
+ZBH,Zimmer Biomet Holdings Inc.,3-Hold,127.91,B,C,D,C,50.0
+ZG,Zillow Group Inc.,3-Hold,34.71,C,A,A,A,75.0
+ZI,ZoomInfo Technologies Inc.,4-Sell,27.9,F,B,F,D,25.0
+ZIM,ZIM Integrated Shipping Services Ltd.,4-Sell,17.22,A,A,F,A,62.5
+ZION,Zions Bancorporation N.A.,3-Hold,50.26,A,C,D,B,62.5
+ZIP,ZipRecruiter Inc.,3-Hold,16.32,C,A,F,B,62.5
+ZLAB,Zai Lab Limited Unsponsored ADR,3-Hold,33.17,F,F,A,F,25.0
+ZM,Zoom Video Communications Inc.,4-Sell,66.88,C,C,C,C,37.5
+ZS,Zscaler Inc.,2-Buy,111.84,D,A,C,B,75.0
+ZTO,ZTO Express Cayman Inc.,3-Hold,28.32,C,B,F,C,50.0
+ZNTL,Zentalis Pharmaceuticals Inc.,3-Hold,20.41,F,D,B,F,25.0
+ZUMZ,Zumiez Inc.,5-Strong Sell,22.73,B,F,F,F,0.0
+ZTS,Zoetis Inc.,3-Hold,149.7,C,D,B,D,37.5
+ZWS,Zurn Elkay Water Solutions Cor,4-Sell,21.62,D,C,D,D,25.0
+WAL,Western Alliance Bancorporation,4-Sell,60.71,B,D,F,D,25.0
+VZ,Verizon Communications Inc.,3-Hold,41.13,A,C,D,B,62.5

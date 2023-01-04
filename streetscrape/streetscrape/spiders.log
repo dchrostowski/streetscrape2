@@ -1,0 +1,2 @@
+2022-10-07 14:15:56 [scrapy.utils.log] INFO: Scrapy 2.6.3 started (bot: streetscrape)
+2022-10-07 14:15:56 [scrapy.utils.log] INFO: Versions: lxml 4.9.1.0, libxml2 2.9.14, cssselect 1.1.0, parsel 1.6.0, w3lib 2.0.1, Twisted 22.8.0, Python 3.8.10 (default, Jun 22 2022, 20:18:18) - [GCC 9.4.0], pyOpenSSL 22.1.0 (OpenSSL 3.0.5 5 Jul 2022), cryptography 38.0.1, Platform Linux-5.15.0-46-generic-x86_64-with-glibc2.29
