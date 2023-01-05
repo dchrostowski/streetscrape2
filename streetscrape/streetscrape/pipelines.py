@@ -90,7 +90,7 @@ class SecurityPipeline:
             INSERT INTO stocks (symbol,name)
             VALUES (%s,%s)
             ON CONFLICT (symbol) DO UPDATE
-            SET symbol = excluded.symbol
+            SET symbol = excluded.symbol,
                 name = excluded.name;
             """
 

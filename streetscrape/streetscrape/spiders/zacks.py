@@ -9,9 +9,9 @@ class ZacksSpider(CrawlSpider):
     allowed_domains = ['www.zacks.com','quote-feed.zacks.com']
 
     def start_requests(self):
-        with open('./zacks_grades.csv','w') as ofh:
+        with open('./csv/zacks_grades.csv','w') as ofh:
             ofh.write('Symbol,Company,Grade,Current Price,Value,Growth,Momentum,VGM,Quant\n')
-        input_file = open('./stocks.csv','r')
+        input_file = open('./csv/stocks.csv','r')
         lines = input_file.readlines()
         i = 0
         for line in lines:
@@ -70,7 +70,7 @@ class ZacksSpider(CrawlSpider):
 
 
 
-            with open('zacks_grades.csv','a') as ofh:
+            with open('./csv/zacks_grades.csv','a') as ofh:
                 ofh.write("%s,%s,%s,%s,%s,%s,%s,%s,%s\n" % (symbol,company_name,grade,price,value,growth,momentum,vgm,quant))
         except Exception as e:
             print(e)

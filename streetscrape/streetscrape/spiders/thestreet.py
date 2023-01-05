@@ -10,7 +10,7 @@ class ThestreetSpider(CrawlSpider):
     def start_requests(self):
         with open('./thestreet_grades.csv','w') as ofh:
             ofh.write('Symbol,Company,Grade,Current Price,Quant\n')
-        input_file = open('./stocks.csv','r')
+        input_file = open('./csv/stocks.csv','r')
         lines = input_file.readlines()
         i = 0
         for line in lines:
@@ -51,7 +51,7 @@ class ThestreetSpider(CrawlSpider):
                 price = quote['currentPrice']
                 quant_rating = self.calculate_quant_rating(grade)
 
-                with open('thestreet_grades.csv','a') as ofh:
+                with open('./csv/thestreet_grades.csv','a') as ofh:
                     ofh.write("%s,%s,%s,%s,%s\n" % (symbol,company_name,grade,price,quant_rating))
         except Exception as e:
             print(e)
