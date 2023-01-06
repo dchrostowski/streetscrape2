@@ -1,6 +1,5 @@
 import scrapy
-from scrapy.linkextractors import LinkExtractor
-from scrapy.spiders import CrawlSpider, Rule
+from scrapy.spiders import CrawlSpider
 from streetscrape.pipelines import StreetscrapePipeline
 from streetscrape.items import TheStreetItem
 
@@ -58,9 +57,6 @@ class ThestreetSpider(CrawlSpider):
                 item['quant'] = quant_rating
 
                 yield item
-
-                with open('./csv/thestreet_grades.csv','a') as ofh:
-                    ofh.write("%s,%s,%s,%s,%s\n" % (symbol,company_name,grade,price,quant_rating))
         except Exception as e:
             print(e)
 

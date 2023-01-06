@@ -30,3 +30,13 @@ class TheStreetItem(Item):
     grade = Field()
     price_at_rating = Field()
     quant = Field()
+
+class GuruFocusItem(Item):
+    symbol = Field()
+    momentum = Field()
+    value = Field()
+    growth = Field()
+    profitability = Field()
+    balancesheet = Field()
+    price_at_rating = Field()
+    quant = Field()

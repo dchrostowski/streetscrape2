@@ -1,5 +1,4 @@
 import scrapy
-from scrapy.linkextractors import LinkExtractor
 from scrapy.spiders import CrawlSpider, Rule
 import json
 from streetscrape.items import ZacksItem
@@ -8,8 +7,6 @@ from streetscrape.pipelines import StreetscrapePipeline
 class ZacksSpider(CrawlSpider):
     name = 'zacks'
     allowed_domains = ['www.zacks.com','quote-feed.zacks.com']
-
-
 
     def start_requests(self):
         pipeline = StreetscrapePipeline()
@@ -55,8 +52,6 @@ class ZacksSpider(CrawlSpider):
         item = ZacksItem()
         try:
             data = json.loads(response.text)[response.request.meta['symbol']]
-            company_name = data['name'].replace(',','')
-            symbol = data['ticker']
             grade = "%s-%s" % (data['zacks_rank'], data['zacks_rank_text'])
             price = data['last']
             (value,growth,momentum,vgm) = response.meta['vgm']
@@ -72,11 +67,6 @@ class ZacksSpider(CrawlSpider):
             item['quant'] = quant
 
             yield item
-
-
-
-            with open('./csv/zacks_grades.csv','a') as ofh:
-                ofh.write("%s,%s,%s,%s,%s,%s,%s,%s,%s\n" % (symbol,company_name,grade,price,value,growth,momentum,vgm,quant))
         except Exception as e:
             print(e)
 

@@ -9,7 +9,6 @@ from itemadapter import ItemAdapter
 import psycopg2
 from psycopg2.extensions import AsIs
 from dotenv import dotenv_values, find_dotenv
-from IPython import embed
 
 class StreetscrapePipeline:
     def __init__(self):
@@ -97,6 +96,21 @@ class StreetscrapePipeline:
         ALTER TABLE IF EXISTS public.ratings_changes
         OWNER TO streetscrape;
 
+        CREATE TABLE IF NOT EXISTS public.gurufocus
+        (
+        id               serial PRIMARY KEY,
+        symbol           varchar(12),
+        price_at_rating  float4,
+        value            int,
+        growth           int,
+        momentum         int,
+        balancesheet     int,
+        profitability    int,
+        quant            float4,
+        CONSTRAINT fk_gurufocus FOREIGN KEY (symbol)
+        REFERENCES public.stocks (symbol)
+        );
+
         """)
 
         self.conn.commit()
@@ -127,7 +141,10 @@ class StreetscrapePipeline:
     def process_thestreet_item(self, item):
         sql = "SELECT quant FROM thestreet WHERE symbol = %s"
         self.cur.execute(sql,(item['symbol'],))
-        [quant] = self.cur.fetchone()
+        quant = None
+        result = self.cur.fetchone()
+        if result is not None:
+            [quant] = result
         if quant is None and item['quant'] is not None:
             print("INSERT TO THE STREET")
             self.generic_insert('thestreet',item)
@@ -154,13 +171,14 @@ class StreetscrapePipeline:
     def process_zacks_item(self, item):
         sql = "SELECT quant FROM zacks WHERE symbol = %s"
         self.cur.execute(sql,(item['symbol'],))
-        [quant] = self.cur.fetchone()
+        quant = None
+        result = self.cur.fetchone()
+        if result is not None:
+            [quant] = result
         if quant is None and item['quant'] is not None:
-            print("INSERT TO ZACKS")
             self.generic_insert('zacks',item)
         else:
             if float(quant) != float(item['quant']):
-                print("UPDATE ZACKS")
                 update_sql = """
                 UPDATE zacks
                 SET grade=%s, price_at_rating=%s, value=%s, growth=%s, momentum=%s,vgm=%s,quant=%s
@@ -169,6 +187,31 @@ class StreetscrapePipeline:
                 values = (item['grade'],item['price_at_rating'],item['value'], item['growth'], item['momentum'], item['vgm'], item['quant'], item['symbol'])
                 self.cur.execute(update_sql,values)
                 self.insert_change(item['symbol'],quant,item['quant'],'zacks')
+                self.conn.commit()
+
+        self.conn.commit()
+
+        return item
+
+    def process_gurufocus_item(self,item):
+        sql = "SELECT quant FROM gurufocus WHERE symbol = %s"
+        self.cur.execute(sql,(item['symbol'],))
+        quant = None
+        result = self.cur.fetchone()
+        if result is not None:
+            [quant] = result
+        if quant is None and item['quant'] is not None:
+            self.generic_insert('gurufocus',item)
+        else:
+            if float(quant) != float(item['quant']):
+                update_sql = """
+                UPDATE gurufocus
+                SET momentum=%s, price_at_rating=%s, value=%s, growth=%s, momentum=%s,profitability=%s,balancesheet=%s,quant=%s
+                WHERE symbol = %s
+                """
+                values = (item['momentum'],item['price_at_rating'],item['value'], item['growth'], item['momentum'], item['profitability'],item['balancesheet'],item['quant'], item['symbol'])
+                self.cur.execute(update_sql,values)
+                self.insert_change(item['symbol'],quant,item['quant'],'gurufocus')
                 self.conn.commit()
 
         self.conn.commit()
@@ -196,8 +239,17 @@ class StreetscrapePipeline:
             return self.process_zacks_item(item)
         elif spider.name == 'thestreet':
             return self.process_thestreet_item(item)
+        elif spider.name == 'gurufocus':
+            return self.process_gurufocus_item(item)
         return item
 
     def close_spider(self,spider):
         self.cur.close()
         self.conn.close()
+
+
+
+
+
+
+
