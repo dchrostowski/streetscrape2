@@ -1,6 +1,9 @@
 import scrapy
 from scrapy.linkextractors import LinkExtractor
 from scrapy.spiders import CrawlSpider, Rule
+from streetscrape.pipelines import StreetscrapePipeline
+from streetscrape.items import TheStreetItem
+
 import json
 
 class ThestreetSpider(CrawlSpider):
@@ -8,16 +11,13 @@ class ThestreetSpider(CrawlSpider):
     allowed_domains = ['www.thestreet.com']
 
     def start_requests(self):
-        with open('./thestreet_grades.csv','w') as ofh:
-            ofh.write('Symbol,Company,Grade,Current Price,Quant\n')
-        input_file = open('./csv/stocks.csv','r')
-        lines = input_file.readlines()
-        i = 0
-        for line in lines:
-            i += 1
-            symbol = line.split(',')[0]
+        pipeline = StreetscrapePipeline()
+        queries = pipeline.get_symbols()
+        for query in queries:
+            (symbol,name) = query
             url = 'https://api.thestreet.com/marketdata/2/1?includePartnerContent=true&includeLatestNews=false&start=0&rt=true&max=10&filterContent=false&format=json&s=%s&includePartnerNews=false' % symbol
             yield scrapy.Request(url=url,callback=self.parse)
+
 
     def calculate_quant_rating(self,grade):
         if grade is None:
@@ -45,11 +45,19 @@ class ThestreetSpider(CrawlSpider):
         try:
             quotes = json.loads(response.text)['response']['quotes']
             for quote in quotes:
+                item = TheStreetItem()
                 company_name = quote['companyName'].replace(',','')
                 symbol = quote['symbol']
                 grade = quote['letterGradeRating']
                 price = quote['currentPrice']
                 quant_rating = self.calculate_quant_rating(grade)
+
+                item['symbol'] = symbol
+                item['grade'] = grade
+                item['price_at_rating'] = price
+                item['quant'] = quant_rating
+
+                yield item
 
                 with open('./csv/thestreet_grades.csv','a') as ofh:
                     ofh.write("%s,%s,%s,%s,%s\n" % (symbol,company_name,grade,price,quant_rating))

@@ -2,7 +2,7 @@ import scrapy
 from scrapy.linkextractors import LinkExtractor
 from scrapy.spiders import CrawlSpider, Rule
 from streetscrape.items import SecurityItem
-from streetscrape.pipelines import SecurityPipeline
+from streetscrape.pipelines import StreetscrapePipeline
 import logging
 import os
 
@@ -12,7 +12,7 @@ import os
 class SwingtradebotSpider(CrawlSpider):
     name = 'swingtradebot'
     allowed_domains = ['swingtradebot.com']
-    items = []
+
 
     def start_requests(self):
         print(self.settings)
@@ -22,12 +22,8 @@ class SwingtradebotSpider(CrawlSpider):
         request = scrapy.Request(url=url, callback=self.parse)
         yield request
 
-    def __init__(self,*args,**kwargs):
-        self.items = []
-
     def parse(self, response):
         table_rows = response.xpath('//table/tbody/tr')
-
 
         for row in table_rows:
             item = SecurityItem()

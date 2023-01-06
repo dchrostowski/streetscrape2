@@ -14,3 +14,19 @@ class StreetscrapeItem(scrapy.Item):
 class SecurityItem(Item):
     symbol = Field()
     name = Field()
+
+class ZacksItem(Item):
+    symbol = Field()
+    grade = Field()
+    price_at_rating = Field()
+    value = Field()
+    growth = Field()
+    momentum = Field()
+    vgm = Field()
+    quant = Field()
+
+class TheStreetItem(Item):
+    symbol = Field()
+    grade = Field()
+    price_at_rating = Field()
+    quant = Field()

@@ -68,7 +68,7 @@ COOKIES_DEBUG = True
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
-   'streetscrape.pipelines.SecurityPipeline': 300,
+   'streetscrape.pipelines.StreetscrapePipeline': 300
 }
 
 # Enable and configure the AutoThrottle extension (disabled by default)
