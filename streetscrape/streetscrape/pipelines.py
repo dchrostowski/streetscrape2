@@ -9,6 +9,7 @@ from itemadapter import ItemAdapter
 import psycopg2
 from psycopg2.extensions import AsIs
 from dotenv import dotenv_values, find_dotenv
+import json
 
 class StreetscrapePipeline:
     def __init__(self):
@@ -244,6 +245,12 @@ class StreetscrapePipeline:
         return item
 
     def close_spider(self,spider):
+        if spider.name == 'gurufocus':
+            print(spider.unscrapable)
+            with open('./gurufocus_unscrapable.json', 'w') as ofh:
+                unscrapable = json.dumps(spider.unscrapable)
+                ofh.write(unscrapable)
+
         self.cur.close()
         self.conn.close()
 

@@ -8,7 +8,12 @@ class GuruFocusSpider(CrawlSpider):
     name = 'gurufocus'
     allowed_domains = ['www.gurufocus.com']
 
+    def __init__(self, *args, **kwargs):
+        super(GuruFocusSpider,self).__init__(*args,**kwargs)
+        self.unscrapable = []
+
     def start_requests(self):
+
         pipeline = StreetscrapePipeline()
         queries = pipeline.get_symbols()
         for query in queries:
@@ -40,6 +45,8 @@ class GuruFocusSpider(CrawlSpider):
                 item['balancesheet'] = balancesheet
                 item['quant'] = gf_score
                 yield item
+            else:
+                self.unscrapable.append(response.request.url)
         except:
             pass
 
