@@ -14,56 +14,64 @@ const pullScore = async (page,text) => {
     const links = JSON.parse(await fs.readFileSync('../gurufocus_unscrapable.json'))
     const jsonData = []
     for(let i=0; i<links.length; i++) {
-        const link = links[i]
-        const symbol = link.match(/\/stock\/(\w+)\/summary/)[1]
-        const browser = await puppeteer.launch();
-        const page = await browser.newPage();
-        await page.setViewport({width: 1366, height: 768});
-        await page.setUserAgent('Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36');
-        await page.goto(link)
-        await page.waitForXPath('//div[contains(@class,"chart-section")][1]/div[1]/div[1]/span/span/span[1]')
+        try {
+            const link = links[i]
+            console.log(`[${i+1} of ${links.length}]: Crawling ${link}...`)
+            const symbol = link.match(/\/stock\/(\w+)\/summary/)[1]
+            const browser = await puppeteer.launch();
+            const page = await browser.newPage();
+            await page.setViewport({width: 1366, height: 768});
+            await page.setUserAgent('Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36');
+            await page.goto(link)
+            await page.waitForXPath('//div[contains(@class,"chart-section")][1]/div[1]/div[1]/span/span/span[1]')
 
-        const elHandle = await page.$x('(//div[contains(@class,"chart-section")][1]/div[1]/div[1]/span/span/span[1])')
-
-
-        const text = await page.evaluate(el => el.textContent, elHandle[0])
-        const score = text.trim().replace('/100','')
-        const balancesheetScore = await pullScore(page, "Financial Strength")
-
-        const profitabilityScore = await pullScore(page, "Profitability Rank")
-
-        const growthScore = await pullScore(page, "Growth Rank")
-
-        const valueScore = await pullScore(page, "GF Value Rank")
-
-        const momentumScore = await pullScore(page, "Momentum Rank")
+            const elHandle = await page.$x('(//div[contains(@class,"chart-section")][1]/div[1]/div[1]/span/span/span[1])')
 
 
-        const priceEl = await page.$x('//div[@class="m-t-xs"]/span[1]')
-        const priceText = await page.evaluate(el => el.textContent, priceEl[0])
-        const price = priceText.trim().replace('$','').trim()
+            const text = await page.evaluate(el => el.textContent, elHandle[0])
+            const score = text.trim().replace('/100','')
+            const balancesheetScore = await pullScore(page, "Financial Strength")
+
+            const profitabilityScore = await pullScore(page, "Profitability Rank")
+
+            const growthScore = await pullScore(page, "Growth Rank")
+
+            const valueScore = await pullScore(page, "GF Value Rank")
+
+            const momentumScore = await pullScore(page, "Momentum Rank")
 
 
-        const item = {
-            'symbol': symbol,
-            'price_at_rating': price,
-            'balancesheet': balancesheetScore,
-            'profitability': profitabilityScore,
-            'growth': growthScore,
-            'value': valueScore,
-            'momentum': momentumScore,
+            const priceEl = await page.$x('//div[@class="m-t-xs"]/span[1]')
+            const priceText = await page.evaluate(el => el.textContent, priceEl[0])
+            const price = priceText.trim().replace('$','').trim()
+
+            console.log(`Data for ${symbol}:`)
+            const item = {
+                'symbol': symbol,
+                'price_at_rating': price,
+                'balancesheet': balancesheetScore,
+                'profitability': profitabilityScore,
+                'growth': growthScore,
+                'value': valueScore,
+                'momentum': momentumScore,
+                'quant': score
+            }
+            console.log(item)
+
+            jsonData.push(item)
+
+            await browser.close();
+            fs.writeFileSync('gurufocus_scores.json', JSON.stringify(jsonData))
+
         }
-
-        console.log(item)
-
-        jsonData.push(item)
-
-        await browser.close();
+        catch(err) {
+            console.error(err)
+        }
 
     }
 
     try {
-        await fs.writeFileSync('gurufocus_scores.json', JSON.stringify(jsonData))
+        fs.writeFileSync('gurufocus_scores.json', JSON.stringify(jsonData))
     }
     catch(err) {
         console.error(err)

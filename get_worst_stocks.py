@@ -12,14 +12,14 @@ FROM stocks s
 JOIN zacks z ON z.symbol = s.symbol
 JOIN gurufocus g ON g.symbol = s.symbol
 JOIN thestreet t ON t.symbol = s.symbol
-ORDER BY Total DESC
+ORDER BY Total ASC
 LIMIT 25;
 """
 
 cur.execute(sql)
 data = cur.fetchall()
 
-with open('./best_stocks.csv','w') as ofh:
+with open('./worst_stocks.csv','w') as ofh:
     ofh.write("Symbol,Company,TheStreet,Zacks,GuruFocus,Total\n")
     for d in data:
         ofh.write("%s,%s,%s,%s,%s,%s\n" % d)
