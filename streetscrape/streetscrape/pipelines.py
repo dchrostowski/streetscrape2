@@ -10,7 +10,6 @@ import psycopg2
 from psycopg2.extensions import AsIs
 from dotenv import dotenv_values, find_dotenv
 import json
-
 class StreetscrapePipeline:
     def __init__(self):
         connect_params = dotenv_values(find_dotenv('db.env'))
@@ -207,10 +206,10 @@ class StreetscrapePipeline:
             if float(quant) != float(item['quant']):
                 update_sql = """
                 UPDATE gurufocus
-                SET momentum=%s, price_at_rating=%s, value=%s, growth=%s, momentum=%s,profitability=%s,balancesheet=%s,quant=%s
+                SET price_at_rating=%s, value=%s, growth=%s, momentum=%s,profitability=%s,balancesheet=%s,quant=%s
                 WHERE symbol = %s
                 """
-                values = (item['momentum'],item['price_at_rating'],item['value'], item['growth'], item['momentum'], item['profitability'],item['balancesheet'],item['quant'], item['symbol'])
+                values = (item['price_at_rating'],item['value'], item['growth'], item['momentum'], item['profitability'],item['balancesheet'],item['quant'], item['symbol'])
                 self.cur.execute(update_sql,values)
                 self.insert_change(item['symbol'],quant,item['quant'],'gurufocus')
                 self.conn.commit()
