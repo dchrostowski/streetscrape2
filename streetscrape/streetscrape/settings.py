@@ -59,7 +59,7 @@ COOKIES_DEBUG = True
 
 
 
-DOWNLOAD_TIMEOUT=30
+DOWNLOAD_TIMEOUT=60
 
 # Enable or disable extensions
 # See https://docs.scrapy.org/en/latest/topics/extensions.html
@@ -99,6 +99,6 @@ LOG_LEVEL = "DEBUG"
 
 
 RETRY_HTTP_CODES = [500, 503, 504, 400, 403, 404, 408]
-RETRY_TIMES = 4
+RETRY_TIMES = 10
 PROXY_MODE = 0
 PROXY_LIST = './proxies.txt'
