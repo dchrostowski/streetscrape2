@@ -56,13 +56,7 @@ COOKIES_DEBUG = True
 
 # Enable or disable downloader middlewares
 # See https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
-DOWNLOADER_MIDDLEWARES = {
-   'streetscrape.middlewares.StreetscrapeDownloaderMiddleware': 543,
-   'scrapy.downloadermiddlewares.retry.RetryMiddleware': 90,
-   'scrapy_proxies.RandomProxy': 100,
-   'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware': 110,
 
-}
 
 
 DOWNLOAD_TIMEOUT=30
