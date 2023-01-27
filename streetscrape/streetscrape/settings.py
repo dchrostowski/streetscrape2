@@ -60,7 +60,7 @@ DOWNLOADER_MIDDLEWARES = {
     #'streetscrape.middlewares.StreetscrapeDownloaderMiddleware': 543,
    'scrapy.downloadermiddlewares.retry.RetryMiddleware': 90,
    'scrapy_proxies.RandomProxy': 100,
-   'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware': 110,
+   #'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware': 110,
 
 }
 
