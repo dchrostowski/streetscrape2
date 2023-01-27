@@ -10,6 +10,7 @@ import psycopg2
 from psycopg2.extensions import AsIs
 from dotenv import dotenv_values, find_dotenv
 import json
+from IPython import embed
 class StreetscrapePipeline:
     def __init__(self):
         connect_params = dotenv_values(find_dotenv('db.env'))
@@ -244,6 +245,8 @@ class StreetscrapePipeline:
         return item
 
     def close_spider(self,spider):
+
+
         if spider.name == 'gurufocus':
             print(spider.unscrapable)
             with open('./gurufocus_unscrapable.json', 'w') as ofh:

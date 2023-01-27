@@ -57,12 +57,15 @@ COOKIES_DEBUG = True
 # Enable or disable downloader middlewares
 # See https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 DOWNLOADER_MIDDLEWARES = {
-    #'streetscrape.middlewares.StreetscrapeDownloaderMiddleware': 543,
+   'streetscrape.middlewares.StreetscrapeDownloaderMiddleware': 543,
    'scrapy.downloadermiddlewares.retry.RetryMiddleware': 90,
    'scrapy_proxies.RandomProxy': 100,
-   #'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware': 110,
+   'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware': 110,
 
 }
+
+
+DOWNLOAD_TIMEOUT=30
 
 # Enable or disable extensions
 # See https://docs.scrapy.org/en/latest/topics/extensions.html
@@ -102,6 +105,6 @@ LOG_LEVEL = "DEBUG"
 
 
 RETRY_HTTP_CODES = [500, 503, 504, 400, 403, 404, 408]
-RETRY_TIMES = 10
+RETRY_TIMES = 4
 PROXY_MODE = 0
 PROXY_LIST = './proxies.txt'

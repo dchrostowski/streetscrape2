@@ -41,6 +41,7 @@ class ZacksSpider(CrawlSpider):
         return str(round(final_score,2))
 
     def parse_vgm(self,response):
+
         if len(response.text) == 0:
             return
 
