@@ -3,6 +3,7 @@ from scrapy.spiders import CrawlSpider, Rule
 import json
 from streetscrape.items import ZacksItem
 from streetscrape.pipelines import StreetscrapePipeline
+import re
 
 class ZacksSpider(CrawlSpider):
     name = 'zacks'
@@ -40,6 +41,15 @@ class ZacksSpider(CrawlSpider):
         return str(round(final_score,2))
 
     def parse_vgm(self,response):
+        if len(response.text) == 0:
+            return
+
+        header = response.xpath('//body/h2/text()').extract_first()
+
+        if re.search("Premium Research", header) is None:
+            print("could not find header,retrying %s" % response.url)
+            yield scrapy.Request(url=response.url, dont_filter=True, meta=response.meta)
+
         vgm = response.xpath('//p[@class="float_right"]/span[contains(@class,"composite_val")]/text()').extract()
         symbol = response.meta['symbol']
         if len(vgm) == 4:
@@ -48,10 +58,16 @@ class ZacksSpider(CrawlSpider):
 
 
     def parse(self, response):
-        data = json.loads(response.text)
+        json_data = ''
+        try:
+            json_data = json.loads(response.text)
+        except json.decoder.JSONDecodeError as e:
+            print("did not get json response back, retrying %s" % response.url)
+            yield scrapy.Request(url=response.url, dont_filter=True, meta=response.meta)
+
         item = ZacksItem()
         try:
-            data = json.loads(response.text)[response.request.meta['symbol']]
+            data = json_data[response.request.meta['symbol']]
             grade = "%s-%s" % (data['zacks_rank'], data['zacks_rank_text'])
             price = data['last']
             (value,growth,momentum,vgm) = response.meta['vgm']

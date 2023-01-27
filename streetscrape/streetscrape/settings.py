@@ -17,10 +17,11 @@ NEWSPIDER_MODULE = 'streetscrape.spiders'
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 HTTPERROR_ALLOWED_CODES  =[403]
-USER_AGENT = 'streetscrape (+http://www.streetscrape.com)'
+#USER_AGENT = 'streetscrape (+http://www.streetscrape.com)'
 USER_AGENT = "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.131 Safari/537.36"
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = False
+
 
 
 
@@ -55,9 +56,13 @@ COOKIES_DEBUG = True
 
 # Enable or disable downloader middlewares
 # See https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
-#DOWNLOADER_MIDDLEWARES = {
-#    'streetscrape.middlewares.StreetscrapeDownloaderMiddleware': 543,
-#}
+DOWNLOADER_MIDDLEWARES = {
+    #'streetscrape.middlewares.StreetscrapeDownloaderMiddleware': 543,
+   'scrapy.downloadermiddlewares.retry.RetryMiddleware': 90,
+   'scrapy_proxies.RandomProxy': 100,
+   'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware': 110,
+
+}
 
 # Enable or disable extensions
 # See https://docs.scrapy.org/en/latest/topics/extensions.html
@@ -93,3 +98,10 @@ HTTPCACHE_ENABLED = False
 #HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
 LOG_STDOUT =  True
 LOG_LEVEL = "DEBUG"
+
+
+
+RETRY_HTTP_CODES = [500, 503, 504, 400, 403, 404, 408]
+RETRY_TIMES = 10
+PROXY_MODE = 0
+PROXY_LIST = './proxies.txt'
