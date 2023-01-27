@@ -120,11 +120,12 @@ class StreetscrapeDownloaderMiddleware:
         try:
 
             bad_proxy = request.meta['proxy']
-            print("removing %s from list" % bad_proxy)
-            del self.proxies[bad_proxy]
-            with open(self.proxy_list, 'w') as ofh:
-                for proxy_text in self.proxies.values():
-                    ofh.write("%s" % proxy_text)
+            if len(self.proxies.keys() > 40):
+                print("removing %s from list" % bad_proxy)
+                del self.proxies[bad_proxy]
+                with open(self.proxy_list, 'w') as ofh:
+                    for proxy_text in self.proxies.values():
+                        ofh.write("%s" % proxy_text)
         except Exception as e:
             pass
         # Called when a download handler or a process_request()
