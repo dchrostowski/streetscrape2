@@ -13,7 +13,7 @@ const pullScore = async (page,text) => {
 (async () => {
     const links = JSON.parse(await fs.readFileSync('../gurufocus_unscrapable.json'))
     const jsonData = []
-    for(let i=0; i<4; i++) {
+    for(let i=0; i<links.length; i++) {
         try {
             const link = links[i]
             console.log(`[${i+1} of ${links.length}]: Crawling ${link}...`)
