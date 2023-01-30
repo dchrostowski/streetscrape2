@@ -59,8 +59,8 @@ const pullScore = async (page,text) => {
             console.log(item)
 
             jsonData.push(item)
-            page.close()
-            browser.close();
+            await page.close()
+            await browser.close();
             fs.writeFileSync('gurufocus_scores.json', JSON.stringify(jsonData))
 
         }
