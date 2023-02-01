@@ -120,7 +120,8 @@ class StreetscrapeDownloaderMiddleware:
         try:
 
             bad_proxy = request.meta['proxy']
-            if len(self.proxies.keys() > 40):
+
+            if len(self.proxies.keys()) > 40:
                 print("removing %s from list" % bad_proxy)
                 del self.proxies[bad_proxy]
                 with open(self.proxy_list, 'w') as ofh:

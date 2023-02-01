@@ -1,20 +1,37 @@
-from streetscrape.pipelines import StreetscrapePipeline
+
 import json
-import os
+import subprocess
+import re
+from IPython import embed
+from streetscrape.pipelines import StreetscrapePipeline
 
 
-ratings_data = json.load(open('./puppeteer/gurufocus_scores.json'))
+#ratings_data = json.load(open('./puppeteer/gurufocus_scores.json'))
+unscrapable_urls = json.load(open('./gurufocus_unscrapable.json'))
 pipeline = StreetscrapePipeline()
 
-i = 1
-for item in ratings_data:
-    print("[%s of %s]" % (i,len(ratings_data)))
-    print(item)
-    pipeline.process_gurufocus_item(item)
-    i+=1
+i = 0
 
-pipeline.cur.close()
-pipeline.conn.close()
+for url in unscrapable_urls:
+    i += 1
+    print("[%s of %s]: %s" % (i,len(unscrapable_urls),url))
+    symbol = ''
 
-#os.remove('./puppeteer/gurufocus_scores.json')
-#os.remove('./gurufocus_unscrapable.json')
+    try:
+        symbol = re.search('\/stock\/(\w+)\/summary',url).group(1) or None
+    except IndexError as e:
+        print("Could not extract symbol from URL %s" % url)
+        continue
+
+    subprocess.run(['node', 'gurufocus.js', url])
+    data_file = "./gurufocus_%s.json" % symbol
+    try:
+        item = json.load(open(data_file))
+        print(item)
+        pipeline.process_gurufocus_item(item)
+
+    except FileNotFoundError as e:
+        print("Data for %s not found." % symbol)
+
+    finally:
+        subprocess.run(['rm', data_file])
