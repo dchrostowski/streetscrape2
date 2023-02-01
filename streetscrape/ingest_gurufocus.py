@@ -16,15 +16,19 @@ for url in unscrapable_urls:
     i += 1
     print("[%s of %s]: %s" % (i,len(unscrapable_urls),url))
     symbol = ''
+    data_file = ''
+
 
     try:
-        symbol = re.search('\/stock\/(\w+)\/summary',url).group(1) or None
+        symbol = re.search('\/stock\/([^/]+)\/summary',url).group(1) or None
+
     except IndexError as e:
         print("Could not extract symbol from URL %s" % url)
         continue
 
-    subprocess.run(['node', 'gurufocus.js', url])
+    subprocess.run(['node', 'gurufocus.js', url, symbol])
     data_file = "./gurufocus_%s.json" % symbol
+
     try:
         item = json.load(open(data_file))
         print(item)

@@ -12,16 +12,16 @@ const pullScore = async (page,text) => {
 
 (async () => {
     //const links = JSON.parse(await fs.readFileSync('../gurufocus_unscrapable.json'))
-    if(process.argv.length !== 3) {
+    if(process.argv.length !== 4) {
         console.error("invalid arguments.  provide url as first argument.")
         process.exit(1)
     }
     const link = process.argv[2]
+    const symbol = process.argv[3]
     const browser = await puppeteer.launch()
     const page = await browser.newPage()
 
     try {
-        const symbol = link.match(/\/stock\/(\w+)\/summary/)[1]
         const browser = await puppeteer.launch();
         const page = await browser.newPage();
         await page.setViewport({width: 1366, height: 768});
