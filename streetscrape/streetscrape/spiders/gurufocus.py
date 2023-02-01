@@ -3,11 +3,14 @@ from scrapy.spiders import CrawlSpider
 from streetscrape.items import GuruFocusItem
 from streetscrape.pipelines import StreetscrapePipeline
 import re
+from dotenv import find_dotenv, dotenv_values
 
 class GuruFocusSpider(CrawlSpider):
     name = 'gurufocus'
     allowed_domains = ['www.gurufocus.com']
-    custom_settings = {
+    custom_settings = {}
+    if dotenv_values(find_dotenv())['USE_PROXIES'] == '1':
+        custom_settings = {
         'DOWNLOADER_MIDDLEWARES': {
             'streetscrape.middlewares.StreetscrapeDownloaderMiddleware': 543,
             'scrapy.downloadermiddlewares.retry.RetryMiddleware': 90,
@@ -15,6 +18,8 @@ class GuruFocusSpider(CrawlSpider):
             'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware': 110,
         }
     }
+
+
 
     def __init__(self, *args, **kwargs):
         super(GuruFocusSpider,self).__init__(*args,**kwargs)

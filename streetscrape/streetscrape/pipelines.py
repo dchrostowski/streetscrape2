@@ -117,7 +117,7 @@ class StreetscrapePipeline:
         self.conn.commit()
 
     def get_symbols(self):
-        sql = "SELECT * FROM stocks"
+        sql = "SELECT * FROM stocks ORDER BY RANDOM ()"
         self.cur.execute(sql)
         results =  self.cur.fetchall()
         self.cur.close()

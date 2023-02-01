@@ -4,19 +4,24 @@ import json
 from streetscrape.items import ZacksItem
 from streetscrape.pipelines import StreetscrapePipeline
 import re
+from dotenv import dotenv_values,find_dotenv
 
 class ZacksSpider(CrawlSpider):
     name = 'zacks'
     allowed_domains = ['www.zacks.com','quote-feed.zacks.com']
-    custom_settings = {
+
+    c_settings = {}
+    if dotenv_values(find_dotenv())['USE_PROXIES'] == '1':
+        c_settings = {
         'DOWNLOADER_MIDDLEWARES': {
             'streetscrape.middlewares.StreetscrapeDownloaderMiddleware': 543,
             'scrapy.downloadermiddlewares.retry.RetryMiddleware': 90,
             'scrapy_proxies.RandomProxy': 100,
             'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware': 110,
         }
+    }
 
-}
+    custom_settings = c_settings
 
     def start_requests(self):
         pipeline = StreetscrapePipeline()
