@@ -128,8 +128,12 @@ class StreetscrapePipeline:
         insert_sql = "INSERT INTO " + table_name + "(%s) VALUES %s"
         columns = [key for key in item.keys()]
         values = [item[column] for column in columns]
-        self.cur.execute(insert_sql, (AsIs(','.join(columns)),tuple(values)))
-        self.conn.commit()
+        try:
+            self.cur.execute(insert_sql, (AsIs(','.join(columns)),tuple(values)))
+            self.conn.commit()
+        except Exception as e:
+            print(e)
+
 
     def insert_change(self, symbol, prev, new, site):
         insert_sql = """
