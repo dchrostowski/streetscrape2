@@ -11,6 +11,7 @@ from psycopg2.extensions import AsIs
 from dotenv import dotenv_values, find_dotenv
 import json
 from IPython import embed
+from datetime import datetime, timezone
 class StreetscrapePipeline:
     def __init__(self):
         connect_params = dotenv_values(find_dotenv('db.env'))
@@ -117,6 +118,7 @@ class StreetscrapePipeline:
         self.conn.commit()
 
     def get_symbols(self):
+        print("getting symbols")
         sql = "SELECT * FROM stocks ORDER BY RANDOM ()"
         self.cur.execute(sql)
         results =  self.cur.fetchall()
@@ -198,6 +200,22 @@ class StreetscrapePipeline:
 
         return item
 
+    def should_update_gurufocus(self,symbol):
+        sql = "SELECT date_updated, now() from ratings_changes WHERE site='gurufocus' and symbol = '%s' order by id desc limit 1" % symbol
+        self.cur.execute(sql)
+        result = self.cur.fetchone()
+        if result is not None:
+            (last_updated, now) = result
+            diff = now - last_updated.replace(tzinfo=timezone.utc)
+            minutes = diff.seconds / 60
+            print(minutes)
+            if(minutes < 60):
+                print("DO NOT UPDATE")
+                return False
+        return True
+
+
+
     def process_gurufocus_item(self,item):
         sql = "SELECT quant FROM gurufocus WHERE symbol = %s"
         self.cur.execute(sql,(item['symbol'],))
@@ -208,7 +226,8 @@ class StreetscrapePipeline:
         if quant is None and item['quant'] is not None:
             self.generic_insert('gurufocus',item)
         else:
-            if float(quant) != float(item['quant']):
+            if float(quant) != float(item['quant']) and self.should_update_gurufocus(item['symbol']):
+
                 update_sql = """
                 UPDATE gurufocus
                 SET price_at_rating=%s, value=%s, growth=%s, momentum=%s,profitability=%s,balancesheet=%s,quant=%s
