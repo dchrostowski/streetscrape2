@@ -1,6 +1,6 @@
 import scrapy
 from scrapy.spiders import CrawlSpider
-from streetscrape.items import GuruFocusItem
+from streetscrape.items import GuruFocusItem, UnscrapableItem
 from streetscrape.pipelines import StreetscrapePipeline
 import re
 from dotenv import find_dotenv, dotenv_values
@@ -8,22 +8,6 @@ from dotenv import find_dotenv, dotenv_values
 class GuruFocusSpider(CrawlSpider):
     name = 'gurufocus'
     allowed_domains = ['www.gurufocus.com']
-    custom_settings = {}
-    if dotenv_values(find_dotenv())['USE_PROXIES'] == '1':
-        custom_settings = {
-        'DOWNLOADER_MIDDLEWARES': {
-            'streetscrape.middlewares.StreetscrapeDownloaderMiddleware': 543,
-            'scrapy.downloadermiddlewares.retry.RetryMiddleware': 90,
-            'scrapy_proxies.RandomProxy': 100,
-            'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware': 110,
-        }
-    }
-
-
-
-    def __init__(self, *args, **kwargs):
-        super(GuruFocusSpider,self).__init__(*args,**kwargs)
-        self.unscrapable = []
 
     def start_requests(self):
 
@@ -59,9 +43,18 @@ class GuruFocusSpider(CrawlSpider):
                 item['quant'] = gf_score
                 yield item
             else:
-                self.unscrapable.append(response.request.url)
-        except:
-            pass
+                item = UnscrapableItem()
+                item['url'] = response.request.url
+                item['symbol'] = symbol
+                item['site'] = self.name
+                yield item
+        except Exception as e:
+            item = UnscrapableItem()
+            item['url'] = response.request.url
+            item['symbol'] = symbol
+            item['site'] = self.name
+            print(e)
+            yield item
 
 
 

@@ -4,3 +4,4 @@ venv/
 node_modules/
 *.csv
 streetscrape/gurufocus_unscrapable.json
+scripts/

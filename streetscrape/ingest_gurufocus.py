@@ -2,37 +2,49 @@
 import json
 import subprocess
 import re
-from IPython import embed
 from streetscrape.pipelines import StreetscrapePipeline
+from subprocess import STDOUT, check_output
 
 
-#ratings_data = json.load(open('./puppeteer/gurufocus_scores.json'))
-unscrapable_urls = json.load(open('./gurufocus_unscrapable.json'))
+
 pipeline = StreetscrapePipeline()
 
 i = 0
+unscrapable = pipeline.get_unscrapable('gurufocus')
+pipeline.cur.close()
+pipeline.conn.close()
 
-for url in unscrapable_urls:
+
+scraped_queue = []
+
+def empty_queue():
+    if len(scraped_queue) > 14:
+        pipeline = StreetscrapePipeline()
+        for i in range(len(scraped_queue)):
+            pipeline.process_gurufocus_item(scraped_queue.pop())
+            pipeline.remove_unscrapable(symbol,site)
+
+        pipeline.cur.close()
+        pipeline.conn.close()
+
+
+
+
+for item in unscrapable:
     i += 1
-    print("[%s of %s]: %s" % (i,len(unscrapable_urls),url))
-    symbol = ''
-    data_file = ''
+    (url,symbol,site) = item
+    print("[%s of %s]: %s" % (i,len(unscrapable),url))
 
-
-    try:
-        symbol = re.search('\/stock\/([^/]+)\/summary',url).group(1) or None
-
-    except IndexError as e:
-        print("Could not extract symbol from URL %s" % url)
-        continue
-
-    subprocess.run(['node', 'gurufocus.js', url, symbol])
+    cmd = ['node','./headless_browsing/gurufocus.js']
+    #output = check_output(cmd, stderr=STDOUT, timeout=10)
+    subprocess.run(['node', './headless_browsing/gurufocus.js', url, symbol])
     data_file = "./gurufocus_%s.json" % symbol
+
 
     try:
         item = json.load(open(data_file))
         print(item)
-        pipeline.process_gurufocus_item(item)
+        scraped_queue.append(data_file)
 
     except FileNotFoundError as e:
         print("Data for %s not found." % symbol)

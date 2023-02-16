@@ -12,119 +12,48 @@ from dotenv import dotenv_values, find_dotenv
 import json
 from IPython import embed
 from datetime import datetime, timezone
+import os
+SQL_FILES = ['stocks.sql','thestreet.sql','zacks.sql','gurufocus.sql', 'ratings_changes.sql','unscrapable.sql']
+CWD =  os.path.dirname(os.path.abspath(__file__))
+sql_file_prefix = os.path.join(CWD, 'sql/')
+
 class StreetscrapePipeline:
     def __init__(self):
+
         connect_params = dotenv_values(find_dotenv('db.env'))
+
+
         self.conn = psycopg2.connect(**connect_params)
         self.cur = self.conn.cursor()
-        self.cur.execute("""
-
-        -- Table: public.stocks
-
-        -- DROP TABLE IF EXISTS public.stocks;
-
-        CREATE TABLE IF NOT EXISTS public.stocks
-        (
-            symbol character varying(12) COLLATE pg_catalog."default" NOT NULL,
-            name text COLLATE pg_catalog."default",
-            CONSTRAINT stocks_pkey PRIMARY KEY (symbol)
-        )
-
-        TABLESPACE pg_default;
-
-        ALTER TABLE IF EXISTS public.stocks
-            OWNER to streetscrape;
-
-        CREATE TABLE IF NOT EXISTS public.zacks
-        (
-            id serial,
-            symbol character varying(12) COLLATE pg_catalog."default",
-            grade character varying(14) COLLATE pg_catalog."default",
-            price_at_rating real,
-            value character varying(1) COLLATE pg_catalog."default",
-            growth character varying(1) COLLATE pg_catalog."default",
-            momentum character varying(1) COLLATE pg_catalog."default",
-            vgm character varying(1) COLLATE pg_catalog."default",
-            quant real,
-            CONSTRAINT zacks_pkey PRIMARY KEY (id),
-            CONSTRAINT fk_zacks FOREIGN KEY (symbol)
-                REFERENCES public.stocks (symbol) MATCH SIMPLE
-                ON UPDATE NO ACTION
-                ON DELETE NO ACTION
-        )
-
-        TABLESPACE pg_default;
-
-        ALTER TABLE IF EXISTS public.zacks
-            OWNER to streetscrape;
-
-            -- Table: public.thestreet
-
-        -- DROP TABLE IF EXISTS public.thestreet;
-
-        CREATE TABLE IF NOT EXISTS public.thestreet
-        (
-            id serial,
-            symbol character varying(12) COLLATE pg_catalog."default",
-            grade character varying(14) COLLATE pg_catalog."default",
-            price_at_rating real,
-            quant real,
-            CONSTRAINT thestreet_pkey PRIMARY KEY (id),
-            CONSTRAINT fk_thestreet FOREIGN KEY (symbol)
-                REFERENCES public.stocks (symbol) MATCH SIMPLE
-                ON UPDATE NO ACTION
-                ON DELETE NO ACTION
-        )
-
-        TABLESPACE pg_default;
-
-        ALTER TABLE IF EXISTS public.thestreet
-            OWNER to streetscrape;
-
-        CREATE TABLE IF NOT EXISTS ratings_changes
-        (
-        id              serial PRIMARY KEY,
-        date_updated    timestamp     DEFAULT CURRENT_TIMESTAMP NOT NULL,
-        symbol          varchar(12)   NOT NULL,
-        previous_quant  float4,
-        new_quant       float4,
-        site            varchar(50)   NOT NULL,
-        CONSTRAINT fk_ratings_changes FOREIGN KEY (symbol)
-        REFERENCES stocks (symbol)
-        );
-
-        -- Column id is associated with sequence public.ratings_changes_id_seq
-
-        ALTER TABLE IF EXISTS public.ratings_changes
-        OWNER TO streetscrape;
-
-        CREATE TABLE IF NOT EXISTS public.gurufocus
-        (
-        id               serial PRIMARY KEY,
-        symbol           varchar(12),
-        price_at_rating  float4,
-        value            int,
-        growth           int,
-        momentum         int,
-        balancesheet     int,
-        profitability    int,
-        quant            float4,
-        CONSTRAINT fk_gurufocus FOREIGN KEY (symbol)
-        REFERENCES public.stocks (symbol)
-        );
-
-        """)
+        for sql_file in SQL_FILES:
+            file = "%s%s" % (sql_file_prefix,sql_file)
+            with open(file,'r') as ifh:
+                sql = ifh.read()
+                self.cur.execute(sql)
+                self.conn.commit()
 
         self.conn.commit()
 
     def get_symbols(self):
-        print("getting symbols")
         sql = "SELECT * FROM stocks ORDER BY RANDOM ()"
         self.cur.execute(sql)
         results =  self.cur.fetchall()
-        self.cur.close()
-        self.conn.close()
+
+
         return results
+
+    def get_unscrapable(self,site):
+        sql = 'SELECT distinct(url),symbol,site FROM unscrapable WHERE site=%s'
+        self.cur.execute(sql,(site,))
+        results = self.cur.fetchall()
+
+
+        return results
+
+    def remove_unscrapable(self,symbol,site):
+        sql = 'DELETE FROM UNSCRAPABLE WHERE symbol=%s and site=%s'
+        self.cur.execute(sql,(symbol,site))
+        self.conn.commit()
 
     def generic_insert(self,table_name,item):
         insert_sql = "INSERT INTO " + table_name + "(%s) VALUES %s"
@@ -133,6 +62,7 @@ class StreetscrapePipeline:
         try:
             self.cur.execute(insert_sql, (AsIs(','.join(columns)),tuple(values)))
             self.conn.commit()
+            print("inserted new record for %s into %s" % (item['symbol'], table_name))
         except Exception as e:
             print(e)
 
@@ -143,6 +73,8 @@ class StreetscrapePipeline:
             VALUES (%s,%s,%s,%s)
         """
         self.cur.execute(insert_sql,(symbol,prev,new,site))
+        self.conn.commit()
+        print("updated record for %s on %s" % (symbol,site))
 
 
     def process_thestreet_item(self, item):
@@ -153,12 +85,9 @@ class StreetscrapePipeline:
         if result is not None:
             [quant] = result
         if quant is None and item['quant'] is not None:
-            print("INSERT TO THE STREET")
             self.generic_insert('thestreet',item)
         else:
             if float(quant) != float(item['quant']):
-                print("UPDATE THESTREET for symbol %s" % item['symbol'])
-
                 update_sql = """
                 UPDATE thestreet
                 SET grade=%s, price_at_rating=%s, quant=%s
@@ -167,12 +96,8 @@ class StreetscrapePipeline:
                 values = (item['grade'],item['price_at_rating'],item['quant'], item['symbol'])
                 self.cur.execute(update_sql,values)
                 self.insert_change(item['symbol'],quant,item['quant'],'thestreet')
-                self.conn.commit()
-
-        self.conn.commit()
 
         return item
-
 
 
     def process_zacks_item(self, item):
@@ -196,8 +121,6 @@ class StreetscrapePipeline:
                 self.insert_change(item['symbol'],quant,item['quant'],'zacks')
                 self.conn.commit()
 
-        self.conn.commit()
-
         return item
 
     def should_update_gurufocus(self,symbol):
@@ -208,9 +131,8 @@ class StreetscrapePipeline:
             (last_updated, now) = result
             diff = now - last_updated.replace(tzinfo=timezone.utc)
             minutes = diff.seconds / 60
-            print(minutes)
             if(minutes < 60):
-                print("DO NOT UPDATE")
+                print("TOO SOON TO UPDATE")
                 return False
         return True
 
@@ -227,7 +149,6 @@ class StreetscrapePipeline:
             self.generic_insert('gurufocus',item)
         else:
             if float(quant) != float(item['quant']) and self.should_update_gurufocus(item['symbol']):
-
                 update_sql = """
                 UPDATE gurufocus
                 SET price_at_rating=%s, value=%s, growth=%s, momentum=%s,profitability=%s,balancesheet=%s,quant=%s
@@ -236,9 +157,6 @@ class StreetscrapePipeline:
                 values = (item['price_at_rating'],item['value'], item['growth'], item['momentum'], item['profitability'],item['balancesheet'],item['quant'], item['symbol'])
                 self.cur.execute(update_sql,values)
                 self.insert_change(item['symbol'],quant,item['quant'],'gurufocus')
-                self.conn.commit()
-
-        self.conn.commit()
 
         return item
 
@@ -256,7 +174,18 @@ class StreetscrapePipeline:
 
         return item
 
+    def process_unscrapable_item(self,item):
+        sql = """INSERT INTO unscrapable (symbol,site,url) VALUES (%s,%s,%s)"""
+        self.cur.execute(sql,(item['symbol'],item['site'], item['url']))
+        self.conn.commit()
+
+
+
     def process_item(self,item,spider):
+        print("item is:" )
+        print(item)
+        if item.get('url',None) is not None and item.get('site',None) is not None:
+            return self.process_unscrapable_item(item)
         if spider.name == 'swingtradebot':
             return self.process_swingtradebot_item(item)
         elif spider.name == 'zacks':
@@ -271,7 +200,7 @@ class StreetscrapePipeline:
 
 
         if spider.name == 'gurufocus':
-            print(spider.unscrapable)
+
             with open('./gurufocus_unscrapable.json', 'w') as ofh:
                 unscrapable = json.dumps(spider.unscrapable)
                 ofh.write(unscrapable)

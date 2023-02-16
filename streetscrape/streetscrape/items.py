@@ -40,3 +40,8 @@ class GuruFocusItem(Item):
     balancesheet = Field()
     price_at_rating = Field()
     quant = Field()
+
+class UnscrapableItem(Item):
+    symbol = Field()
+    url = Field()
+    site = Field()
