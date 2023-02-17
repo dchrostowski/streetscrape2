@@ -1,9 +1,9 @@
 #!/bin/sh
-
+CWD=$(pwd)
 . ./venv/bin/activate
 cd ./streetscrape/
 killall scrapyd
-daemon --chdir=$CWD scrapyd
+daemon --chdir=$CWD/streetscrape scrapyd
 sleep 3
 python api_scheduler.py
 python ingest_gurufocus.py
