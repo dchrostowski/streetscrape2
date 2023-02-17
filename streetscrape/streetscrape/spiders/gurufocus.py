@@ -49,12 +49,15 @@ class GuruFocusSpider(CrawlSpider):
                 item['site'] = self.name
                 yield item
         except Exception as e:
-            item = UnscrapableItem()
-            item['url'] = response.request.url
-            item['symbol'] = symbol
-            item['site'] = self.name
-            print(e)
-            yield item
+            if re.search('(\.com\/:?(search|etf))',response.request.url):
+                pass
+            else:
+                item = UnscrapableItem()
+                item['url'] = response.request.url
+                item['symbol'] = symbol
+                item['site'] = self.name
+                print(e)
+                yield item
 
 
 

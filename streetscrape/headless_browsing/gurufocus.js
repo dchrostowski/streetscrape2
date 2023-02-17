@@ -3,10 +3,17 @@ import fs from "fs";
 
 
 const pullScore = async (page,text) => {
+
     const xpath = `//h2/a[contains(text(),"${text}")]/parent::h2/following-sibling::div/span[1]`
-    await page.waitForXPath(xpath)
+    try{
+        await page.waitForXPath(xpath, {timeout: 500})
+    }
+    catch(err) {return '0'}
+
     const element = await page.$x(xpath)
     const elementText = await page.evaluate(el => el.textContent, element[0])
+    console.log(elementText)
+    if(elementText === '') return '0'
     return elementText.trim().replace("/10","")
 }
 
@@ -26,10 +33,11 @@ const pullScore = async (page,text) => {
         const page = await browser.newPage();
         await page.setViewport({width: 1366, height: 768});
         await page.setUserAgent('Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36');
-        await page.goto(link, {waitUntil: 'load', timeout: 60000})
+
+        await page.goto(link, {waitUntil:'load',timeout: 10000})
         await page.waitForXPath('//div[contains(@class,"chart-section")][1]/div[1]/div[1]/span/span/span[1]')
 
-        const elHandle = await page.$x('(//div[contains(@class,"chart-section")][1]/div[1]/div[1]/span/span/span[1])')
+        const elHandle = await page.$x('(//div[contains(@class,"chart-section")][1]/div[1]/div[1]/span/span/span[1])', {timeout: 3000})
         const text = await page.evaluate(el => el.textContent, elHandle[0])
         const score = text.trim().replace('/100','')
         const balancesheetScore = await pullScore(page, "Financial Strength")
@@ -54,6 +62,8 @@ const pullScore = async (page,text) => {
             'momentum': momentumScore,
             'quant': score
         }
+
+
         console.log(item)
         fs.writeFileSync(`gurufocus_${symbol}.json`, JSON.stringify(item))
 

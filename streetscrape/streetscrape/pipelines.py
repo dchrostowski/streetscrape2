@@ -16,6 +16,7 @@ import os
 SQL_FILES = ['stocks.sql','thestreet.sql','zacks.sql','gurufocus.sql', 'ratings_changes.sql','unscrapable.sql']
 CWD =  os.path.dirname(os.path.abspath(__file__))
 sql_file_prefix = os.path.join(CWD, 'sql/')
+import random
 
 class StreetscrapePipeline:
     def __init__(self):
@@ -46,12 +47,12 @@ class StreetscrapePipeline:
         sql = 'SELECT distinct(url),symbol,site FROM unscrapable WHERE site=%s'
         self.cur.execute(sql,(site,))
         results = self.cur.fetchall()
-
+        random.shuffle(results)
 
         return results
 
     def remove_unscrapable(self,symbol,site):
-        sql = 'DELETE FROM UNSCRAPABLE WHERE symbol=%s and site=%s'
+        sql = 'DELETE FROM unscrapable WHERE symbol=%s and site=%s'
         self.cur.execute(sql,(symbol,site))
         self.conn.commit()
 
@@ -139,7 +140,7 @@ class StreetscrapePipeline:
 
 
     def process_gurufocus_item(self,item):
-        sql = "SELECT quant FROM gurufocus WHERE symbol = %s"
+        sql = 'SELECT quant FROM gurufocus WHERE symbol = %s'
         self.cur.execute(sql,(item['symbol'],))
         quant = None
         result = self.cur.fetchone()

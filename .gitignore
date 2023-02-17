@@ -1,4 +1,6 @@
 db.env
+scrapyd.env
+scrapy.cfg
 __pycache__/
 venv/
 node_modules/
@@ -6,3 +8,11 @@ node_modules/
 streetscrape/gurufocus_unscrapable.json
 scripts/
 streetscrape/scrapy.cfg
+build/
+project.egg-info/
+dbs/
+eggs/
+logs/
+.vscode/
+setup.py
+twistid.pid
