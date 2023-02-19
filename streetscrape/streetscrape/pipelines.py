@@ -43,13 +43,19 @@ class StreetscrapePipeline:
 
         return results
 
+    def get_unscrapable_remaining(self,site):
+        sql = 'select count(distinct(url)) from unscrapable where site = %s'
+        self.cur.execute(sql,(site,))
+        return self.cur.fetchone()[0]
+
+
     def get_unscrapable(self,site):
-        sql = 'SELECT distinct(url),symbol,site FROM unscrapable WHERE site=%s'
+        sql = 'SELECT * FROM (SELECT distinct(url),symbol,site FROM unscrapable WHERE site=%s) as nested ORDER BY RANDOM() LIMIT 1;'
         self.cur.execute(sql,(site,))
         results = self.cur.fetchall()
-        random.shuffle(results)
 
-        return results
+
+        return results[0]
 
     def remove_unscrapable(self,symbol,site):
         sql = 'DELETE FROM unscrapable WHERE symbol=%s and site=%s'
@@ -68,12 +74,12 @@ class StreetscrapePipeline:
             print(e)
 
 
-    def insert_change(self, symbol, prev, new, site):
+    def insert_change(self, symbol, prev, new, site, price_at_change=None):
         insert_sql = """
-            INSERT INTO ratings_changes (symbol, previous_quant, new_quant, site)
-            VALUES (%s,%s,%s,%s)
+            INSERT INTO ratings_changes (symbol, previous_quant, new_quant, site, price_at_change)
+            VALUES (%s,%s,%s,%s,%s)
         """
-        self.cur.execute(insert_sql,(symbol,prev,new,site))
+        self.cur.execute(insert_sql,(symbol,prev,new,site,price_at_change))
         self.conn.commit()
         print("updated record for %s on %s" % (symbol,site))
 
@@ -96,7 +102,7 @@ class StreetscrapePipeline:
                 """
                 values = (item['grade'],item['price_at_rating'],item['quant'], item['symbol'])
                 self.cur.execute(update_sql,values)
-                self.insert_change(item['symbol'],quant,item['quant'],'thestreet')
+                self.insert_change(item['symbol'],quant,item['quant'],'thestreet',price_at_change=item['price_at_rating'])
 
         return item
 
@@ -119,7 +125,7 @@ class StreetscrapePipeline:
                 """
                 values = (item['grade'],item['price_at_rating'],item['value'], item['growth'], item['momentum'], item['vgm'], item['quant'], item['symbol'])
                 self.cur.execute(update_sql,values)
-                self.insert_change(item['symbol'],quant,item['quant'],'zacks')
+                self.insert_change(item['symbol'],quant,item['quant'],'zacks', price_at_change=itme['price_at_rating'])
                 self.conn.commit()
 
         return item
@@ -157,7 +163,7 @@ class StreetscrapePipeline:
                 """
                 values = (item['price_at_rating'],item['value'], item['growth'], item['momentum'], item['profitability'],item['balancesheet'],item['quant'], item['symbol'])
                 self.cur.execute(update_sql,values)
-                self.insert_change(item['symbol'],quant,item['quant'],'gurufocus')
+                self.insert_change(item['symbol'],quant,item['quant'],'gurufocus',price_at_change=item['price_at_rating'])
 
         return item
 

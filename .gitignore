@@ -15,5 +15,5 @@ eggs/
 logs/
 .vscode/
 setup.py
-twistid.pid
 streetscrape/scrapyd.conf
+streetscrape/twistd.pid

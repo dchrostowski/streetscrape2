@@ -8,6 +8,6 @@ CWD=$(pwd)
 [ ! -f "$CWD/streetscrape/twistd.pid"] && sh ./deploy.sh
 
 cd $CWD/streetscrape/
-python api_scheduler.py
 nvm use 16
-python ingest_gurufocus.py
+python api_scheduler.py
+
