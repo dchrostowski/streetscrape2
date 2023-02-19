@@ -52,10 +52,8 @@ class StreetscrapePipeline:
     def get_unscrapable(self,site):
         sql = 'SELECT * FROM (SELECT distinct(url),symbol,site FROM unscrapable WHERE site=%s) as nested ORDER BY RANDOM() LIMIT 1;'
         self.cur.execute(sql,(site,))
-        results = self.cur.fetchall()
-
-
-        return results[0]
+        result = self.cur.fetchone()
+        return result
 
     def remove_unscrapable(self,symbol,site):
         sql = 'DELETE FROM unscrapable WHERE symbol=%s and site=%s'
