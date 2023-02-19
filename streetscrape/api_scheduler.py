@@ -2,10 +2,11 @@ from scrapyd_api import ScrapydAPI
 from dotenv import dotenv_values, find_dotenv
 import time
 
-creds = dotenv_values(find_dotenv('scrapyd.env'))
+env = dotenv_values(find_dotenv('scrapyd.env'))
+print("url: %s" % env['url'])
 
 
-scrapyd = ScrapydAPI('http://localhost:6800',auth=(creds['username'],creds['password']))
+scrapyd = ScrapydAPI(env['url'],auth=(env['username'],env['password']))
 
 scrapyd.schedule('default','swingtradebot')
 scrapyd.schedule('default','thestreet')

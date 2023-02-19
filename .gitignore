@@ -1,6 +1,6 @@
 db.env
 scrapyd.env
-scrapy.cfg
+streetscrape/scrapy.cfg
 __pycache__/
 venv/
 node_modules/
@@ -16,3 +16,4 @@ logs/
 .vscode/
 setup.py
 twistid.pid
+streetscrape/scrapyd.conf

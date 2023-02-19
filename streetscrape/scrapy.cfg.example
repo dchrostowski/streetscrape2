@@ -3,11 +3,16 @@
 # For more information about the [deploy] section see:
 # https://scrapyd.readthedocs.io/en/latest/deploy.html
 
-[settings]
-default = streetscrape.settings
 
-[deploy]
+[settings]
+default = streetscrape.settings  
+
+[deploy:local]
 url = http://localhost:6800/
-username=secret
-password=secret
+project = streetscrape
+
+[deploy:production]
+url = http://0.0.0.0:6800
+username = changeme
+password = changeme
 project = streetscrape
