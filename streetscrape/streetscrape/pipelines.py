@@ -123,7 +123,7 @@ class StreetscrapePipeline:
                 """
                 values = (item['grade'],item['price_at_rating'],item['value'], item['growth'], item['momentum'], item['vgm'], item['quant'], item['symbol'])
                 self.cur.execute(update_sql,values)
-                self.insert_change(item['symbol'],quant,item['quant'],'zacks', price_at_change=itme['price_at_rating'])
+                self.insert_change(item['symbol'],quant,item['quant'],'zacks', price_at_change=item['price_at_rating'])
                 self.conn.commit()
 
         return item
