@@ -3,7 +3,8 @@ import re
 import json
 import subprocess
 from streetscrape.pipelines import StreetscrapePipeline
-from IPython import embed
+import time
+import random
 
 
 
@@ -45,6 +46,7 @@ class HeadlessBrowsingScraper():
             print("[%s processed, %s remaining]: fetching %s" % (self.processed_count,remaining,url))
             cmd = ['node',self.js_file,url,symbol]
             subprocess.run(cmd)
+            time.sleep(random.randrange(2,20))
 
             data_file = "./%s_%s.json" % (self.spider_name,symbol)
             item = None
