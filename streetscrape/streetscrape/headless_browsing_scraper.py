@@ -46,7 +46,7 @@ class HeadlessBrowsingScraper():
             print("[%s processed, %s remaining]: fetching %s" % (self.processed_count,remaining,url))
             cmd = ['node',self.js_file,url,symbol]
             subprocess.run(cmd)
-            time.sleep(random.randrange(2,20))
+            time.sleep(random.randrange(2,10))
 
             data_file = "./%s_%s.json" % (self.spider_name,symbol)
             item = None
