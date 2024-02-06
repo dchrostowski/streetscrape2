@@ -25,6 +25,12 @@ class ZacksItem(Item):
     vgm = Field()
     quant = Field()
 
+class StocktwitsItem(Item):
+    symbol = Field()
+    grade = Field()
+    price_at_rating = Field()
+    quant = Field()
+
 class TheStreetItem(Item):
     symbol = Field()
     grade = Field()
