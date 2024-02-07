@@ -18,7 +18,7 @@ NEWSPIDER_MODULE = 'streetscrape.spiders'
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 HTTPERROR_ALLOWED_CODES  =[403]
 #USER_AGENT = 'streetscrape (+http://www.streetscrape.com)'
-USER_AGENT = "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.131 Safari/537.36"
+USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36"
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = False
 

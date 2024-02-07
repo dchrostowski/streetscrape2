@@ -13,6 +13,7 @@ scrapyd.schedule('default','swingtradebot')
 scrapyd.schedule('default','thestreet')
 scrapyd.schedule('default','zacks')
 scrapyd.schedule('default','gurufocus')
+scrapyd.schedule('default','stocktwits')
 
 time.sleep(5)
 hbs = HeadlessBrowsingScraper('gurufocus')
