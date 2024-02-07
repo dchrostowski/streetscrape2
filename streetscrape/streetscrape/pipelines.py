@@ -127,6 +127,30 @@ class StreetscrapePipeline:
                 self.conn.commit()
 
         return item
+    
+
+    def process_stocktwits_item(self, item):
+        sql = "SELECT quant FROM stocktwits WHERE symbol = %s"
+        self.cur.execute(sql,(item['symbol'],))
+        quant = None
+        result = self.cur.fetchone()
+        if result is not None:
+            [quant] = result
+        if quant is None and item['quant'] is not None:
+            self.generic_insert('stocktwits',item)
+        else:
+            if float(quant) != float(item['quant']):
+                update_sql = """
+                UPDATE stocktwits
+                SET grade=%s, price_at_rating=%s, label=%s, label_normalized=%s, quant=%s
+                WHERE symbol = %s
+                """
+                values = (item['grade'],item['price_at_rating'],item['label'], item['label_normalized'], item['quant'], item['symbol'])
+                self.cur.execute(update_sql,values)
+                self.insert_change(item['symbol'],quant,item['quant'],'stocktwits', price_at_change=item['price_at_rating'])
+                self.conn.commit()
+
+        return item
 
     def should_update_gurufocus(self,symbol):
         sql = "SELECT date_updated, now() from ratings_changes WHERE site='gurufocus' and symbol = '%s' order by id desc limit 1" % symbol
@@ -199,6 +223,8 @@ class StreetscrapePipeline:
             return self.process_thestreet_item(item)
         elif spider.name == 'gurufocus':
             return self.process_gurufocus_item(item)
+        elif spider.name == 'stocktwits':
+            return self.process_stocktwits_item(item)
         return item
 
     def close_spider(self,spider):

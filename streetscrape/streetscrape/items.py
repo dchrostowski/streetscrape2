@@ -27,6 +27,8 @@ class ZacksItem(Item):
 
 class StocktwitsItem(Item):
     symbol = Field()
+    label = Field()
+    label_normalized = Field()
     grade = Field()
     price_at_rating = Field()
     quant = Field()
