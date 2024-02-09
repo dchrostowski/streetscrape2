@@ -53,7 +53,7 @@ class StockTwitsSpider(CrawlSpider):
     def parse_sentiment(self, response):
 
         json_data = json.loads(response.body.decode('utf-8'))
-        sentiment_data = json_data['data']['sentiment']['now']
+        sentiment_data = json_data['data']['sentiment']['24h']
 
         if sentiment_data['loaded']:
             price_url = "https://ql.stocktwits.com/intraday?symbol=%s" % response.meta['symbol']
