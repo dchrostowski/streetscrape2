@@ -76,3 +76,10 @@ class GuruFocusSpider(CrawlSpider):
                 yield us_item
         else:
             print("no data for %s" % symbol)
+            us_item = UnscrapableItem()
+            us_item['url'] = response.request.url
+            us_item['symbol'] = symbol
+            us_item['site'] = self.name
+            print("handing off to headless browser for %s:" % symbol)
+            print(us_item)
+            yield us_item

@@ -10,7 +10,6 @@ import psycopg2
 from psycopg2.extensions import AsIs
 from dotenv import dotenv_values, find_dotenv
 import json
-from IPython import embed
 from datetime import datetime, timezone
 import os
 SQL_FILES = ['stocks.sql','thestreet.sql','zacks.sql','gurufocus.sql', 'ratings_changes.sql','unscrapable.sql']
