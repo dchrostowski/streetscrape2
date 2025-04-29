@@ -40,7 +40,7 @@ pyOpenSSL
 python-dotenv==0.21.0
 python-scrapyd-api==2.1.2
 queuelib==1.6.2
-requests==2.28.1
+requests==2.31.0
 requests-file==1.5.1
 Scrapy==2.6.3
 scrapyd==1.4.1
